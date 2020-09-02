@@ -1,0 +1,372 @@
+/* tablet screen media queries..........................................
+changes made
+logo size and position
+menu switched to fixed
+nav bg height shorter
+hero image moved up
+padding on the links in primary nav flex container li
+right margin on the volunteer button
+padding top on the main section  */
+
+
+@media screen and (min-width: 720px) {
+
+    #header__heading-covid--fixed {
+    position: fixed;
+    z-index: 999;
+    height: 2.5rem;
+    width: 100%;
+    background: gray;
+}
+
+h1.header-covid-heading {
+    font-size: 1.5rem;
+}
+
+
+    div#primary-nav-eTutors-logo {
+    position: fixed;
+    z-index: 998;
+    top: 3.8%;
+    background: transparent;
+    width: 100%;
+    height: 8rem;
+    box-shadow: none;
+}
+
+
+img.primary-nav-logo {
+    height: 7.5rem;
+    padding-top: 1.2rem;
+    margin-left: 2rem;
+}
+
+/* ...............nav section below logo image at 997 z-index begins here
+fixed position change for large screen viewing */
+
+
+/* nav__primary  */
+nav#nav__primary {
+    position: fixed;
+    z-index: 997;
+    top: 2.5rem;
+    background: ;
+    width: 100%;
+    box-shadow:;
+}
+
+
+ul.primary-nav-flex-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; 
+    height: 8rem;
+}
+
+
+ul.primary-nav-flex-container li {
+    padding-right: 1rem;
+    font-size: 1.35rem;
+    background:;
+    border: none;
+}
+
+
+button.volunteer {
+    display: inline-block;
+    margin-right: 2rem;
+    padding: 1.4rem .5rem;
+}
+
+button.volunteer-mobile {
+    display: none;
+
+}
+
+/* hero image  */
+div.imgHome-hero {
+    position: relative;
+    z-index: 995;
+    top: 10.5rem;
+    width: 100%;
+    height: 35rem;
+    background-image: "#";
+    background-color: gray;
+    background-position: "#";
+    background-size: "#";
+    background-repeat: "#";
+}
+
+/* .......................main section begins here
+changes made
+main section padding top */
+
+/* just padded at top to position below hero image */
+.main__section {
+    padding-top: 16rem;
+    padding-bottom: 4rem;
+}
+
+
+.main_para-home {
+    background: #eaeaea;
+    padding:2rem;
+}
+
+
+.main_images-flex-container {
+    border:1px solid #000;
+}
+}
+
+
+
+/* laptop screen media queries............................................
+changes made
+logo size and position
+menu switched to fixed
+nav bg height shorter
+hero image moved up
+padding on the links in primary nav flex container li
+right margin on the volunteer button
+padding top on the main section */
+
+@media screen and (min-width: 820px) {
+
+    #header__heading-covid--fixed {
+    position: fixed;
+    z-index: 999;
+    height: 2.5rem;
+    width: 100%;
+    background: gray;
+}
+
+h1.header-covid-heading {
+    font-size: 1.6rem;
+}
+
+
+    div#primary-nav-eTutors-logo {
+    position: fixed;
+    z-index: 998;
+    top: 3.8%;
+    background: transparent;
+    width: 100%;
+    height: 8rem;
+    box-shadow: none;
+}
+
+
+img.primary-nav-logo {
+    /* position: relative; */
+    z-index: 998;
+    height: 7.5rem;
+    padding-top: 1rem;
+    margin-left: 2rem;
+}
+
+/* ...............nav section below logo image at 997 z-index begins here
+switched to fixed position for large screen viewing */
+
+
+/* nav__primary  */
+nav#nav__primary {
+    position: fixed;
+    z-index: 997;
+    top: 2.5rem;
+    background: ;
+    width: 100%;
+    box-shadow:;
+}
+
+
+ul.primary-nav-flex-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; 
+    height: 8rem;
+}
+
+
+ul.primary-nav-flex-container li {
+    padding-right: 2.1rem;
+    font-size: 1.6;
+    background:;
+    border: none;
+}
+
+
+button.volunteer {
+    display: inline-block;
+    margin-right: 3rem;
+    padding: 1.5rem 1rem;
+    
+}
+
+button.volunteer-mobile {
+    display: none;
+
+}
+
+/* hero image  */
+div.imgHome-hero {
+    position: relative;
+    z-index: 995;
+    top: 10.5rem;
+    width: 100%;
+    height: 35rem;
+    background-image: "#";
+    background-color: gray;
+    background-position: "#";
+    background-size: "#";
+    background-repeat: "#";
+}
+
+/* .......................main section begins here */
+
+/* just padded at top to position below hero image */
+.main__section {
+    padding-top: 16rem;
+    padding-bottom: 4rem;
+}
+
+
+.main_para-home {
+    background: #eaeaea;
+    padding:2rem;
+}
+
+
+.main_images-flex-container {
+    border:1px solid #000;
+}
+}
+
+
+
+
+/* desktop to larger screen media queries.....................................
+changes made
+logo size and position
+menu switched to fixed
+nav bg height shorter
+hero image moved up
+padding on the links in primary nav flex container li
+right margin on the volunteer button
+padding top on the main section */
+
+@media screen and (min-width: 1025px) {
+
+    #header__heading-covid--fixed {
+    position: fixed;
+    z-index: 999;
+    height: 2.5rem;
+    width: 100%;
+    background: gray;
+}
+
+h1.header-covid-heading {
+    font-size: 1.5rem;
+}
+
+
+    div#primary-nav-eTutors-logo {
+    position: fixed;
+    z-index: 998;
+    top: 2.5%;
+    background: transparent;
+    width: 100%;
+    height: 8rem;
+    box-shadow: none;
+}
+
+
+img.primary-nav-logo {
+    height: 8rem;
+    padding-top: 2rem;
+    margin-left: 5rem;
+}
+
+/* ...............nav section below logo image at 997 z-index begins here
+fixed position change for large screen viewing */
+
+
+/* nav__primary  */
+nav#nav__primary {
+    position: fixed;
+    z-index: 997;
+    top: 2.5rem;
+    background: ;
+    width: 100%;
+    box-shadow:;
+}
+
+
+ul.primary-nav-flex-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    height: 8rem;
+    width:85%;
+    margin-left: 15%;
+}
+
+
+ul.primary-nav-flex-container li {
+    padding-right: 3rem;
+    font-size: 1.75rem;
+    background:;
+    border: none;
+}
+
+/* needs hover affect and styles according to mockup */
+button.volunteer {
+    display: inline-block;
+    margin-right: 5rem;
+    padding: 1.5rem 1rem;
+}
+
+button.volunteer-mobile {
+    display: none;
+
+}
+
+/* hero image  */
+div.imgHome-hero {
+    position: relative;
+    z-index: 995;
+    top: 10.5rem;
+    width: 100%;
+    height: 35rem;
+    background-image: "#";
+    background-color: gray;
+    background-position: "#";
+    background-size: "#";
+    background-repeat: "#";
+}
+
+/* .......................main section begins here */
+
+/* just padded at top to position below hero image */
+.main__section {
+    padding-top: 16rem;
+    padding-bottom: 4rem;
+}
+
+
+.main_para-home {
+    background: #eaeaea;
+    padding:2rem;
+}
+
+
+.main_images-flex-container {
+    border:1px solid #000;
+}
+}

@@ -1,0 +1,182 @@
+/* code is written in order of sections of the page from top to bottom
+
+project colors: 
+hex# colors can all found in comments next to elements in html file
+
+
+font-family(already linked in head section of index.html
+font-family: 'Open Sans', sans-serif;
+    no need for @font-face
+*/
+
+
+
+
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    min-height: 100%;
+    width: 100%;
+    
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* .................................header section */
+
+/* header to be fixed and styled at very top at 999 z-index */
+#header__heading-covid--fixed {
+    position: fixed;
+    z-index: 999;
+    height: 2.5rem;
+    width: 100%;
+    background: #787878;
+}
+
+h1.header-covid-heading {
+    font-size: 1.2em;
+    letter-spacing: .001rem;
+    line-height: 2.5rem;
+    color:;
+}
+
+h1.header-covid-heading a {
+}
+
+
+
+/* .............LOGO div container for mobile veiwing below 
+needs
+covid section at 998, given flex, needs box shadow */
+div#primary-nav-eTutors-logo {
+    position: fixed;
+    z-index: 998;
+    top: 3.8%;
+    background: rgb(248, 248, 248);
+    width: 100%;
+    height: 20rem;
+    box-shadow:;
+}
+
+
+img.primary-nav-logo {
+    /* position: relative; */
+    z-index: 998;
+    height: 13rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+}
+
+/* ...............nav section below logo image at 997 z-index begins here */
+
+
+/* nav__primary  */
+nav#nav__primary {
+    position: relative;
+    z-index: 997;
+    top: 22.1rem;
+}
+
+
+ul.primary-nav-flex-container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+ul.primary-nav-flex-container li {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-bottom: 1px solid #eee;
+    background:;
+    
+}
+
+
+button.volunteer-mobile {
+ margin-top: 2rem;
+}
+
+button.volunteer {
+    display: none;
+}
+
+/* hero image  */
+div.imgHome-hero {
+    position: relative;
+    top: 22.1rem;
+    width: 100%;
+    height: 30rem;
+    background-image: "#";
+    background-color: gray;
+    background-position: "#";
+    background-size: "#";
+    background-repeat: "#";
+}
+
+/* .......................main section begins here */
+
+/* just padded at top to position below hero image */
+.main__section {
+    padding-top: 26rem;
+    padding-bottom: 8rem;
+}
+
+
+.main_para-home {
+    background: #eaeaea;
+    padding:2rem;
+}
+
+
+.main_images-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.main_img-tutor-network-item {
+    margin: 1rem;
+}
+
+/* ........................footer section begins here */
+#footer__section {
+    height: 30rem;
+    width: 100%;
+    border: 1px solid #000;
+    padding-top: 2rem;
+}
+
+.footer_social-media {
+    border: 1px solid #000;
+    height: 8rem;
+    width: 100%;
+}
+
+div.footer_copyright-container {
+    border: 1px solid red;
+}
+
+.main_flex-image-text p {
+    padding: 1rem;
+    width: 200px;
+    font-size:1.5rem;
+}

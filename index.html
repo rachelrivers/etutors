@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+   
+    <script src="script/script.js" async></script>
+     <link rel="stylesheet" href="media-queries/media-queries.css">
+
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+
+<!-- PLEASE REFER TO MOCKUP TO HELP WITH SITE BUILD AND STYLING -->
+
+<!-- starting off with MOBILE FIRST layout in mind
+        styles.css is the mobile layout -->
+
+<!-- let me know if my naming conventions make sense to you or not -->
+
+<!-- added media queries for basic transition to large screen
+        open sans fonts are embedded they just need to be applied wherever needed.
+ -->
+ 
+ 
+ 
+ <!-- IF YOU NEED HELP FINDING ANYTHING... 
+        TO THE LEFT IN THE FILE EXPOLORER STRIP IN VS:
+        click the search icon or (Ctrl shift F)
+        type in the name of what you need to find 
+
+        e.g padding-right(for a property) or header__heading-covid--fixed(for an element)
+        
+        it will show you every place in vs code that a padding-right was used or that header covid exists
+        just click on whichever one  you need or click each one to look through to take you to the one you need
+        click the double pages above search icon to get out of search mode -->
+    
+
+
+    <!-- covid statement needs 
+            background color(mobile version)#787878 
+            link text color #f0f0dd
+            centering
+            an x icon
+            javascript display none
+            
+            (large scale/all media query breakpoints)
+            bg color #591013
+            link text color #f0f0dd
+            centering
+
+     -->
+    <header id="header__heading-covid--fixed">
+        <h1 class="header-covid-heading"><a href="#">A brief statement from our CEO on CoronaVirus(Covid-19)</a></h1>
+    </header>
+
+    
+    
+    
+    
+    
+    
+    
+    <!-- nav primary ON MEDIA QUERIES ONLY needs (search: nav#nav__primary):
+            bg color(all media query breakpoints) #f0f0dd
+            box-shadow(all media query breakpoints)
+
+     -->
+    <nav id="nav__primary">
+      
+           
+           
+            <!-- LOGO div #primary-nav-eTutors-logo needs
+                    box-shadow(mobile only/styles.css)
+
+             -->
+            <div id="primary-nav-eTutors-logo">
+                <img class="primary-nav-logo" src="https://svgshare.com/i/PBa.svg" alt="an image of e tutors logo brand" >
+
+                
+                
+                
+                <!-- BUTTON volunteer-mobile button needs
+                        (mobile/ styles.css)
+                            padding styles
+                            bg color #591013 
+                            link text color #f0f0dd
+                            needs to be centered
+
+                         -->
+                <button class="volunteer-mobile">VOLUNTEER</button>
+                <!-- this button is for mobile viewing only
+                    already done:
+                    displayed as none in media queries
+
+                    -->
+            </div> <!-- LOGO DIV END -->   
+            
+            
+            <!--mobile links styles in (styles.css) 
+                ul.primary-nav-flex-container li needs
+                    bg color #591013
+                    
+                on the links   
+                    link text color #f0f0dd
+                
+                
+                    below, the list-items need
+                        ABOUT sub menu
+                            MISSION
+                            CONTACT
+                        hover effex needed on list items
+
+                     -->
+
+
+            
+            
+            <ul class="primary-nav-flex-container">
+                <li class="primary-nav-list-item-flex"><a href="#">ABOUT</a></li>
+                <li class="primary-nav-list-item-flex"><a href="#">WHAT WE TUTOR</a></a></li>
+                <li class="primary-nav-list-item-flex"><a href="#">CAREERS</a></a></li>
+                <li class="primary-nav-list-item-flex"><a href="#">VOLUNTEER</a></li>
+                <li class="primary-nav-list-item-flex"><a href="#">RESOURCES</a></li>
+                <button class="volunteer">VOLUNTEER</button>
+            </ul>
+
+        </nav>
+
+
+    <!-- Hero img div needs BACKGROUND IMAGE has 
+            css styles for height and width i think
+        needs
+            background image (Rachel to choose and add images)
+            heading statement inside
+          -->
+    <div class="imgHome-hero"><h2>BACKGROUND IMAGE AND HEADING HERE</h2></div>
+
+
+    
+    
+    <!-- main section has 
+            basic css styles for positioning and height
+            some flexbox applied
+        needs
+            a lot 
+         -->
+    <main class="main__section">
+
+        
+        <!-- REMOTE TUTORING h2 given a class for future styling
+                needs 
+                    centering
+                    font-styles
+                    further padding
+
+                 -->
+        <h2 class="main-page-section-heading">REMOTE TUTORING WITH THE BEST IN THEIR FIELD. EXPERIENCE eLearing WITH A CARING TOUCH.</h2>
+        
+        
+        <!-- below paragraph main_para-home
+                needs 
+                    bg color 
+                    font styles and padding
+                    centered icon above it (Rachel) 
+                    paragraph needs real verbage with styling
+                
+                    remember to use the search bar if you need to go right to something
+                -->
+        <div class="main_para-home">
+            <p class="main_home-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nisi quod ut molestias, sint excepturi quam eius quisquam recusandae modi aut iste accusamus dolor repudiandae similique dolore facere beatae, architecto eveniet? A aut aliquid doloremque quos inventore est! Quisquam necessitatibus ea laudantium nesciunt alias natus eos laboriosam odit totam recusandae suscipit, maxime atque unde ad reiciendis asperiores impedit? Numquam eius assumenda accusamus quas modi inventore nam, cupiditate tempore magni odit officia quod. Optio, sit rem illo consequatur sed a, nihil error nam vero incidunt, accusamus placeat minima cumque exercitationem quo ex. Laboriosam aut, ipsum magnam nobis amet id odit aperiam sequi quisquam quia porro, atque a autem quis velit laborum inventore officia! Possimus soluta natus quisquam ex aut iste iure, rerum, nulla sequi, nisi distinctio in blanditiis perspiciatis praesentium! Molestias modi ullam quae sint eius?</p>
+        </div>
+
+
+
+
+        <!-- icon (created in illustration program and dumped in svg online hosting site to create absolute link for it) below needs
+                resizing
+                centering  -->
+        <img class="main_networkCircles-icon" src="https://svgshare.com/i/PEN.svg" alt="an icon">
+        
+        <!-- heading below needs
+                padding
+                font-styles
+            -->
+           
+        <h2 class="main_page-section-heading">OUR CARING NETWORK OF TUTORS TEACHES A RANGE OF SUBJECTS</h2>
+
+
+
+
+        <!-- flexbox images below images needs
+                centering
+                images (need to talk about what type of images to put here)
+                needs icons? maybe some arrow icons for learn mores
+                text inside with learn more links
+
+             -->
+
+        <div class="main_images-flex-container">
+            
+            
+            <!-- had to wrap the imgs in text divs so the text would stay with the images as they flexed
+                    images need
+                        text insided with learn mores maybe
+                        text below with learn mores maybe(tbd)
+                    
+                    -->
+                    
+            <div class="main_flex-image-text"><!-- this text div locks the text and the images together -->
+            
+                <img class="main_img-tutor-network-item" src="https://placehold.it/200" alt="an image of a tutor" >
+
+            
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+            
+            
+            <div class="main_flex-image-text"><!-- this text div locks the text and the images together -->
+            
+                <img class="main_img-tutor-network-item" src="https://placehold.it/200" alt="an image of a tutor" >
+                <p>Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.</p>
+
+            </div>
+            
+            
+            <div class="main_flex-image-text"><!-- this text div locks the text and the images together -->
+                
+                <img class="main_img-tutor-network-item" src="https://placehold.it/200" alt="an image of a tutor" >
+
+                <p>Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem.</p>
+
+                </div>
+            
+            
+            <div class="main_flex-image-text"><!-- this text div locks the text and the images together -->
+                
+                <img class="main_img-tutor-network-item"src="https://placehold.it/200" alt="an image of a tutor" >
+
+                <p>Lorem, ipsum dolor.Lorem, ipsum.</p>
+
+                
+            </div><!-- closing flex image text div -->
+        
+        </div><!-- closing flex container div -->
+
+
+    </main>
+    
+
+    
+    <!-- this footer div needs
+            bg color #262626 
+        -->
+    <footer id="footer__section">
+<!-- below is a commented out lighter logo for the scaled up footer version. I uploaded the svg files to svgur.com so we can use this with absolute url links(no need to place in an image folder). maybe we should do that for as many images and icons as we can just for the purposes of THIS project -->
+        
+<!-- <div class="footer_logo-container">
+
+            <img class="footer_logo" src="https://svgshare.com/i/PB5.svg" alt="image of e tutors logo" >
+        </div> -->
+
+        
+        
+        
+        
+        <!-- this heading needs
+                mobile version
+                    centering
+                    padding
+                    font-styles -->
+        <h2 class="footer_quicklinks-heading">QUICK LINKS</h2>
+
+        
+        <!-- if you don't already know for mobile first css using flex: 0 1 50%; on the actual flex items works perfect to keep a two column three line format on the footer links
+        so, 
+        
+        .footer-quicklinks-flex-container .quick-links-flex-item {
+            flex: 0 1 50%;
+
+            the container needs
+                flex and flex styling
+        }  -->
+        <ul class="footer-quicklinks-flex-container">
+            <li class="quick-links-flex-item"><a href="#">Contact Us</a></li>
+            <li class="quick-links-flex-item"><a href="#">Contact Us</a></li>
+            <li class="quick-links-flex-item"><a href="#">Contact Us</a></li>
+            <li class="quick-links-flex-item"><a href="#">Contact Us</a></li>
+            <li class="quick-links-flex-item"><a href="#">Contact Us</a></li>
+            <li class="quick-links-flex-item"><a href="#">Contact Us</a></li>
+        </ul>
+
+        
+        
+        <!-- follow us heading needs
+                styling 
+            -->
+        <h2 class="footer-followUs-heading">FOLLOW US</h2>
+
+        
+        <!--applied border and sizing styles for this social icons div so you guys can see that it's there but that's it 
+            needs
+                icons
+                styling
+        -->
+        <div class="footer_social-media">
+
+            <!-- need social media icons and styling here -->
+
+        </div>
+
+       
+        <!-- haven't done any styles on this section, needs to be put in css 
+        -->
+        <div class="footer_copyright-container">
+            <p class="footer_copyright-message">&#169; 2020 eTUTORS. All Rights Reserved.</p>
+        </div>
+
+
+    </footer>
+
+    
+</body>
+</html>
