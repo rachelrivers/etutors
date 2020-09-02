@@ -21,10 +21,24 @@ padding top on the main section  */
 
 h1.header-covid-heading {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 
-    div#primary-nav-eTutors-logo {
+.hide-covid {
+    
+    display: block;
+}
+
+/* x covid icon */
+h1.header-covid-heading .header_close-icon {
+    padding-left: 1.2rem;
+    color: #f0f0dd;
+
+}
+
+
+div#primary-nav-eTutors-logo {
     position: fixed;
     z-index: 998;
     top: 3.8%;
@@ -50,7 +64,7 @@ nav#nav__primary {
     position: fixed;
     z-index: 997;
     top: 2.5rem;
-    background: ;
+    background: white ;
     width: 100%;
     box-shadow:;
 }
@@ -145,6 +159,18 @@ padding top on the main section */
 
 h1.header-covid-heading {
     font-size: 1.6rem;
+    text-align: center;
+}
+
+
+.hide-covid {
+    display: block;
+}
+
+/* x covid icon */
+h1.header-covid-heading .header_close-icon {
+    padding-left: 1.2rem;
+    color: #f0f0dd;
 }
 
 
@@ -271,10 +297,22 @@ padding top on the main section */
 
 h1.header-covid-heading {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 
-    div#primary-nav-eTutors-logo {
+h1#header__heading-covid--fixed .header-covid-heading .hide-covid {
+    display: block;
+}
+
+
+/* x covid icon */
+h1.header-covid-heading .header_close-icon {
+    padding-left: 1.2rem;
+    color: #f0f0dd;
+}
+
+div#primary-nav-eTutors-logo {
     position: fixed;
     z-index: 998;
     top: 2.5%;
@@ -300,7 +338,7 @@ nav#nav__primary {
     position: fixed;
     z-index: 997;
     top: 2.5rem;
-    background: ;
+    background: white;
     width: 100%;
     box-shadow:;
 }

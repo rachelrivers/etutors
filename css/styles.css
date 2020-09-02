@@ -53,6 +53,18 @@ h1.header-covid-heading {
     letter-spacing: .001rem;
     line-height: 2.5rem;
     color:;
+    text-align: center;
+}
+
+
+.hide-covid {
+    display: block;
+}
+
+/* x covid icon */
+h1.header-covid-heading .header_close-icon {
+    padding-left: 1.2rem;
+    color: #f0f0dd;
 }
 
 h1.header-covid-heading a {
