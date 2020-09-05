@@ -91,14 +91,10 @@ ul.primary-nav-flex-container li {
 
 
 ul.primary-nav-flex-container li a {
-    text-decoration: none;
-    color: #591013;
     font-weight: bold;
+    color: #591013;
     
 }
-
-
-
 ul.primary-nav-flex-container li a:visited {
     text-decoration: none;
     color: #591013;
@@ -106,8 +102,19 @@ ul.primary-nav-flex-container li a:visited {
 }
 
 
+button.volunteer {
+    display: inline-block;
+    margin-right: 2rem;
+    padding: 1.4rem .5rem;
+    background: #591013;
+    border: none;
+    border-radius: .5rem;
+    color: #f0f0dd;
+}
+
 button.volunteer-mobile {
     display: none;
+
 }
 
 /* hero image  */
