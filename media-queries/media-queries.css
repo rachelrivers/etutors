@@ -43,8 +43,7 @@ div#primary-nav-eTutors-logo {
     position: fixed;
     z-index: 998;
     top: 3.8%;
-    background: transparent;
-    width: 100%;
+    width: 8rem;
     height: 8rem;
     box-shadow: none;
 }
@@ -90,16 +89,28 @@ ul.primary-nav-flex-container li {
 
 
 
-ul.primary-nav-flex-container li a {
+ul.primary-nav-flex-container li a:link {
     font-weight: bold;
     color: #591013;
     
 }
+
+
+
 ul.primary-nav-flex-container li a:visited {
     text-decoration: none;
     color: #591013;
     
 }
+
+
+ul.primary-nav-flex-container li a:hover {
+    text-decoration: underline;
+    
+}
+
+
+
 
 
 button.volunteer {
@@ -332,7 +343,7 @@ h1.header-covid-heading .header_close-icon {
     z-index: 998;
     top: 3.8%;
     background: transparent;
-    width: 100%;
+    width: 8rem;
     height: 8rem;
     box-shadow: none;
 }
@@ -378,6 +389,28 @@ ul.primary-nav-flex-container li {
     border: none;
 }
 
+
+
+
+ul.primary-nav-flex-container li a:link {
+    font-weight: bold;
+    color: #591013;
+    
+}
+
+
+
+ul.primary-nav-flex-container li a:visited {
+    text-decoration: none;
+    color: #591013;
+    
+}
+
+
+ul.primary-nav-flex-container li a:hover {
+    text-decoration: underline;
+    
+}
 
 
 
@@ -590,7 +623,7 @@ div#primary-nav-eTutors-logo {
     z-index: 998;
     top: 2.5%;
     background: transparent;
-    width: 100%;
+    width: 8rem;
     height: 8rem;
     box-shadow: none;
 }
@@ -634,8 +667,25 @@ ul.primary-nav-flex-container li {
 }
 
 
-ul.primary-nav-flex-container li a {
-    /* color: #591013; */
+
+ul.primary-nav-flex-container li a:link {
+    font-weight: bold;
+    color: #591013;
+    
+}
+
+
+
+ul.primary-nav-flex-container li a:visited {
+    text-decoration: none;
+    color: #591013;
+    
+}
+
+
+ul.primary-nav-flex-container li a:hover {
+    text-decoration: underline;
+    
 }
 
 
