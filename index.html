@@ -33,8 +33,13 @@
 
 <!-- let me know if my naming conventions make sense to you or not -->
 
-<!-- added media queries for basic transition to large screen
-        open sans fonts are embedded they just need to be applied wherever needed.
+<!-- MEDIA QUERIES 
+    added media queries for basic transition to large screen
+        
+
+    FONTS
+    open sans fonts are embedded they just need to be applied wherever needed.
+    need bloder font for hero image title
  -->
  
  
@@ -52,24 +57,14 @@
     
 
 
-    <!-- covid statement needs 
-            background color(mobile version)#787878 
-            link text color #f0f0dd
-            centering
-            an x icon
-            javascript display none
-            
-            (large scale/all media query breakpoints)
-            bg color #591013
-            link text color #f0f0dd
-            centering
+    <!-- covid link needs 
+            hover effex (text-decoration underline)
 
      -->
     <header id="header__heading-covid--fixed">
-        <h1 class="header-covid-heading"><a href="#">A brief statement from our CEO on CoronaVirus(Covid-19)</a></h1>
-
-
        
+        <h1 class="header-covid-heading"><a href="#">A brief statement from our CEO on (Covid-19)</a></h1>
+
     </header>
 
     
@@ -79,9 +74,8 @@
     
     
     
-    <!-- nav primary ON MEDIA QUERIES ONLY needs (search: nav#nav__primary):
-            bg color(all media query breakpoints) #f0f0dd
-            box-shadow(all media query breakpoints)
+    <!-- nav primary  needs:
+        nothing...
 
      -->
     <nav id="nav__primary">
@@ -89,25 +83,22 @@
            
            
             <!-- LOGO div #primary-nav-eTutors-logo needs
-                    box-shadow(mobile only/styles.css)
+                nothing
 
              -->
             <div id="primary-nav-eTutors-logo">
-                <img class="primary-nav-logo" src="https://svgshare.com/i/PBa.svg" alt="an image of e tutors logo brand" >
+                <img class="primary-nav-logo" src="https://svgshare.com/i/PKy.svg" alt="an image of e tutors logo brand" >
 
                 
                 
                 
                 <!-- BUTTON volunteer-mobile button needs
                         (mobile/ styles.css)
-                            padding styles
-                            bg color #591013 
-                            link text color #f0f0dd
-                            needs to be centered
+                            nothing
 
                          -->
                 <button class="volunteer-mobile">VOLUNTEER</button>
-                <!-- this button is for mobile viewing only
+                <!-- the above button is for mobile viewing only
                     already done:
                     displayed as none in media queries
 
@@ -115,9 +106,10 @@
             </div> <!-- LOGO DIV END -->   
             
             
-            <!--mobile links styles in (styles.css) 
-                ul.primary-nav-flex-container li needs
-                    bg color #591013
+            <!--mobile links need
+                hover effex
+                color #32281c
+                
                     
                 on the links   
                     link text color #f0f0dd
@@ -130,12 +122,9 @@
                         hover effex needed on list items
 
                      -->
-
-
-            
             
             <ul class="primary-nav-flex-container">
-                <li class="primary-nav-list-item-flex"><a href="#">ABOUT</a></li>
+                <li class="primary-nav-list-item-flex"><a href="http://google.com">ABOUT</a></li>
                 <li class="primary-nav-list-item-flex"><a href="#">TUTORING SERVICES</a></a></li>
                 <li class="primary-nav-list-item-flex"><a href="#">CAREERS</a></a></li>
                 <li class="primary-nav-list-item-flex"><a href="#">VOLUNTEER</a></li>
@@ -152,7 +141,7 @@
             background image (Rachel to choose and add images)
             heading statement inside
           -->
-    <div class="imgHome-hero"><h2>BACKGROUND IMAGE AND HEADING HERE</h2></div>
+    <div class="imgHome-hero"><h2>MEANINGFUL STATEMENT HERE(needs to be bolder font)</h2></div>
 
 
     
@@ -173,7 +162,8 @@
                     further padding
 
                  -->
-        <h2 class="main-page-section-heading">REMOTE TUTORING WITH THE BEST IN THEIR FIELD. EXPERIENCE eLearing WITH A CARING TOUCH.</h2>
+        <h2 class="main_page-section-heading">REMOTE TUTORING K-12 WITH THE BEST IN THEIR FIELD. </h2>
+        
         
         
         <!-- below paragraph main_para-home
@@ -185,9 +175,14 @@
                 
                     remember to use the search bar if you need to go right to something
                 -->
+
+                <hr>
         <div class="main_para-home">
+            <h3 class="main-para-home-heading">Experience eLearing with a caring approach.</h3>
             <p class="main_home-par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nisi quod ut molestias, sint excepturi quam eius quisquam recusandae modi aut iste accusamus dolor repudiandae similique dolore facere beatae, architecto eveniet? A aut aliquid doloremque quos inventore est! Quisquam necessitatibus ea laudantium nesciunt alias natus eos laboriosam odit totam recusandae suscipit, maxime atque unde ad reiciendis asperiores impedit? Numquam eius assumenda accusamus quas modi inventore nam, cupiditate tempore magni odit officia quod. Optio, sit rem illo consequatur sed a, nihil error nam vero incidunt, accusamus placeat minima cumque exercitationem quo ex. Laboriosam aut, ipsum magnam nobis amet id odit aperiam sequi quisquam quia porro, atque a autem quis velit laborum inventore officia! Possimus soluta natus quisquam ex aut iste iure, rerum, nulla sequi, nisi distinctio in blanditiis perspiciatis praesentium! Molestias modi ullam quae sint eius?</p>
         </div>
+
+        <hr class="main_para-hr-bottom">
 
 
 
@@ -202,7 +197,7 @@
                 font-styles
             -->
            
-        <h2 class="main_page-section-heading">OUR CARING NETWORK OF TUTORS TEACHES A RANGE OF SUBJECTS</h2>
+        <h2 class="main_page-section-heading-two">OUR CARING NETWORK OF TUTORS TEACHES A RANGE OF SUBJECTS</h2>
 
 
 
@@ -225,37 +220,37 @@
                     
                     -->
                     
-            <div class="main_flex-image-text"><!-- this text div locks the text and the images together -->
+            <div class="main_flex-image-text-wrapper"><!-- this text div locks the text and the images together -->
             
                 <img class="main_img-tutor-network-item" src="https://placehold.it/200" alt="an image of a tutor" >
 
             
-                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem, ipsum dolor. <a href="#">Learn more</a></p>
             </div>
             
             
-            <div class="main_flex-image-text"><!-- this text div locks the text and the images together -->
+            <div class="main_flex-image-text-wrapper"><!-- this text div locks the text and the images together -->
             
                 <img class="main_img-tutor-network-item" src="https://placehold.it/200" alt="an image of a tutor" >
-                <p>Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.</p>
+                <p>Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor. <a href="#">Learn more</a></p>
 
             </div>
             
             
-            <div class="main_flex-image-text"><!-- this text div locks the text and the images together -->
+            <div class="main_flex-image-text-wrapper"><!-- this text div locks the text and the images together -->
                 
                 <img class="main_img-tutor-network-item" src="https://placehold.it/200" alt="an image of a tutor" >
 
-                <p>Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem.</p>
+                <p>Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem. <a href="#">Learn more</a></p>
 
                 </div>
             
             
-            <div class="main_flex-image-text"><!-- this text div locks the text and the images together -->
+            <div class="main_flex-image-text-wrapper"><!-- this text div locks the text and the images together -->
                 
                 <img class="main_img-tutor-network-item"src="https://placehold.it/200" alt="an image of a tutor" >
 
-                <p>Lorem, ipsum dolor.Lorem, ipsum.</p>
+                <p>Lorem, ipsum dolor.Lorem, ipsum. <a href="#">Learn more</a></p>
 
                 
             </div><!-- closing flex image text div -->
@@ -273,20 +268,26 @@
     <footer id="footer__section">
 <!-- below is a commented out lighter logo for the scaled up footer version. I uploaded the svg files to svgur.com so we can use this with absolute url links(no need to place in an image folder). maybe we should do that for as many images and icons as we can just for the purposes of THIS project -->
         
-<!-- <div class="footer_logo-container">
+        <div class="footer_logo-container">
 
-            <img class="footer_logo" src="https://svgshare.com/i/PB5.svg" alt="image of e tutors logo" >
-        </div> -->
+                <img class="footer_logo" src="https://svgshare.com/i/PKP.svg" alt="image of e tutors logo" >
+
+
+                <div class="footer_logo-address-container">
+                <p class="footer_logo-address">369 Frequency Lane</p>
+                <p class="footer_logo-address">Roswell, NM, 88203</p>
+                
+                </div> <!-- logo paragragh container closing -->
+            
+        </div> <!-- footer logo container closing -->
+    
 
         
         
         
         
         <!-- this heading needs
-                mobile version
-                    centering
-                    padding
-                    font-styles -->
+                 -->
         <h2 class="footer_quicklinks-heading">QUICK LINKS</h2>
 
         
@@ -300,12 +301,14 @@
                 flex and flex styling
         }  -->
         <ul class="footer-quicklinks-flex-container">
-            <li class="quick-links-flex-item"><a href="#">Contact Us</a></li>
-            <li class="quick-links-flex-item"><a href="#">Contact Us</a></li>
-            <li class="quick-links-flex-item"><a href="#">Contact Us</a></li>
-            <li class="quick-links-flex-item"><a href="#">Contact Us</a></li>
-            <li class="quick-links-flex-item"><a href="#">Contact Us</a></li>
-            <li class="quick-links-flex-item"><a href="#">Contact Us</a></li>
+            <li class="quick-links-flex-item"><a href="#">ABOUT US</a></li>
+            <li class="quick-links-flex-item"><a href="#">CAREERS</a></li>
+            <li class="quick-links-flex-item"><a href="#">HISTORY</a></li>
+            <li class="quick-links-flex-item"><a href="#">LEADERSHIP</a></li>
+            <li class="quick-links-flex-item"><a href="#">CONTACT US</a></li>
+            <li class="quick-links-flex-item"><a href="#">VOLUNTEER</a></li>
+            <li class="quick-links-flex-item"><a href="#">TERMS/CONDITIONS</a></li>
+            <li class="quick-links-flex-item"><a href="#"></a></li>
         </ul>
 
         
@@ -322,7 +325,10 @@
                 styling
         -->
         <div class="footer_social-media">
-
+            <i class="fab fa-twitter soc-icons"></i>
+            <i class="fab fa-instagram-square soc-icons"></i>
+            <i class="fab fa-facebook-f soc-icons"></i>
+            <i class="fab fa-linkedin soc-icons"></i>
             <!-- need social media icons and styling here -->
 
         </div>
