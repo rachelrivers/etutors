@@ -99,7 +99,8 @@ ul.primary-nav-flex-container li a:link {
 
 ul.primary-nav-flex-container li a:visited {
     text-decoration: none;
-    color: #591013;
+    font-weight: bold;
+    color: #5c1114;
     
 }
 
@@ -122,6 +123,16 @@ button.volunteer {
     border-radius: .5rem;
     color: #f0f0dd;
 }
+
+
+
+button.volunteer:hover {
+    background: #504646;
+    color: #f0f0dd;
+}
+
+
+
 
 button.volunteer-mobile {
     display: none;
@@ -623,15 +634,15 @@ div#primary-nav-eTutors-logo {
     z-index: 998;
     top: 2.5%;
     background: transparent;
-    width: 8rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
     box-shadow: none;
 }
 
 
 img.primary-nav-logo {
-    height: 10rem;
-    padding-top: 2rem;
+    height: 11rem;
+    margin-top: 0.1rem;
     margin-left: 5rem;
 }
 
@@ -745,8 +756,8 @@ div.imgHome-hero {
 
 
 img.footer_logo {
-    width: 8rem;
-    height: 6rem;
+    width: 10rem;
+    height: 8rem;
     display: block;
     /* margin: 2rem 2rem .5rem 2rem; */
     margin-left: auto;
