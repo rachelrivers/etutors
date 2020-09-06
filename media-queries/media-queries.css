@@ -309,7 +309,15 @@ div.footer_copyright-container {
 }
 
 
-
+div.background-paper {
+    width: 80%;
+    height:90%;
+    background: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    border-radius: 2rem;
+}
 }
 
 
