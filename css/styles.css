@@ -174,13 +174,14 @@ html {
   /* hero image  */
   div.imgHome-hero {
       position: relative;
-      top: 22.1rem;
+      top: 24.5rem;
       width: 100%;
-      /* height: 35rem; */
-      background-image: url("https://images.pexels.com/photos/4145038/pexels-photo-4145038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      height: 35rem;
+      background-image: "#";
       background-color: gray;
-      background-size: cover;
-      background-repeat: "no-repeat";
+      background-position: "#";
+      background-size: "#";
+      background-repeat: "#";
   }
   
   .imgHome-hero h2 {
@@ -250,8 +251,6 @@ html {
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
-      justify-content:space-around;
-
   }
   
   
@@ -261,19 +260,11 @@ html {
       width: 200px;
       font-size:1.5rem;
       margin-left: 1rem;
-      /* border: 1px solid black; */
   }
   
-  .main_icons-text-wrapper{
-      /* border:2px black solid; */
-      text-align:center;
-  }
-
-  .main_icons-text-wrapper a{
-      text-decoration:none;
-  }
   
-  .main_img-tutor-network-item{
+  
+  .main_img-tutor-network-item {
       margin: 1rem;
   }
   
@@ -373,14 +364,7 @@ html {
       padding: 4.5rem 2rem;
   }
   
-  /*footer hover effects, the footer color is a placeholder for now*/
-
-  footer li a:hover {
-      color:rgb(255, 208, 0);
-  }
-  .soc-icons:hover {
-      color:rgb(255, 208, 0);
-  }
+  
   
   div.footer_copyright-container {
       padding: 2.5rem;

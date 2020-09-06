@@ -35,6 +35,10 @@ h1.header-covid-heading {
 /* h1.header-covid-heading .header_close-icon {
     padding-left: 1.2rem;
     color: #f0f0dd;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 87cafc1910f2cb6a67f2d7b7fdb861329bf03fd5
 } */
 
 
@@ -84,6 +88,7 @@ ul.primary-nav-flex-container li {
     font-size: 1.35rem;
     border: none;
     background: none;
+<<<<<<< HEAD
 }
 
 
@@ -104,6 +109,28 @@ ul.primary-nav-flex-container li a:visited {
 }
 
 
+=======
+}
+
+
+
+ul.primary-nav-flex-container li a:link {
+    font-weight: bold;
+    color: #591013;
+    
+}
+
+
+
+ul.primary-nav-flex-container li a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #5c1114;
+    
+}
+
+
+>>>>>>> 87cafc1910f2cb6a67f2d7b7fdb861329bf03fd5
 ul.primary-nav-flex-container li a:hover {
     text-decoration: underline;
     
@@ -294,6 +321,28 @@ h2.footer-followUs-heading {
     color: #f0f0dd;
     font-size: 2.8rem;
     padding: 4.5rem 5rem 4.5rem 0;
+}
+
+
+
+div.footer_copyright-container {
+    width:75%;
+    margin-left: 25%;
+    padding: 2.5rem 0 2.5rem 0;
+    text-align: left;
+    font-size: 1.4rem;
+    color: #f0f0dd;
+}
+
+
+div.background-paper {
+    width: 80%;
+    height:90%;
+    background: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    border-radius: 2rem;
 }
 
 
