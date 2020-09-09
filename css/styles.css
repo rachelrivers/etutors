@@ -6,8 +6,14 @@ project colors:
 #262626 footer
 #32281c hover media queries(link text color)
 font-family(already linked in head section of index.html
-font-family: 'Open Sans', sans-serif;
-    no need for @font-face
+font-family: 
+'Open Sans', sans-serif; font-family: 
+
+hero image font
+font-family: 'Anton', sans-serif;
+    
+
+no need for @font-face
 */
 
 
@@ -15,7 +21,7 @@ font-family: 'Open Sans', sans-serif;
 
 html {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif
+    
   }
   *,
   *:before,
@@ -34,9 +40,24 @@ html {
     margin: 0;
     padding: 0;
   }
+
   
+  h1, h2, h3 {
+      font-family: 'Open Sans', sans-serif
+  }
+
+  h1 {
+      font-size: 3.6rem;
+  }
+
+  h2 {
+      font-size: 2.4rem;
+  }
   
-  
+  h3 {
+      font-size: 2.0rem;
+  }
+
   
   /* .................................header section */
   
@@ -88,7 +109,6 @@ html {
   div#primary-nav-eTutors-logo {
       position: fixed;
       z-index: 998;
-      top: 3.8%;
       background: rgb(248, 248, 248);
       width: 100%;
       height: 23rem;
@@ -115,15 +135,19 @@ html {
       z-index: 997;
       top: 24.5rem;
   }
-  
-  
-  ul.primary-nav-flex-container {
+
+
+
+ul.primary-nav-flex-container {
       list-style: none;
       display: flex;
       flex-direction: column;
       text-align: center;
       font-size: 1.9rem;
   }
+
+
+ 
   
   .primary-nav-flex-container li {
       padding-bottom: 2rem;
@@ -132,7 +156,44 @@ html {
       background: #591013;
       
   }
+
+
+  ul.primary-nav-flex-container li ul.primary-nav-about-sub {
+      list-style: none;
+    position: relative;
+    top:2.3rem;
+    background: rgb(248, 248, 248);
+    display: none;
+  }
+
+
+
+   ul.primary-nav-flex-container li:hover ul.primary-nav-about-sub {
+    display:block;
+  }
   
+  
+
+
+   ul.primary-nav-flex-container li ul.primary-nav-about-sub li {
+       display: block;
+    background: rgb(248, 248, 248);
+  }
+
+
+    ul.primary-nav-flex-container li ul.primary-nav-about-sub li a {
+       color: #591013;
+  }
+
+
+
+     ul.primary-nav-flex-container li ul.primary-nav-about-sub li a:hover {
+       color: grey;
+  }
+
+
+
+
   
   ul.primary-nav-flex-container li a {
       text-decoration: none;
@@ -152,6 +213,15 @@ html {
       color: #f0f0dd;
       
   }
+
+
+  /* mobile only about sub menu arrow icon  */
+  .arrow-icon {
+      position: relative;
+      top: 0;
+       color: rgb(248, 244, 244);
+      margin-left: 1rem;
+  }
   
   
   button.volunteer-mobile {
@@ -166,6 +236,19 @@ html {
    font-weight: 700;
    font-size: 1.8rem;
   }
+
+
+   button.volunteer-mobile:hover {
+    background: #262626;
+    border: none;
+  }
+
+
+    button.volunteer-mobile:active {
+    background: grey;
+    color: yellow;
+    border: none;
+  }
   
   button.volunteer {
       display: none;
@@ -177,20 +260,21 @@ html {
       top: 24.5rem;
       width: 100%;
       height: 35rem;
-      background-image: "#";
+      background-image: url("https://images.unsplash.com/photo-1584697964328-b1e7f63dca95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
       background-color: gray;
-      background-position: "#";
-      background-size: "#";
-      background-repeat: "#";
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
   }
   
   .imgHome-hero h2 {
+      font-family: 'Anton', sans-serif;
       font-size: 2.4rem;
       color: #f0f0dd;
-      font-weight: 900;
       text-align: center;
-      padding-top: 8rem;
+      padding-top: 18rem;
       letter-spacing: .5rem;
+      transition: .800s ease-in-out;
   }
   
   /* .......................main section begins here */
@@ -202,21 +286,15 @@ html {
   }
   
   
-  
-  .main_networkCircles-icon {
-      height: 8rem;
-      margin-top: 8rem;
-      margin-left: 50%;
-      transform: translatex(-50%);
-  }
-  
-  
   h2.main_page-section-heading {
-    
+    font-size: 2.4rem;
+    padding: 4rem 2rem 2rem 2rem;
+    text-align: center;
   }
   
   
   h2.main_page-section-heading-two {
+      
   }
   
   
@@ -233,19 +311,62 @@ html {
   .main_para-home {
       background: #f3f3f3;
       margin-top: 3rem;
+      padding: 3rem 2rem 3rem 2rem;
   }
   
   
   h3.main-para-home-heading {
+      font-size: 1.8rem;
+      padding: 2rem 2rem 1rem 2rem;
      
   }
   
   
   .main_para-home p {
+      font-size: 1.6rem;
+      padding: 0 2rem 2rem 2rem;
       
   }
+
+
+
+ 
+ .main-sec-icon {
+      position: relative;
+      z-index: 996;
+      top:5.5rem;
+      margin-left: 50%;
+      transform: translatex(-50%);
+      border: .01px solid black;
+    background: rgb(255, 255, 255);
+      padding: 1.5rem;
+      border-radius: 50rem;
+      font-size: 4rem;
+  }
+
+
   
+div.background-paper {
+    width: 95%;
+    height:90%;
+    background: #eee;
+    border: 2px solid rgb(228, 226, 226);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    border-radius: 2rem;
+    padding-bottom: 4rem;
+  }
   
+/* scaled eureka image hidden */
+  img.eureka-corner-image-scaled {
+      display: none;
+  }
+
+  img.eureka-corner-image {
+     width:100%;
+     margin-top: 4rem;
+  }
   
   .main_images-flex-container {
       display: flex;
@@ -267,6 +388,12 @@ html {
   .main_img-tutor-network-item {
       margin: 1rem;
   }
+
+
+
+
+
+
   
   /* ........................footer section begins here */
   #footer__section {
@@ -330,6 +457,12 @@ html {
       text-decoration: none;
   
   }
+
+
+    ul.footer-quicklinks-flex-container li a:hover {
+      color: grey;
+  
+  }
   
   ul li.quick-links-flex-item {
       margin-left: auto;
@@ -362,6 +495,12 @@ html {
       color: #f0f0dd;
       font-size: 2.5rem;
       padding: 4.5rem 2rem;
+  }
+  
+
+   .footer_social-media .soc-icons:hover {
+      color: #f0f0dd;
+      color: grey;
   }
   
   
