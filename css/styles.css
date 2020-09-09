@@ -21,7 +21,7 @@ no need for @font-face
 
 html {
     box-sizing: border-box;
-    
+    font-family:'Open Sans', sans-serif; font-family:
   }
   *,
   *:before,
@@ -33,6 +33,7 @@ html {
       font-size: 62.5%;
       min-height: 100%;
       width: 100%;
+
       
   }
   
@@ -153,7 +154,7 @@ ul.primary-nav-flex-container {
       padding-bottom: 2rem;
       padding-top: 2rem;
       border-bottom: .01px solid #aaa;
-      background: #000;
+      background: #591013;
       
   }
 
