@@ -356,7 +356,7 @@ div.background-paper {
     margin-right: auto;
     margin-top: 4rem;
     border-radius: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 12rem;
   }
   
 /* scaled eureka image hidden */
@@ -381,18 +381,45 @@ div.background-paper {
      
       width: 200px;
       font-size:1.5rem;
-      margin-left: 1rem;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-weight: bold;
+      color: #262626;
   }
   
   
   
   .main_img-tutor-network-item {
-      margin: 1rem;
+      /* margin: 1rem; */
+  }
+
+  img.main_img-tutor-network-item {
+    height: 200px;
+    width: 200px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
   }
 
 
 
+button.start-game-jg {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+     background: #353a40;
+     color: white;
+     border: .1rem solid white;
+}
 
+
+button.start-game-jg:hover {
+    background: grey;
+    transition: .300s ease-in-out;
+    color: white;
+}
 
 
   
