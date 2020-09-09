@@ -21,7 +21,7 @@ no need for @font-face
 
 html {
     box-sizing: border-box;
-    
+    font-family:'Open Sans', sans-serif; font-family:
   }
   *,
   *:before,
@@ -33,6 +33,7 @@ html {
       font-size: 62.5%;
       min-height: 100%;
       width: 100%;
+
       
   }
   
