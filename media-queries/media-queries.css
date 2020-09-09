@@ -25,11 +25,10 @@ h1.header-covid-heading {
     background:#591013;
 }
 
-
-.hide-covid {
+/* .hide-covid {
     
     display: block;
-}
+} */
 
 /* x covid icon */
 /* h1.header-covid-heading .header_close-icon {
@@ -43,13 +42,14 @@ div#primary-nav-eTutors-logo {
     z-index: 998;
     top: 3.8%;
     width: 8rem;
-    height: 8rem;
+    height: 7rem;
     box-shadow: none;
+    background: none;
 }
 
 
 img.primary-nav-logo {
-    height: 10rem;
+    height: 9rem;
     padding-top: 1.2rem;
     margin-left: 2rem;
 }
@@ -65,7 +65,14 @@ nav#nav__primary {
     top: 2.5rem;
     background: #f8f9f1;
     width: 100%;
+    height: 10rem;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+
+
+ul.primary-nav-about-sub {
+    display: none;
 }
 
 
@@ -89,6 +96,8 @@ ul.primary-nav-flex-container li {
 
 
 ul.primary-nav-flex-container li a:link {
+    line-height: 10rem;
+    display: inline-block;
     font-weight: bold;
     color: #591013;
     
@@ -105,9 +114,69 @@ ul.primary-nav-flex-container li a:visited {
 
 
 ul.primary-nav-flex-container li a:hover {
-    text-decoration: underline;
+    color: gray;
+    transition: all .400s ease-in-out;
     
 }
+
+
+
+ .arrow-icon {
+    display: none;
+  }
+
+
+/* sub menu hover */
+ul.primary-nav-flex-container li:hover ul.primary-nav-about-sub {
+    display: block;
+    list-style: none;
+    position: absolute;
+    top: 10rem;
+    background: rgba(248, 248, 248, 0.774);
+    line-height: 0;
+    text-align: center;
+    
+}
+
+
+
+ul.primary-nav-about-sub li.primary-sub {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+ul.primary-nav-about-sub li.primary-sub a:link {
+    text-decoration: none;
+    color: #591013;
+    font-size: 1.6rem;
+    line-height: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+
+}
+
+ 
+ul.primary-nav-about-sub li.primary-sub a:visited {
+    text-decoration: none;
+    color: #591013;
+}
+
+
+ul.primary-nav-about-sub li.primary-sub:hover {
+    color: rgb(133, 133, 133);
+    background:#591013;
+    transition: all .400s ease-in-out;
+}
+
+
+ul.primary-nav-about-sub li.primary-sub a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* sub menu ending */
 
 
 
@@ -121,6 +190,7 @@ button.volunteer {
     border: none;
     border-radius: .5rem;
     color: #f0f0dd;
+    transition: all .200s ease-in-out;
 }
 
 
@@ -145,12 +215,26 @@ div.imgHome-hero {
     top: 10.5rem;
     width: 100%;
     height: 45rem;
-    background-image: "#";
+    background-image: url("https://images.unsplash.com/photo-1584697964358-3e14ca57658b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-color: gray;
-    background-position: "#";
-    background-size: "#";
-    background-repeat: "#";
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: .500s ease-in-out;
 }
+
+
+
+ .imgHome-hero h2 {
+      font-family: 'Anton', sans-serif;
+      font-size: 3.6rem;
+      color: #f0f0dd;
+      font-weight: 900;
+      text-align: center;
+      padding-top: 18rem;
+      letter-spacing: .5rem;
+      transition: .800s ease-in-out;
+  }
 
 /* .......................main section begins here
 changes made
@@ -163,7 +247,17 @@ main section padding top */
 }
 
 
-hr {
+
+h2.main_page-section-heading {
+    font-size: 3.2rem;
+    padding: 4rem 2rem 2rem 2rem;
+    text-align: center;
+    transition:  .600s ease-in-out;
+  }
+
+
+
+  hr {
     display: block;
     position: relative;
     top: 2.5rem;
@@ -188,6 +282,30 @@ hr.main_para-hr-bottom {
     border: none;
 }
 
+
+div.background-paper {
+    width: 95%;
+    height:90%;
+    background: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    border-radius: 2rem;
+  }
+
+
+
+    img.eureka-corner-image-scaled {
+    display: block;
+     width:100%;
+     margin-top: 0;
+     padding-top: 4rem;
+  }
+  
+
+  img.eureka-corner-image {
+      display: none;
+  }
 
 
 .footer_logo-container {
@@ -308,15 +426,7 @@ div.footer_copyright-container {
 }
 
 
-div.background-paper {
-    width: 80%;
-    height:90%;
-    background: #eee;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4rem;
-    border-radius: 2rem;
-}
+
 }
 
 
@@ -372,7 +482,7 @@ h1.header-covid-heading .header_close-icon {
 img.primary-nav-logo {
     /* position: relative; */
     z-index: 998;
-    height: 10rem;
+    height: 9rem;
     padding-top: 1rem;
     margin-left: 2rem;
 }
@@ -428,7 +538,7 @@ ul.primary-nav-flex-container li a:visited {
 
 
 ul.primary-nav-flex-container li a:hover {
-    text-decoration: underline;
+     color: gray;
     
 }
 
@@ -479,6 +589,29 @@ div.imgHome-hero {
     border: none;
 }
 
+
+div.background-paper {
+    width: 95%;
+    height:90%;
+    background: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    border-radius: 2rem;
+  }
+
+
+
+    img.eureka-corner-image-scaled {
+    display: block;
+     width:100%;
+     margin-top: 1rem;
+  }
+  
+
+  img.eureka-corner-image {
+      display: none;
+  }
 
 
 .footer_logo-container {
@@ -641,7 +774,7 @@ h1.header-covid-heading .header_close-icon {
 div#primary-nav-eTutors-logo {
     position: fixed;
     z-index: 998;
-    top: 2.5%;
+    top: 3.5%;
     background: transparent;
     width: 10rem;
     height: 10rem;
@@ -650,9 +783,10 @@ div#primary-nav-eTutors-logo {
 
 
 img.primary-nav-logo {
-    height: 11rem;
+    height: 9rem;
     margin-top: 0.1rem;
     margin-left: 5rem;
+    
 }
 
 /* ...............nav section below logo image at 997 z-index begins here
@@ -704,7 +838,7 @@ ul.primary-nav-flex-container li a:visited {
 
 
 ul.primary-nav-flex-container li a:hover {
-    text-decoration: underline;
+     color: gray;
     
 }
 
@@ -735,6 +869,18 @@ div.imgHome-hero {
     background-repeat: "#";
 }
 
+
+ .imgHome-hero h2 {
+      font-family: 'Anton', sans-serif;
+      font-size: 3.6rem;
+      color: #f0f0dd;
+      font-weight: 900;
+      text-align: center;
+      padding-top: 18rem;
+      letter-spacing: .5rem;
+      transition: .800s ease-in-out;
+  }
+
 /* .......................main section begins here */
 
 /* just padded at top to position below hero image */
@@ -753,6 +899,31 @@ div.imgHome-hero {
 .main_images-flex-container {
     border: none;
 }
+
+
+
+div.background-paper {
+    width: 95%;
+    height:90%;
+    background: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    border-radius: 2rem;
+  }
+
+
+
+    img.eureka-corner-image-scaled {
+    display: block;
+     width:100%;
+     margin-top: 1rem;
+  }
+  
+
+  img.eureka-corner-image {
+      display: none;
+  }
 
 
 .footer_logo-container {

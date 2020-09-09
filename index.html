@@ -11,6 +11,10 @@
    
 
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    
+    
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 
 
@@ -62,6 +66,24 @@
        
         <h1 class="header-covid-heading"><a href="#">A brief statement from our CEO on (Covid-19)</a></h1>
 
+
+          <div id="primary-nav-eTutors-logo">
+                <a href="index.html"><img class="primary-nav-logo" src="https://svgshare.com/i/PKy.svg" alt="an image of e tutors logo brand" ></a>
+
+                
+                
+                
+                <!-- BUTTON volunteer-mobile button needs
+                        (mobile/ styles.css)
+                            nothing
+                         -->
+                <button class="volunteer-mobile">DONATE</button>
+                <!-- the above button is for mobile viewing only
+                    already done:
+                    displayed as none in media queries
+                    -->
+            </div> <!-- LOGO DIV END -->  
+
     </header>
 
     
@@ -81,22 +103,7 @@
             <!-- LOGO div #primary-nav-eTutors-logo needs
                 nothing
              -->
-            <div id="primary-nav-eTutors-logo">
-                <img class="primary-nav-logo" src="https://svgshare.com/i/PKy.svg" alt="an image of e tutors logo brand" >
-
-                
-                
-                
-                <!-- BUTTON volunteer-mobile button needs
-                        (mobile/ styles.css)
-                            nothing
-                         -->
-                <button class="volunteer-mobile">VOLUNTEER</button>
-                <!-- the above button is for mobile viewing only
-                    already done:
-                    displayed as none in media queries
-                    -->
-            </div> <!-- LOGO DIV END -->   
+           
             
             
             <!--mobile links need
@@ -116,12 +123,17 @@
                      -->
             
             <ul class="primary-nav-flex-container">
-                <li class="primary-nav-list-item-flex"><a href="http://google.com">ABOUT</a></li>
+                <li class="primary-nav-list-item-flex arrow"><a href="#">ABOUT</a><i class="fas fa-caret-right arrow-icon"></i>
+                    <ul class="primary-nav-about-sub">
+                        <li class="primary-sub"><a href="https://google.com">Mission</a></li>
+                        <li class="primary-sub"><a href="#">Contact</a></li>
+                    </ul>
+                </li>
                 <li class="primary-nav-list-item-flex"><a href="#">TUTORING SERVICES</a></a></li>
                 <li class="primary-nav-list-item-flex"><a href="#">CAREERS</a></a></li>
                 <li class="primary-nav-list-item-flex"><a href="#">VOLUNTEER</a></li>
                 <li class="primary-nav-list-item-flex"><a href="#">RESOURCES</a></li>
-                <button class="volunteer">VOLUNTEER</button>
+                <button class="volunteer">DONATE</button>
             </ul>
 
         </nav>
@@ -133,7 +145,7 @@
             background image (Rachel to choose and add images)
             heading statement inside
           -->
-    <div class="imgHome-hero"><h2>MEANINGFUL STATEMENT HERE(needs to be bolder font)</h2></div>
+    <div class="imgHome-hero"><h2>MEANINGFUL STATEMENT HERE</h2></div>
 
 
     
@@ -144,6 +156,9 @@
         needs
             a lot 
          -->
+
+
+        
     <main class="main__section">
 
         
@@ -153,9 +168,9 @@
                     font-styles
                     further padding
                  -->
-        <h2 class="main_page-section-heading">REMOTE TUTORING K-12 WITH THE BEST IN THEIR FIELD. </h2>
+        <h2 class="main_page-section-heading">REMOTE TUTORING K-12 FROM THE BEST IN THEIR FIELD! </h2>
         
-        
+         
         
         <!-- below paragraph main_para-home
                 needs 
@@ -166,7 +181,7 @@
                 
                     remember to use the search bar if you need to go right to something
                 -->
-
+             <div class="main_sec-icon-container"><i class="fab fa-leanpub main-sec-icon"></i></div>
                 <hr>
         <div class="main_para-home">
             <h3 class="main-para-home-heading">Experience eLearing with a caring approach.</h3>
@@ -189,9 +204,11 @@
             -->
          <div class="background-paper">
         <h2 class="main_page-section-heading-two"></h2>
-        <center><img class="large-" src="https://svgshare.com/i/PMg.svg" width= 100%  alt="image icon"></center>
+        <img class="eureka-corner-image" src="https://svgshare.com/i/PRP.svg" alt="image of cartoon professor">
 
-
+        
+        <!-- eureka image for larger screens -->
+        <img class="eureka-corner-image-scaled" src="https://svgshare.com/i/PSv.svg">
 
 
         <!-- flexbox images below images needs
@@ -223,7 +240,7 @@
             <div class="main_flex-image-text-wrapper"><!-- this text div locks the text and the images together -->
             
                 <img class="main_img-tutor-network-item" src="https://placehold.it/200" alt="an image of a tutor" >
-                <p>Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor. <a href="#">Learn more</a></p>
+                <p>Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem. <a href="#">Learn more</a></p>
 
             </div>
             
@@ -232,7 +249,7 @@
                 
                 <img class="main_img-tutor-network-item" src="https://placehold.it/200" alt="an image of a tutor" >
 
-                <p>Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem, ipsum dolor.Lorem. <a href="#">Learn more</a></p>
+                <p>Lorem, ir.Lorem, ipsum dolor.Lorem. <a href="#">Learn more</a></p>
 
                 </div>
             
@@ -246,8 +263,8 @@
                 
             </div><!-- closing flex image text div -->
         
-        </div><!-- closing flex container div -->
-</div>  
+        </><!-- closing flex container div -->
+</div><!-- closing background paper -->
 
     </main>
     
@@ -315,10 +332,10 @@
                 styling
         -->
         <div class="footer_social-media">
-            <i class="fab fa-twitter soc-icons"></i>
-            <i class="fab fa-instagram-square soc-icons"></i>
-            <i class="fab fa-facebook-f soc-icons"></i>
-            <i class="fab fa-linkedin soc-icons"></i>
+            <a href="#"><i class="fab fa-twitter soc-icons"></i></a>
+            <a href="#"><i class="fab fa-instagram-square soc-icons"></i></a>
+            <a href="#"><i class="fab fa-facebook-f soc-icons"></i></a>
+            <a href="#"><i class="fab fa-linkedin soc-icons"></i></a>
             <!-- need social media icons and styling here -->
 
         </div>
