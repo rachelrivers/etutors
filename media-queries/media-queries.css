@@ -52,6 +52,7 @@ img.primary-nav-logo {
     height: 9rem;
     padding-top: 1.2rem;
     margin-left: 2rem;
+    transition: .100s ease-in-out;
 }
 
 /* ...............nav section below logo image at 997 z-index begins here
@@ -88,9 +89,10 @@ ul.primary-nav-flex-container {
 
 ul.primary-nav-flex-container li {
     padding-right: 1rem;
-    font-size: 1.35rem;
+    font-size: 1.7rem;
     border: none;
     background: none;
+    transition: .100s ease-in-out;
 }
 
 
@@ -115,7 +117,7 @@ ul.primary-nav-flex-container li a:visited {
 
 ul.primary-nav-flex-container li a:hover {
     color: gray;
-    transition: all .400s ease-in-out;
+    transition: .100s ease-in-out;
     
 }
 
@@ -168,11 +170,13 @@ ul.primary-nav-about-sub li.primary-sub a:visited {
 ul.primary-nav-about-sub li.primary-sub:hover {
     color: rgb(133, 133, 133);
     background:#591013;
-    transition: all .400s ease-in-out;
+    transition: .100s ease-in-out;
 }
 
 
 ul.primary-nav-about-sub li.primary-sub a:hover {
+    display: block;
+     background:#591013;
     color: rgb(255, 255, 255);
 }
 
@@ -208,7 +212,7 @@ button.volunteer-mobile {
 
 }
 
-/* hero image  */
+/* hero images  */
 div.imgHome-hero {
     position: relative;
     z-index: 995;
@@ -232,6 +236,32 @@ div.imgHome-hero {
       font-weight: 900;
       text-align: center;
       padding-top: 18rem;
+      letter-spacing: .5rem;
+      transition: .800s ease-in-out;
+  }
+
+
+  .imgHome-hero-contact-jg {
+          position: relative;
+    z-index: 995;
+    top: 10.5rem;
+    width: 100%;
+    height: 45rem;
+    background-image: url("https://littlebusinessloans.com/wp-content/uploads/2016/03/contact-us-Little-Business-Loans.png");
+    background-color: gray;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: .500s ease-in-out;
+  }
+
+
+  .imgHome-hero-contact-jg h2 {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.6rem;
+      color: #d1d1d1;
+      font-weight: 900;
+      padding: 35rem 15rem 0 3rem;
       letter-spacing: .5rem;
       transition: .800s ease-in-out;
   }
@@ -278,18 +308,41 @@ hr.main_para-hr-bottom {
 }
 
 
+.contact-woman-jg {
+    display: block;
+    position: absolute;
+    top: 80rem;
+    right: 0;
+    height: 31rem;
+}
+
+
+
+.main_kid-on-floor-image {
+    display: block;
+    position:absolute;
+    z-index: 996;
+    top: 122rem;
+    height: 19rem;
+    background: none;
+    margin-left: 0;
+    transition: all .500s ease-in-out;
+}
+
+
 .main_images-flex-container {
     border: none;
 }
 
 
 div.background-paper {
-    width: 95%;
+    width: 85%;
     height:90%;
     background: #eee;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
+    margin-top: 15rem;
+    padding-top: 3rem;
     border-radius: 2rem;
   }
 
@@ -299,12 +352,21 @@ div.background-paper {
     display: block;
      width:100%;
      margin-top: 0;
-     padding-top: 4rem;
+     padding-top: 0;
   }
   
 
   img.eureka-corner-image {
       display: none;
+  }
+
+
+
+  h3.eTutots-game-subTitle-jg {
+      text-align: center;
+      padding-bottom: 2.5rem;
+      font-size: 1.8rem;
+      color: #000000;
   }
 
 
@@ -327,6 +389,21 @@ img.footer_logo {
 
 }
 
+
+
+ .main_page-section-heading-two-jg {
+      text-align: center;
+      font-size: 2.9rem;
+      color: #000000;
+      padding: 1rem 3rem 0 3rem;
+      letter-spacing: .1rem;
+  }
+
+
+  h3.eTutots-game-subTitle-jg {
+      color: #591013;
+    font-size: 2rem;
+  }
 
 
 .footer_logo-address-container {
@@ -514,7 +591,7 @@ ul.primary-nav-flex-container {
 
 ul.primary-nav-flex-container li {
     padding-right: 2.1rem;
-    font-size: 1.6;
+    font-size: 1.9;
     background: none;
     border: none;
 }
@@ -585,18 +662,39 @@ div.imgHome-hero {
 }
 
 
+
+.contact-woman-jg {
+    display: block;
+    position: absolute;
+    top: 76rem;
+    right: 0;
+    height: 35rem;
+}
+
+
+.main_kid-on-floor-image {
+    display: block;
+    position:absolute;
+    z-index: 996;
+    top: 114rem;
+    height: 25rem;
+    margin-left: 30%;
+}
+
+
 .main_images-flex-container {
     border: none;
 }
 
 
 div.background-paper {
-    width: 95%;
+    width: 85%;
     height:90%;
     background: #eee;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
+    margin-top: 18rem;
+    padding-top: 6rem;
     border-radius: 2rem;
   }
 
@@ -605,7 +703,6 @@ div.background-paper {
     img.eureka-corner-image-scaled {
     display: block;
      width:100%;
-     margin-top: 1rem;
   }
   
 
@@ -613,6 +710,20 @@ div.background-paper {
       display: none;
   }
 
+
+
+ .main_page-section-heading-two-jg {
+      text-align: center;
+      font-size: 3.0rem;
+      color: #000000;
+      padding: 0 3rem .5rem 3rem;
+  }
+
+
+
+   h3.eTutots-game-subTitle-jg {
+    font-size: 2rem;
+  }
 
 .footer_logo-container {
     position: absolute;
@@ -881,6 +992,19 @@ div.imgHome-hero {
       transition: .800s ease-in-out;
   }
 
+
+
+  .imgHome-hero-contact-jg h2 {
+      font-family: 'Anton', sans-serif;
+      font-size: 3.6rem;
+      text-align: center;
+      color: #d1d1d1;
+      font-weight: 900;
+      padding: 22rem 3rem 0 3rem;
+      letter-spacing: .5rem;
+      transition: .800s ease-in-out;
+  }
+
 /* .......................main section begins here */
 
 /* just padded at top to position below hero image */
@@ -896,6 +1020,27 @@ div.imgHome-hero {
 }
 
 
+
+.contact-woman-jg {
+    display: block;
+    position: absolute;
+    top: 71rem;
+    right: 4rem;
+    height: 40rem;
+}
+
+
+
+.main_kid-on-floor-image {
+    display: block;
+    position:absolute;
+    z-index: 996;
+    top: 101rem;
+    height: 30rem;
+    margin-left: 40%;
+}
+
+
 .main_images-flex-container {
     border: none;
 }
@@ -903,21 +1048,35 @@ div.imgHome-hero {
 
 
 div.background-paper {
-    width: 95%;
+    width: 85%;
     height:90%;
     background: #eee;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
+    margin-top: 20rem;
+    padding-top: 3rem;
     border-radius: 2rem;
   }
 
 
 
+  .main_page-section-heading-two-jg {
+      text-align: center;
+      font-size: 3.2rem;
+      color: #000000;
+      padding: 0 3rem .5rem 3rem;
+      letter-spacing: .3rem;
+  }
+
+
+
+    h3.eTutots-game-subTitle-jg {
+    font-size: 2.2rem;
+  }
+
     img.eureka-corner-image-scaled {
     display: block;
      width:100%;
-     margin-top: 1rem;
   }
   
 
