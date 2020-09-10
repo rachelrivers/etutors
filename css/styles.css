@@ -68,7 +68,7 @@ html {
       z-index: 999;
       height: 2.5rem;
       width: 100%;
-      background: #787878;
+      background: #262626;
   }
   
   h1.header-covid-heading {
@@ -277,12 +277,46 @@ ul.primary-nav-flex-container {
       letter-spacing: .5rem;
       transition: .800s ease-in-out;
   }
+
+
+
+    .imgHome-hero-contact-jg {
+          position: relative;
+    z-index: 995;
+    top: 10.5rem;
+    width: 100%;
+    height: 45rem;
+    background-image: url("https://media.istockphoto.com/photos/human-hand-drawing-contact-us-on-blackboard-picture-id984585688?k=6&m=984585688&s=612x612&w=0&h=q6Jszkpz5ay1ub70I8wxUuL99_pJe-OyhFdbi7a_4Yw=");
+    background-color: gray;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: .500s ease-in-out;
+  }
+
+
+  .imgHome-hero-contact-jg h2 {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.4rem;
+      color: #b6b6b6;
+      font-weight: 900;
+      padding: 32rem 4rem 0 3rem;
+      letter-spacing: .5rem;
+      text-align: left;
+      transition: .800s ease-in-out;
+  }
   
   /* .......................main section begins here */
   
   /* just padded at top to position below hero image */
   .main__section {
       padding-top: 26rem;
+      padding-bottom: 8rem;
+  }
+
+
+  .main__section-contact-jg {
+      padding-top: 18rem;
       padding-bottom: 8rem;
   }
   
@@ -293,11 +327,14 @@ ul.primary-nav-flex-container {
     text-align: center;
   }
   
-  
-  h2.main_page-section-heading-two {
-      
+
+
+  .main_page-section-heading-contact-jg {
+      font-size: 2.4rem;
+    /* padding: 4rem 2rem 2rem 2rem; */
+    text-align: center;
   }
-  
+
   
   hr {
       display: none;
@@ -307,7 +344,33 @@ ul.primary-nav-flex-container {
   hr.main_para-hr-bottom {
     display: none;
   }
+
+
+
+   hr.contact-jg {
+      top: 2.5rem;
+      width: 75%;
+       margin-left: auto;
+      margin-right: auto;
+  }
+
+
+  hr.main_para-hr-bottom-contact-jg {
+      top: .5rem;
+      width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+
+  .contact-woman-jg {
+    display: none;
+}
   
+
+  .main_kid-on-floor-image {
+      display: none;
+  }
   
   .main_para-home {
       background: #f3f3f3;
@@ -331,6 +394,34 @@ ul.primary-nav-flex-container {
 
 
 
+    .main_para-contact-jg {
+        width: 75%;
+      background: #f3f3f3;
+      margin-top: 3rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2.5rem 2rem 3rem 2rem;
+  }
+
+
+
+    h3.main-para-contact-heading-jg {
+      font-size: 1.8rem;
+      padding: 1rem 2rem 1rem 2rem;
+      text-align: center;
+     
+  }
+
+
+
+   .main_para-contact-jg p {
+      font-size: 1.6rem;
+      padding: 0 2rem 2rem 2rem;
+      text-align: center;
+      
+  }
+
+
  
  .main-sec-icon {
       position: relative;
@@ -338,23 +429,24 @@ ul.primary-nav-flex-container {
       top:5.5rem;
       margin-left: 50%;
       transform: translatex(-50%);
-      border: .01px solid black;
-    background: rgb(255, 255, 255);
+      border: .01px solid rgb(116, 116, 116);
+    background: rgb(207, 207, 207);
       padding: 1.5rem;
       border-radius: 50rem;
-      font-size: 4rem;
+      font-size: 3rem;
+      color: rgb(75, 75, 75);
   }
 
 
   
 div.background-paper {
-    width: 95%;
+    width: 90%;
     height:90%;
     background: #eee;
     border: 2px solid rgb(228, 226, 226);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
+    margin-top: 8rem;
     border-radius: 2rem;
     padding-bottom: 12rem;
   }
@@ -367,6 +459,30 @@ div.background-paper {
   img.eureka-corner-image {
      width:100%;
      margin-top: 4rem;
+     margin-bottom: 2rem;
+  }
+
+
+div.eTutors-gameTitle-container {
+      border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+  
+  
+.main_page-section-heading-two-jg {
+      text-align: center;
+      font-size: 2.4rem;
+      color: #000000;
+      padding: 4rem 5rem .5rem 5rem;
+  }
+  
+
+
+  h3.eTutots-game-subTitle-jg {
+      text-align: center;
+      padding-bottom: 2.5rem;
+      font-size: 1.8rem;
+      color: #591013;
   }
   
   .main_images-flex-container {
@@ -397,8 +513,8 @@ div.background-paper {
   img.main_img-tutor-network-item {
     height: 200px;
     width: 200px;
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     margin-bottom: 2rem;
   }
 
