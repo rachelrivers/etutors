@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+   
+   
+   
+
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    
+    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+
+
+       <link rel="stylesheet" href="media-queries/media-queries.css">
+
+      
+
+
+     
+    
+</head>
+<body>
+
+
+<!-- PLEASE REFER TO MOCKUP TO HELP WITH SITE BUILD AND STYLING -->
+
+<!-- starting off with MOBILE FIRST layout in mind
+        styles.css is the mobile layout -->
+
+<!-- let me know if my naming conventions make sense to you or not -->
+
+<!-- MEDIA QUERIES 
+    added media queries for basic transition to large screen
+        
+    FONTS
+    open sans fonts are embedded they just need to be applied wherever needed.
+    need bloder font for hero image title
+ -->
+ 
+ 
+ 
+ <!-- IF YOU NEED HELP FINDING ANYTHING... 
+        TO THE LEFT IN THE FILE EXPOLORER STRIP IN VS:
+        click the search icon or (Ctrl shift F)
+        type in the name of what you need to find 
+        e.g padding-right(for a property) or header__heading-covid--fixed(for an element)
+        
+        it will show you every place in vs code that a padding-right was used or that header covid exists
+        just click on whichever one  you need or click each one to look through to take you to the one you need
+        click the double pages above search icon to get out of search mode -->
+    
+
+
+    <!-- covid link needs 
+            hover effex (text-decoration underline)
+     -->
+    <header id="header__heading-covid--fixed">
+       
+        <h1 class="header-covid-heading"><a href="#">A brief statement from our CEO on (Covid-19)</a></h1>
+
+
+          <div id="primary-nav-eTutors-logo">
+                <a href="index.html"><img class="primary-nav-logo" src="https://svgshare.com/i/PKy.svg" alt="an image of e tutors logo brand" ></a>
+
+                
+                
+                
+                <!-- BUTTON volunteer-mobile button needs
+                        (mobile/ styles.css)
+                            nothing
+                         -->
+                <button class="volunteer-mobile">DONATE</button>
+                <!-- the above button is for mobile viewing only
+                    already done:
+                    displayed as none in media queries
+                    -->
+            </div> <!-- LOGO DIV END -->  
+
+    </header>
+
+    
+    
+    
+    
+    
+    
+    
+    <!-- nav primary  needs:
+        nothing...
+     -->
+    <nav id="nav__primary">
+      
+           
+           
+            <!-- LOGO div #primary-nav-eTutors-logo needs
+                nothing
+             -->
+           
+            
+            
+            <!--mobile links need
+                hover effex
+                color #32281c
+                
+                    
+                on the links   
+                    link text color #f0f0dd
+                
+                
+                    below, the list-items need
+                        ABOUT sub menu
+                            MISSION
+                            CONTACT
+                        hover effex needed on list items
+                     -->
+            
+            <ul class="primary-nav-flex-container">
+                <li class="primary-nav-list-item-flex arrow"><a href="#">About</a><i class="fas fa-caret-right arrow-icon"></i>
+                    <ul class="primary-nav-about-sub">
+                        <li class="primary-sub"><a href="https://google.com">Mission</a></li>
+                        <li class="primary-sub"><a href="#">Contact</a></li>
+                    </ul>
+                </li>
+                <li class="primary-nav-list-item-flex"><a href="#">Tutoring Services</a></a></li>
+                <li class="primary-nav-list-item-flex"><a href="#">Careers</a></a></li>
+                <li class="primary-nav-list-item-flex"><a href="#">Volunteer</a></li>
+                <li class="primary-nav-list-item-flex"><a href="#">Resources</a></li>
+                <button class="volunteer">DONATE</button>
+            </ul>
+
+        </nav>
+
+
+    <!-- Hero img div needs BACKGROUND IMAGE has 
+            css styles for height and width i think
+        needs
+            background image (Rachel to choose and add images)
+            heading statement inside
+          -->
+    <div class="img-resources-hero"><h2>REMOTE LEARNING RESOURCES</h2></div>
+
+
+    
+    
+    <!-- Resources section needs images/icons/styles
+        Rachel will add/fix this page- this is a placeholder for now -RR
+         -->
+
+
+      
+        
+    <main class="resources_section">
+
+            <div class="resources_main-wrapper">
+            
+            <h1 class="resources_head">Resources for Students and Families</h1>
+            
+            <div class="resources_icon">
+                <i class="fas fa-book-reader"></i>  
+            </div>
+
+            <div class="resources_main-text">   
+            
+            
+                <!-- <div class="main_sec-icon-container">
+                 
+                    <i class="fas fa-headset main-sec-icon"></i> -->
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ad blanditiis magnam modi officiis iusto impedit dolorum repudiandae quo autem ipsum aperiam, dolor qui, fuga voluptatibus harum, fugiat velit voluptatum?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita delectus omnis atque? Dolore, iusto eligendi quisquam animi, cum natus quas itaque asperiores saepe culpa commodi. Natus harum vero nam doloribus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, exercitationem ipsum. Est vel unde provident minima voluptate consequuntur pariatur animi veritatis a omnis voluptatum similique, quidem dolores facere libero officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae minima nostrum aspernatur et voluptatem eius at quia tempore, sint non dolore impedit in nobis praesentium voluptatum ab! Placeat, facilis expedita!</p>
+            </div> 
+            
+            <!-- Collapsible Resources Section, Styled in CSS uses JS -->
+            <div class="resources_accordian-content">   
+            <button type="button" class="collapsible">Tips for Remote Learning Success</button>
+            <div class="resources_content">
+            <p>
+                Even if a student is only taking remote courses temporarily it can be a big change from the way they are used to learning. Here are some simple tips from the eTutors to help you successfully navigate the remote learning environment. 
+            </p>
+            <p><h4>During Class Time</h4>
+                <ul>        
+            <li>Be present- don't multitask! Close unnecessary websites like email, messaging, and social media.</li>
+            <li>Be prepared with your reading and assignments in front of you. Have a notebook ready to take notes like you would in person. </li>
+            <li> Participate if you can- use chat messaging, discussion boards, or voice calls. Be sure to ask questions! Use those channels of communication or find out your teacher's office hours, email, and telephone number. </li>
+                </ul>
+            </p>
+                Make sure you are using the above points to keep an eye on deadlines. Actively manage your responsibilities to make sure your assignments are completed. Find out how to turn in assignments virtually- <b>make sure to read your syllabus instructions and ask your teacher! </b>
+            </p>
+            <p><h4>Create Space for Learning</h4></p>
+            <p>Find a suitable space for when you are in class so you can remain focused. An ideal space would be an area where you have control over your desk so that nobody can come and move your books or papers while you are away. Also the ideal learning area is quiet, minimize disruptions as much as possible! </p>
+            <p><h4>Make Time, Manage Your Time</h4></p>
+            <p><ul>Make a schedule for: 
+                <li> When you need to be online for class.</li>
+                <li>When you will do your assignments.</li>
+                <li>When you have quizzes or tests.</li>
+                <li>When you have meetings with the eTutors.</li> </ul></p>
+            <p>
+                Try to stick with a routine similar to the way you would when you attend school in person. Tell your family members and your eTutor so they can hold you accountable for this schedule. 
+            </p>
+            <p>Check Your Email or Class Messaging Board at Least Twice a Day</p>
+            <p>Begin each day by checking your school email account or class messaging boards. Write notes and add changes to your calendar. </p>
+            <p>Try to Work on Every Subject Every Day</p>
+            <p><ul><li>Practice your readings, homework, and other assignments for each class every day, even if it's just a small amount. This helps you keep track of your progress in every course! </li>
+                <li>Switching tasks instead of the same one for hours. Your brain focuses best on one task for about 45-60 minutes. Take breaks to stretch or have a healthy snack before going back to your work.</li>
+            </ul></p>
+            <p>Communication is Key!</p>
+            <p><b>It can be harder for teachers or your eTutors to notice the obstacles you are facing remotely. If you are having issues contact them immediately. Don't be afraid to ask questions or ask for help! </b></p>
+            </div>
+            <button type="button" class="collapsible">Software and Tools</button>
+            <div class="resources_content">
+                <ul>
+                    <li><a href="https://www.commonsense.org/education/top-picks/best-tools-for-virtual-and-distance-learning" target="_blank">Best Tools for Virtual Learning</a>- Mobile app and software picks for distance learning by Common Sense Media.
+                    </a></li>
+                    <li><a href="https://blog.buncee.com/supporting-remote-student-learning/" target="_blank">Buncee</a>- a remote learning tool for educators and tutors.</li>
+                    <li><a href="https://atguides.humboldt.edu/m/zoom/l/752185-how-do-students-use-zoom" target="_blank">How Do Students Use Zoom?</a>- a how to guide for students with helpful tips for learning in a Zoom classroom.</li>
+                    <li><a href="https://www.microsoft.com/en-us/education/products/teams" target="_blank">Microsoft Teams</a>- for students and teachers. </li>
+                    <li><a href="https://community.canvaslms.com/t5/Student-Guide/tkb-p/student#" target="_blank">Canvas for Students</a>- frequently asked questions for students that use Canvas.</li>
+                    <li><a href="https://www.internetmatters.org/parental-controls/" target="_blank">Parental Controls</a>- A guide for parents to changing the parental control settings on different devices.</li>
+                </ul>
+            </div>
+            <button type="button" class="collapsible">Self Directed Learning Courses</button>
+            <div class="resources_content">
+                <ul>
+                    <li><a href="https://google.com">Google</a></li>
+                    <li><a href="https://google.com">Google</a></li>
+                    <li><a href="https://google.com">Google</a></li>
+                    <li><a href="https://google.com">Google</a></li>
+                    <li><a href="https://google.com">Google</a></li>
+                </ul>
+              </div>
+            <button type="button" class="collapsible">Learning Games</button>
+            <div class="resources_content">
+                   <ul>
+                    <li><a href="https://google.com">Google</a></li>
+                    <li><a href="https://google.com">Google</a></li>
+                    <li><a href="https://google.com">Google</a></li>
+                    <li><a href="https://google.com">Google</a></li>
+                    <li><a href="https://google.com">Google</a></li>
+                </ul>
+              </div>
+              <button type="button" class="collapsible">Untitled</button>
+              <div class="resources_content">
+                  <ul>
+                      <li><a href="https://google.com">Google</a></li>
+                      <li><a href="https://google.com">Google</a></li>
+                      <li><a href="https://google.com">Google</a></li>
+                      <li><a href="https://google.com">Google</a></li>
+                      <li><a href="https://google.com">Google</a></li>
+                  </ul>
+                </div>
+              <button type="button" class="collapsible">Untitled</button>
+              <div class="resources_content">
+                  <ul>
+                      <li><a href="https://google.com">Google</a></li>
+                      <li><a href="https://google.com">Google</a></li>
+                      <li><a href="https://google.com">Google</a></li>
+                      <li><a href="https://google.com">Google</a></li>
+                      <li><a href="https://google.com">Google</a></li>
+                  </ul>
+                </div>
+              <button type="button" class="collapsible">Untitled</button>
+              <div class="resources_content">
+                  <ul>
+                      <li><a href="https://google.com">Google</a></li>
+                      <li><a href="https://google.com">Google</a></li>
+                      <li><a href="https://google.com">Google</a></li>
+                      <li><a href="https://google.com">Google</a></li>
+                      <li><a href="https://google.com">Google</a></li>
+                  </ul>
+                </div>
+              
+              
+            </div> <!--Collapse section closing-->
+            </div> <!--resources_main-wrapper closing-->
+    </main>
+    
+
+    
+    <!-- this footer div needs
+            bg color #262626 
+        -->
+    <footer id="footer__section">
+<!-- below is a commented out lighter logo for the scaled up footer version. I uploaded the svg files to svgur.com so we can use this with absolute url links(no need to place in an image folder). maybe we should do that for as many images and icons as we can just for the purposes of THIS project -->
+        
+        <div class="footer_logo-container">
+
+                <img class="footer_logo" src="https://svgshare.com/i/PKP.svg" alt="image of e tutors logo" >
+
+
+                <div class="footer_logo-address-container">
+                <p class="footer_logo-address">369 Frequency Lane</p>
+                <p class="footer_logo-address">Roswell, NM, 88203</p>
+                
+                </div> <!-- logo paragragh container closing -->
+            
+        </div> <!-- footer logo container closing -->
+    
+
+        
+        
+        
+        
+        <!-- this heading needs
+                 -->
+        <h2 class="footer_quicklinks-heading">QUICK LINKS</h2>
+
+        
+        <!-- if you don't already know for mobile first css using flex: 0 1 50%; on the actual flex items works perfect to keep a two column three line format on the footer links
+        so, 
+        
+        .footer-quicklinks-flex-container .quick-links-flex-item {
+            flex: 0 1 50%;
+            the container needs
+                flex and flex styling
+        }  -->
+        <ul class="footer-quicklinks-flex-container">
+            <li class="quick-links-flex-item"><a href="#">ABOUT US</a></li>
+            <li class="quick-links-flex-item"><a href="#">CAREERS</a></li>
+            <li class="quick-links-flex-item"><a href="#">HISTORY</a></li>
+            <li class="quick-links-flex-item"><a href="#">LEADERSHIP</a></li>
+            <li class="quick-links-flex-item"><a href="#">CONTACT US</a></li>
+            <li class="quick-links-flex-item"><a href="#">VOLUNTEER</a></li>
+            <li class="quick-links-flex-item"><a href="#">TERMS/CONDITIONS</a></li>
+            <li class="quick-links-flex-item"><a href="#"></a></li>
+        </ul>
+
+        
+        
+        <!-- follow us heading needs
+                styling 
+            -->
+        <h2 class="footer-followUs-heading">FOLLOW US</h2>
+
+        
+        <!--applied border and sizing styles for this social icons div so you guys can see that it's there but that's it 
+            needs
+                icons
+                styling
+        -->
+        <div class="footer_social-media">
+            <a href="#"><i class="fab fa-twitter soc-icons"></i></a>
+            <a href="#"><i class="fab fa-instagram-square soc-icons"></i></a>
+            <a href="#"><i class="fab fa-facebook-f soc-icons"></i></a>
+            <a href="#"><i class="fab fa-linkedin soc-icons"></i></a>
+            <!-- need social media icons and styling here -->
+
+        </div>
+
+       
+        <!-- haven't done any styles on this section, needs to be put in css 
+        -->
+        <div class="footer_copyright-container">
+            <p class="footer_copyright-message">&#169; 2020 eTUTORS. All Rights Reserved.</p>
+        </div>
+
+
+    </footer>
+
+    <script src="script/script.js"></script>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+</body>
+</html>
