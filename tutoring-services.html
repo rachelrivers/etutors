@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+   
+   
+   
+
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    
+    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+
+
+       <link rel="stylesheet" href="media-queries/media-queries.css">
+
+      
+
+
+     
+    
+</head>
+<body>
+
+
+<!-- PLEASE REFER TO MOCKUP TO HELP WITH SITE BUILD AND STYLING -->
+
+<!-- starting off with MOBILE FIRST layout in mind
+        styles.css is the mobile layout -->
+
+<!-- let me know if my naming conventions make sense to you or not -->
+
+<!-- MEDIA QUERIES 
+    added media queries for basic transition to large screen
+        
+    FONTS
+    open sans fonts are embedded they just need to be applied wherever needed.
+    need bloder font for hero image title
+ -->
+ 
+ 
+ 
+ <!-- IF YOU NEED HELP FINDING ANYTHING... 
+        TO THE LEFT IN THE FILE EXPOLORER STRIP IN VS:
+        click the search icon or (Ctrl shift F)
+        type in the name of what you need to find 
+        e.g padding-right(for a property) or header__heading-covid--fixed(for an element)
+        
+        it will show you every place in vs code that a padding-right was used or that header covid exists
+        just click on whichever one  you need or click each one to look through to take you to the one you need
+        click the double pages above search icon to get out of search mode -->
+    
+
+
+    <!-- covid link needs 
+            hover effex (text-decoration underline)
+     -->
+    <header id="header__heading-covid--fixed">
+       
+        <h1 class="header-covid-heading"><a href="#">A brief statement from our CEO on (Covid-19)</a></h1>
+
+
+          <div id="primary-nav-eTutors-logo">
+                <a href="index.html"><img class="primary-nav-logo" src="https://svgshare.com/i/PKy.svg" alt="an image of e tutors logo brand" ></a>
+
+                
+                
+                
+                <!-- BUTTON volunteer-mobile button needs
+                        (mobile/ styles.css)
+                            nothing
+                         -->
+                <button class="volunteer-mobile">DONATE</button>
+                <!-- the above button is for mobile viewing only
+                    already done:
+                    displayed as none in media queries
+                    -->
+            </div> <!-- LOGO DIV END -->  
+
+    </header>
+
+    
+    
+    
+    
+    
+    
+    
+    <!-- nav primary  needs:
+        nothing...
+     -->
+    <nav id="nav__primary">
+      
+           
+           
+            <!-- LOGO div #primary-nav-eTutors-logo needs
+                nothing
+             -->
+           
+            
+            
+            <!--mobile links need
+                hover effex
+                color #32281c
+                
+                    
+                on the links   
+                    link text color #f0f0dd
+                
+                
+                    below, the list-items need
+                        ABOUT sub menu
+                            MISSION
+                            CONTACT
+                        hover effex needed on list items
+                     -->
+            
+            <ul class="primary-nav-flex-container">
+                <li class="primary-nav-list-item-flex arrow"><a href="#">About</a><i class="fas fa-caret-right arrow-icon"></i>
+                    <ul class="primary-nav-about-sub">
+                        <li class="primary-sub"><a href="https://google.com">Mission</a></li>
+                        <li class="primary-sub"><a href="#">Contact</a></li>
+                    </ul>
+                </li>
+                <li class="primary-nav-list-item-flex"><a href="#">Tutoring Services</a></a></li>
+                <li class="primary-nav-list-item-flex"><a href="#">Careers</a></a></li>
+                <li class="primary-nav-list-item-flex"><a href="#">Volunteer</a></li>
+                <li class="primary-nav-list-item-flex"><a href="#">Resources</a></li>
+                <button class="volunteer">DONATE</button>
+            </ul>
+
+        </nav>
+
+
+    <!-- Hero img div needs BACKGROUND IMAGE has 
+            css styles for height and width i think
+        needs
+            background image (Rachel to choose and add images)
+            heading statement inside
+          -->
+    <div class="imgHome-hero-contact-jg"><h2>WE ARE AVAILABLE 24/7 TO ANSWER YOUR QUESTIONS! </h2></div>
+
+
+    
+    
+    <!-- main section has 
+            basic css styles for positioning and height
+            some flexbox applied
+        needs
+            a lot 
+         -->
+
+
+      
+        
+    <main class="main__section-contact-jg">
+
+        
+        <!-- REMOTE TUTORING h2 given a class for future styling
+                needs 
+                    centering
+                    font-styles
+                    further padding
+                 -->
+        <h2 class="main_page-section-heading-contact-jg">HOURS & LOCATIONS </h2>
+        
+         
+        
+        <!-- below paragraph main_para-home
+                needs 
+                    bg color 
+                    font styles and padding
+                    centered icon above it (Rachel) 
+                    paragraph needs real verbage with styling
+                
+                    remember to use the search bar if you need to go right to something
+                -->
+             <div class="main_sec-icon-container">
+                 <i class="fas fa-map-marked main-sec-icon"></i>
+            
+            </div>
+                <hr class="contact-jg">
+        <div class="main_para-contact-jg">
+
+            <img src="https://i.ibb.co/RvskhDp/e-Tutors-contact-woman-image.png" alt="" class="contact-woman-jg">
+            <h3 class="main-para-contact-heading-jg">Corporate Headquarters</h3>
+            <p class="main_home-par-contact-jg">
+                p. 222.369.1111</p>
+            <p class="main_home-par-contact-jg">
+                369 Frequency Lane</p>
+            <p class="main_home-par-contact-jg">
+                Roswell, NM 88203</p>
+
+
+                <h3 class="main-para-contact-heading-jg">Hours of Operation</h3>
+
+
+                <p class="main_home-par-contact-jg">
+                Mon.- Fri. 8am-4pm</p>
+            <p class="main_home-par-contact-jg">
+                Sat-Sun 10am-2pm</p>
+        </div>
+
+        <hr class="main_para-hr-bottom-contact-jg">
+
+   
+
+
+        <!-- icon (created in illustration program and dumped in svg online hosting site to create absolute link for it) below needs
+                resizing
+                centering  -->
+        <!-- <img class="main_networkCircles-icon" src="https://svgshare.com/i/PEN.svg" alt="an icon"> -->
+        
+        <!-- heading below needs
+                padding
+                font-styles
+            -->
+        
+        
+      
+      
+        
+        <!-- closing flex container div -->
+</div><!-- closing background paper -->
+
+    </main>
+    
+
+    
+    <!-- this footer div needs
+            bg color #262626 
+        -->
+    <footer id="footer__section">
+<!-- below is a commented out lighter logo for the scaled up footer version. I uploaded the svg files to svgur.com so we can use this with absolute url links(no need to place in an image folder). maybe we should do that for as many images and icons as we can just for the purposes of THIS project -->
+        
+        <div class="footer_logo-container">
+
+                <img class="footer_logo" src="https://svgshare.com/i/PKP.svg" alt="image of e tutors logo" >
+
+
+                <div class="footer_logo-address-container">
+                <p class="footer_logo-address">369 Frequency Lane</p>
+                <p class="footer_logo-address">Roswell, NM, 88203</p>
+                
+                </div> <!-- logo paragragh container closing -->
+            
+        </div> <!-- footer logo container closing -->
+    
+
+        
+        
+        
+        
+        <!-- this heading needs
+                 -->
+        <h2 class="footer_quicklinks-heading">QUICK LINKS</h2>
+
+        
+        <!-- if you don't already know for mobile first css using flex: 0 1 50%; on the actual flex items works perfect to keep a two column three line format on the footer links
+        so, 
+        
+        .footer-quicklinks-flex-container .quick-links-flex-item {
+            flex: 0 1 50%;
+            the container needs
+                flex and flex styling
+        }  -->
+        <ul class="footer-quicklinks-flex-container">
+            <li class="quick-links-flex-item"><a href="#">ABOUT US</a></li>
+            <li class="quick-links-flex-item"><a href="#">CAREERS</a></li>
+            <li class="quick-links-flex-item"><a href="#">HISTORY</a></li>
+            <li class="quick-links-flex-item"><a href="#">LEADERSHIP</a></li>
+            <li class="quick-links-flex-item"><a href="#">CONTACT US</a></li>
+            <li class="quick-links-flex-item"><a href="#">VOLUNTEER</a></li>
+            <li class="quick-links-flex-item"><a href="#">TERMS/CONDITIONS</a></li>
+            <li class="quick-links-flex-item"><a href="#"></a></li>
+        </ul>
+
+        
+        
+        <!-- follow us heading needs
+                styling 
+            -->
+        <h2 class="footer-followUs-heading">FOLLOW US</h2>
+
+        
+        <!--applied border and sizing styles for this social icons div so you guys can see that it's there but that's it 
+            needs
+                icons
+                styling
+        -->
+        <div class="footer_social-media">
+            <a href="#"><i class="fab fa-twitter soc-icons"></i></a>
+            <a href="#"><i class="fab fa-instagram-square soc-icons"></i></a>
+            <a href="#"><i class="fab fa-facebook-f soc-icons"></i></a>
+            <a href="#"><i class="fab fa-linkedin soc-icons"></i></a>
+            <!-- need social media icons and styling here -->
+
+        </div>
+
+       
+        <!-- haven't done any styles on this section, needs to be put in css 
+        -->
+        <div class="footer_copyright-container">
+            <p class="footer_copyright-message">&#169; 2020 eTUTORS. All Rights Reserved.</p>
+        </div>
+
+
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

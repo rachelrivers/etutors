@@ -322,8 +322,8 @@ hr.main_para-hr-bottom {
     display: block;
     position:absolute;
     z-index: 996;
-    top: 122rem;
-    height: 19rem;
+    top: 126rem;
+    height: 20rem;
     background: none;
     margin-left: 0;
     transition: all .500s ease-in-out;
@@ -676,7 +676,7 @@ div.imgHome-hero {
     display: block;
     position:absolute;
     z-index: 996;
-    top: 114rem;
+    top: 118rem;
     height: 25rem;
     margin-left: 30%;
 }
@@ -1035,7 +1035,7 @@ div.imgHome-hero {
     display: block;
     position:absolute;
     z-index: 996;
-    top: 101rem;
+    top: 108rem;
     height: 30rem;
     margin-left: 40%;
 }

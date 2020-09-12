@@ -510,6 +510,7 @@ div.eTutors-gameTitle-container {
   }
   
   .main_flex-image-text-wrapper h3 {
+      padding-bottom: 1.5rem;
     text-align:center;
   }
 
@@ -530,7 +531,7 @@ div.eTutors-gameTitle-container {
 
 button.start-game-jg {
     padding: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     margin-top: 1rem;
     border-radius: 1rem;
      background: #353a40;
