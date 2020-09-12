@@ -327,6 +327,11 @@ ul.primary-nav-flex-container {
     text-align: center;
   }
   
+  h3.main_page-section-heading {
+    font-size: 1.6rem;
+    text-align: center;
+    padding-bottom:4rem;
+  }
 
 
   .main_page-section-heading-contact-jg {
@@ -495,7 +500,7 @@ div.eTutors-gameTitle-container {
   
   .main_flex-image-text-wrapper p {
      
-      width: 200px;
+      width: 215px;
       font-size:1.5rem;
       margin-left: auto;
       margin-right: auto;
@@ -504,7 +509,10 @@ div.eTutors-gameTitle-container {
       color: #262626;
   }
   
-  
+  .main_flex-image-text-wrapper h3 {
+    text-align:center;
+  }
+
   
   .main_img-tutor-network-item {
       /* margin: 1rem; */
@@ -655,3 +663,147 @@ button.start-game-jg:hover {
       font-size: 1.4rem;
       color: #f0f0dd;
   }
+
+
+  /*---------------------------Resources Page------------*/
+
+  /*note to self to fix gap here -RR*/
+  div.img-resources-hero {
+    position:relative;
+    top: 24.5rem;
+    width: 100%;
+    height: 35rem;
+    background-image: url("https://images.pexels.com/photos/3825569/pexels-photo-3825569.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-color: gray;
+    background-size: cover;
+    background-repeat: "no-repeat";
+}
+
+.img-resources-hero h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.4rem;
+    color: #f0f0dd;
+    text-align: center;
+    padding-top: 18rem;
+    letter-spacing: .5rem;
+    transition: .800s ease-in-out;
+}
+
+.resources_main-wrapper {  
+  padding-top: 30rem;
+  padding-bottom: 10rem;
+  margin:40px;
+}
+
+.resources_head {
+    display:flex;
+    justify-content:center;
+    padding-bottom: 10px;
+}
+
+
+.eureka-image-wrapper {
+    display:flex; 
+    width: 100%;
+}
+
+.resources_main-text {
+    font-size:15px;
+    display:flex; 
+    justify-content:end;
+}
+
+
+.resources_accordian-content {
+    padding-top: 40px;
+    padding-bottom:10px;
+}
+
+/*Style the accordian content*/ 
+
+.collapsible {
+    padding-top: 10rem;
+    background-color:#f3f3f3; 
+    color:black;
+    cursor: pointer;
+    padding:18px;
+    width:100%;
+    border:none;
+    text-align:left;
+    outline: none;
+    font-size: 15px;
+}
+
+/*active style added with JS, add background color */ 
+.active, .collapsible:hover {
+    background-color: #f5f0e6;
+  }
+
+/*the styles for the collapsible content */
+
+.resources_content {
+    /* line-height: 2;     */
+    padding:10px 18px;
+    margin:0;
+    display:none;
+    overflow:hidden;
+    background-color: #f3f3f3;
+    font-size:15px; 
+    text-decoration:none;
+}
+
+/* .resources_content ul {
+    text-decoration:none;
+    list-style: none;
+} */
+
+.resources_icon {
+    z-index: 996;
+    top:5.5rem;
+    /* margin-left: 50%;
+    transform: translatex(-50%);
+    border: .01px solid rgb(116, 116, 116);
+    background: rgb(207, 207, 207);
+    padding: 1.5rem;
+    border-radius: 50rem; */
+    font-size: 3rem;
+    color: rgb(75, 75, 75);
+}
+
+/*----------------------------------------MISSION starts here-----------*/
+
+/*-------------Mission Starts here--------------------*/
+
+.main__section-contact-jg {
+    padding-top: 18rem;
+    padding-bottom: 8rem;
+}
+
+.imgMission-hero-jg {
+position: relative;
+z-index: 995;
+top: 10.5rem;
+width: 100%;
+height: 45rem;
+background-image: url("https://images.pexels.com/photos/4145038/pexels-photo-4145038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+background-color: gray;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+transition: .500s ease-in-out;
+}
+
+.imgMission-hero-jg h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.4rem;
+    color: #f0f0dd;
+    text-align: center;
+    padding-top: 18rem;
+    letter-spacing: .5rem;
+    transition: .800s ease-in-out;
+}
+
+.main_mission-wrapper{
+    padding-top: 18rem;
+    padding-bottom: 8rem;
+}
