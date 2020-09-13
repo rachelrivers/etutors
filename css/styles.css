@@ -283,10 +283,10 @@ ul.primary-nav-flex-container {
     .imgHome-hero-contact-jg {
           position: relative;
     z-index: 995;
-    top: 10.5rem;
+    top: 22.5rem;
     width: 100%;
     height: 45rem;
-    background-image: url("https://media.istockphoto.com/photos/human-hand-drawing-contact-us-on-blackboard-picture-id984585688?k=6&m=984585688&s=612x612&w=0&h=q6Jszkpz5ay1ub70I8wxUuL99_pJe-OyhFdbi7a_4Yw=");
+    background-image: url("https://lh3.googleusercontent.com/proxy/sY-fh_yQvkkawiqnRftyBywmssCwAfrGFABSVhvHuNTpbSmIdu5gzoj-stAq6Tm7U05_5Uh7S6oKch7e4cfrgpNg7p3jGZ95NTBi8COg98hMc65zxopMBWV27A");
     background-color: gray;
       background-position: center;
       background-size: cover;
@@ -298,9 +298,37 @@ ul.primary-nav-flex-container {
   .imgHome-hero-contact-jg h2 {
       font-family: 'Anton', sans-serif;
       font-size: 2.4rem;
-      color: #b6b6b6;
+      color: #262626;
       font-weight: 900;
-      padding: 32rem 4rem 0 3rem;
+      padding: 34rem 4rem 0 3rem;
+      letter-spacing: .5rem;
+      text-align: left;
+      transition: .800s ease-in-out;
+  }
+
+
+
+  .imgHome-hero-tutoring-services-jg {
+          position: relative;
+    z-index: 995;
+    top: 22.5rem;
+    width: 100%;
+    height: 45rem;
+    background-image: url("https://toledoparent.com/wp-content/uploads/2020/04/photo-of-woman-teaching-his-son-4145354.jpg");
+    background-color: gray;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: .500s ease-in-out;
+  }
+
+
+  .imgHome-hero-tutoring-services-jg h2 {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.4rem;
+      color: #262626;
+      font-weight: 900;
+      padding: 34rem 4rem 0 3rem;
       letter-spacing: .5rem;
       text-align: left;
       transition: .800s ease-in-out;
@@ -316,7 +344,13 @@ ul.primary-nav-flex-container {
 
 
   .main__section-contact-jg {
-      padding-top: 18rem;
+      padding-top: 10rem;
+      padding-bottom: 8rem;
+  }
+
+
+  .main__section-tutoring-services-jg {
+      padding-top: 15rem;
       padding-bottom: 8rem;
   }
   
@@ -335,9 +369,26 @@ ul.primary-nav-flex-container {
 
 
   .main_page-section-heading-contact-jg {
-      font-size: 2.4rem;
-    /* padding: 4rem 2rem 2rem 2rem; */
+      font-size: 2.6rem;
+    padding: 8rem 2rem .1rem 2rem;
     text-align: center;
+  }
+
+
+  .contactPage-h3-jg {
+      font-size: 1.6rem;
+      text-align: center;
+      font-weight: normal;
+      padding-top: 0;
+      margin-top: 0;
+  }
+
+
+  .tutoring-services-h3 {
+      font-size: 1.6rem;
+      text-align: center;
+      color: #591013;
+      letter-spacing: .2rem;
   }
 
   
@@ -360,12 +411,32 @@ ul.primary-nav-flex-container {
   }
 
 
+  
+
   hr.main_para-hr-bottom-contact-jg {
       top: .5rem;
       width: 75%;
       margin-left: auto;
       margin-right: auto;
   }
+
+
+  .tutoring-services-image-flex-container {
+      display: flex;
+      margin-left: 50%;
+      transform: translatex(-50%);
+      flex-flow: row wrap;
+      justify-content: center;
+      position: relative;
+      top:-4rem;
+      width: 100%;
+  }
+
+.tutoring-image-flex-item {
+    height: 20rem;
+    margin: 3rem;
+    /* background: white; */
+}
 
 
   .contact-woman-jg {
@@ -427,8 +498,87 @@ ul.primary-nav-flex-container {
   }
 
 
+  .contact-map-jg {
+      display: none;
+  }
+
+
+  
+
+  .contactForm-h2-jg {
+      padding-top: 5rem;
+      padding-bottom: 1rem;
+      font-weight: 900;
+  }
+
+  .contact-how-can-we-help-para-jg {
+      font-size: 1.2rem;
+      margin-top: 0;
+      padding-top: 0;
+  }
+
+
+  .contact-form-container-jg {
+      width: 75%;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+
+  form.contact-form-jg {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+
+  .contact-input-jg {
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: .8rem;
+
+  }
+
+
+  .input-subject-jg {
+      width: 100%;
+      margin-bottom: .8rem;
+  }
+
+  textarea#contact-messageInput-jg {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1rem;
+         width:100%;
+      resize: vertical;
+      max-height: 300px;
+      min-height:100px;
+  }
+
+
+   input.contact-submit-jg {
+   margin-top: 1.2rem;
+   padding: 1.2rem 2rem;
+    border: none;
+   background: rgb(56, 68, 243);
+   border-radius: .5rem;
+   color: #dfdfdf;
+   font-weight: bold;
+   font-size: 1.6rem;
+   text-align: center;
+   width: 100%;
+   letter-spacing: .1rem;
+  }
+
+
+   input.contact-submit-jg:hover {
+    background: rgb(120, 128, 238);
+    color: white;
+    transition: .200s ease-in-out;
+   
+  }
  
- .main-sec-icon {
+ 
+  .main-sec-icon {
       position: relative;
       z-index: 996;
       top:5.5rem;
