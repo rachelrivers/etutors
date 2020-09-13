@@ -384,12 +384,6 @@ ul.primary-nav-flex-container {
   }
 
 
-  .tutoring-services-h3 {
-      font-size: 1.6rem;
-      text-align: center;
-      color: #591013;
-      letter-spacing: .2rem;
-  }
 
   
   hr {
@@ -421,21 +415,65 @@ ul.primary-nav-flex-container {
   }
 
 
+
+  
+  .tutoring-services-h3 {
+      font-size: 1.6rem;
+      text-align: center;
+      color: #591013;
+      letter-spacing: .2rem;
+  }
+
+
+
+  .tutoring-services-text-wrapper {
+    margin:2rem 0;
+  }
+
   .tutoring-services-image-flex-container {
       display: flex;
-      margin-left: 50%;
-      transform: translatex(-50%);
+      /* margin-left: 50%;
+      transform: translatex(-50%); */
       flex-flow: row wrap;
-      justify-content: center;
+      justify-content: space-around;
       position: relative;
-      top:-4rem;
+      top: 0rem;
       width: 100%;
+
   }
 
 .tutoring-image-flex-item {
-    height: 20rem;
+    height: 8rem;
+    width: 8.5rem;
+    border-radius: .5rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    
+}
+
+
+
+/* .tutoring-image-flex-item:hover {
+    height: 8rem;
+    width: 8rem;
     margin: 3rem;
-    /* background: white; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    border-radius: .5rem;
+} */
+
+
+.tutoring-services-flexed-h3 {
+    color: rgb(43, 100, 185);
+    margin: 1rem 3rem;
+    border-bottom: .5rem solid #2f3f4f;
+}
+
+
+.tutoring-services-para {
+    margin: 0 3rem;
+    font-size: 1.5rem;
 }
 
 

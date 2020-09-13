@@ -117,7 +117,7 @@ ul.primary-nav-flex-container li a:visited {
 
 ul.primary-nav-flex-container li a:hover {
     color: gray;
-    transition: .100s ease-in-out;
+    transition: .300s ease-in-out;
     
 }
 
@@ -416,6 +416,14 @@ div.background-paper {
       padding-bottom: 2.5rem;
       font-size: 1.8rem;
       color: #000000;
+  }
+
+
+
+
+   .tutoring-services-text-wrapper {
+    width: 27rem;
+    margin:2rem 0;
   }
 
 
@@ -771,6 +779,14 @@ div.background-paper {
 
    h3.eTutots-game-subTitle-jg {
     font-size: 2rem;
+  }
+
+
+
+
+   .tutoring-services-text-wrapper {
+    width: 40rem;
+    margin:2rem 0;
   }
 
 .footer_logo-container {
