@@ -374,8 +374,8 @@ hr.main_para-hr-bottom {
     display: block;
     position:absolute;
     z-index: 996;
-    top: 126rem;
-    height: 20rem;
+    bottom: 0;
+    height: 19rem;
     background: none;
     margin-left: 0;
     transition: all .500s ease-in-out;
@@ -383,19 +383,31 @@ hr.main_para-hr-bottom {
 
 
 .main_images-flex-container {
-    border: none;
+     border: none;
+    background: #eee;
+    border-radius: 1rem;
+    padding-top: 4rem;
+}
+
+
+img.home-brain-jg {
+    display: block;
+    margin-left: 50%;
+    transform: translatex(-50%);
+    height: 10rem;
 }
 
 
 div.background-paper {
     width: 85%;
     height:90%;
-    background: #eee;
+    background: none;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15rem;
+    margin-top: 0rem;
     padding-top: 3rem;
     border-radius: 2rem;
+    border: none;
   }
 
 
@@ -404,7 +416,7 @@ div.background-paper {
     display: block;
      width:100%;
      margin-top: 0;
-     padding-top: 0;
+     padding-top: 3rem;
   }
   
 
@@ -417,8 +429,10 @@ div.background-paper {
   h3.eTutots-game-subTitle-jg {
       text-align: center;
       padding-bottom: 2.5rem;
+      padding-top: 1rem;
       font-size: 1.8rem;
       color: #000000;
+      font-weight: normal;
   }
 
 
@@ -427,6 +441,7 @@ div.background-paper {
    .tutoring-services-text-wrapper {
     width: 27rem;
     margin:2rem 0;
+    transition: all .200s ease-in-out;
   }
 
 
@@ -758,18 +773,19 @@ div.imgHome-hero {
 
 .main_images-flex-container {
     border: none;
+    background: #eee;
+    border-radius: 1rem;
 }
 
 
 div.background-paper {
     width: 85%;
     height:90%;
-    background: #eee;
+    background: none;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 18rem;
+    margin-top: 0;
     padding-top: 6rem;
-    border-radius: 2rem;
   }
 
 
@@ -805,6 +821,7 @@ div.background-paper {
    .tutoring-services-text-wrapper {
     width: 40rem;
     margin:2rem 0;
+    /* transition: all .100s ease-in-out; */
   }
 
 .footer_logo-container {
@@ -1131,7 +1148,7 @@ div.imgHome-hero {
     display: block;
     position:absolute;
     z-index: 996;
-    top: 108rem;
+    top: 98rem;
     height: 30rem;
     margin-left: 40%;
 }
@@ -1139,6 +1156,8 @@ div.imgHome-hero {
 
 .main_images-flex-container {
     border: none;
+    background: #eee;
+    border-radius: 1rem;
 }
 
 
@@ -1146,12 +1165,11 @@ div.imgHome-hero {
 div.background-paper {
     width: 85%;
     height:90%;
-    background: #eee;
+    background: none;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20rem;
+    margin-top: 0;
     padding-top: 3rem;
-    border-radius: 2rem;
   }
 
 
@@ -1183,8 +1201,9 @@ div.background-paper {
 
 
    .tutoring-services-text-wrapper {
-    width: 51rem;
+    width: 50.3rem;
     margin:2rem 0;
+    transition: all .200s ease-in-out;
   }
 
 

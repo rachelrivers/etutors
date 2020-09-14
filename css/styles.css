@@ -666,6 +666,12 @@ button.find-your-tutor-jg:hover {
   }
 
 
+
+
+  img.home-brain-jg {
+     display: none;
+  }
+
   
 div.background-paper {
     width: 90%;
@@ -692,7 +698,7 @@ div.background-paper {
 
 
 div.eTutors-gameTitle-container {
-      border-bottom: 1px solid rgb(196, 196, 196);
+     
 }
 
   
@@ -709,8 +715,12 @@ div.eTutors-gameTitle-container {
   h3.eTutots-game-subTitle-jg {
       text-align: center;
       padding-bottom: 2.5rem;
+      padding-top: 2rem;
       font-size: 1.8rem;
+      padding-right: 1rem;
+      padding-left: 1rem;
       color: #591013;
+      font-weight: normal;
   }
   
   .main_images-flex-container {
@@ -764,7 +774,7 @@ button.start-game-jg {
 
 
 button.start-game-jg:hover {
-    background: grey;
+    background: #591013;
     transition: .300s ease-in-out;
     color: white;
 }
