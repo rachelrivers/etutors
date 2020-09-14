@@ -286,7 +286,7 @@ ul.primary-nav-flex-container {
     top: 22.5rem;
     width: 100%;
     height: 45rem;
-    background-image: url("https://lh3.googleusercontent.com/proxy/sY-fh_yQvkkawiqnRftyBywmssCwAfrGFABSVhvHuNTpbSmIdu5gzoj-stAq6Tm7U05_5Uh7S6oKch7e4cfrgpNg7p3jGZ95NTBi8COg98hMc65zxopMBWV27A");
+    background-image: url("https://lh3.googleusercontent.com/proxy/8D3WQ4XKwt21QKTnc2yDzeOkuYswV4Yk2xWaPKYOLhmkUTbOHZyhjtwfP6EsSygRAlBgaufIVPe0I-4wdwNAf3rPU7R_hz-Oh5bEqV7hfcKFXXIDh3JkNJpxDA");
     background-color: gray;
       background-position: center;
       background-size: cover;
@@ -309,12 +309,12 @@ ul.primary-nav-flex-container {
 
 
   .imgHome-hero-tutoring-services-jg {
-          position: relative;
+    position: relative;
     z-index: 995;
     top: 22.5rem;
     width: 100%;
     height: 45rem;
-    background-image: url("https://toledoparent.com/wp-content/uploads/2020/04/photo-of-woman-teaching-his-son-4145354.jpg");
+    background-image: url("https://images.pexels.com/photos/4261789/pexels-photo-4261789.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
     background-color: gray;
       background-position: center;
       background-size: cover;
@@ -324,13 +324,14 @@ ul.primary-nav-flex-container {
 
 
   .imgHome-hero-tutoring-services-jg h2 {
-      font-family: 'Anton', sans-serif;
+       font-family: 'Anton', sans-serif;
       font-size: 2.4rem;
       color: #262626;
       font-weight: 900;
-      padding: 34rem 4rem 0 3rem;
-      letter-spacing: .5rem;
-      text-align: left;
+      background: rgba(255, 255, 255, 0.39);
+      padding: 4rem 4rem 2rem 4rem;
+      letter-spacing: .1rem;
+      text-align: center;
       transition: .800s ease-in-out;
   }
   
@@ -437,7 +438,7 @@ ul.primary-nav-flex-container {
       flex-flow: row wrap;
       justify-content: space-around;
       position: relative;
-      top: 0rem;
+      top: 2rem;
       width: 100%;
 
   }
@@ -452,18 +453,6 @@ ul.primary-nav-flex-container {
 }
 
 
-
-/* .tutoring-image-flex-item:hover {
-    height: 8rem;
-    width: 8rem;
-    margin: 3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    border-radius: .5rem;
-} */
-
-
 .tutoring-services-flexed-h3 {
     color: rgb(43, 100, 185);
     margin: 1rem 3rem;
@@ -476,6 +465,52 @@ ul.primary-nav-flex-container {
     font-size: 1.5rem;
 }
 
+
+button.find-your-tutor-jg {
+    padding: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+     background: #591013;
+     color: white;
+     border: .1rem solid white;
+     font-weight: bold;
+}
+
+
+
+button.find-your-tutor-jg a {
+    color: white;
+    text-decoration: none;
+}
+
+
+button.find-your-tutor-jg:hover {
+    color: white;
+    text-decoration: none;
+    background: #262626;
+    transition: .350s ease-in-out;
+}
+
+
+.skew-container{
+    background: #eee;
+    height: 20rem;
+}
+.tutoring-services-sponsers-container {
+  position: relative;
+  z-index: -1;
+  top:-10rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    background: #eee;
+    height: 25rem;
+    transform: skewy(-6deg);
+    transform-origin: top left;
+}
 
   .contact-woman-jg {
     display: none;
