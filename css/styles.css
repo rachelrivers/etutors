@@ -675,27 +675,24 @@ div.img-resources-hero {
 }
 
 /*----------------------------------------MISSION starts here-----------*/
-
-.main__section-contact-jg {
-  padding-top: 18rem;
+.main__section-contact-rr{
+  padding-top: 10rem;
   padding-bottom: 8rem;
 }
 
-.imgMission-hero-jg {
+.imgMission-hero-rr {
   position: relative;
-  z-index: 995;
   top: 10.5rem;
   width: 100%;
-  height: 45rem;
-  background-image: url("https://images.pexels.com/photos/4145038/pexels-photo-4145038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 35rem;
+  background-image: url("https://images.pexels.com/photos/4143793/pexels-photo-4143793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-color: gray;
-  background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  transition: 0.5s ease-in-out;
+  background-repeat: "no-repeat";
+}
 }
 
-.imgMission-hero-jg h2 {
+.imgMission-hero-rr h2 {
   font-family: "Anton", sans-serif;
   font-size: 2.4rem;
   color: #f0f0dd;
@@ -706,6 +703,38 @@ div.img-resources-hero {
 }
 
 .main_mission-wrapper {
-  padding-top: 18rem;
+  padding-top: 13rem;
   padding-bottom: 8rem;
+  margin: 
+}
+
+.mission_icon {
+  position: relative;
+  z-index: 996;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  border: 0.01px solid rgb(116, 116, 116);
+  background: rgb(207, 207, 207);
+  padding: 1.5rem;
+  border-radius: 50rem;
+  font-size: 3rem;
+  color: rgb(75, 75, 75);
+}
+
+.mission_main-para {
+  margin:1.2rem;
+  background: #f3f3f3;
+  padding: 3rem 2rem 3rem 2rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.mission_main-para p {
+  font-size: 1.6rem;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.mission_main-para ul {
+  font-size: 1.6rem;
+  padding: 0 2rem 2rem 2rem;
 }
