@@ -727,6 +727,7 @@ div.eTutors-gameTitle-container {
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
+
   }
   
   
@@ -794,6 +795,16 @@ button.start-game-jg:hover {
       height: 5rem;
       display: none;
   
+  }
+
+
+  .skew-home-new-jg {
+      background: grey;
+      height: 25rem;
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      top: 111.5rem;
   }
   
   

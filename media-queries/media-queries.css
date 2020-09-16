@@ -383,10 +383,11 @@ hr.main_para-hr-bottom {
 
 
 .main_images-flex-container {
-     border: none;
+     border: 3px solid #d6d6d6;
     background: #eee;
     border-radius: 1rem;
     padding-top: 4rem;
+    margin-top: -1rem;
 }
 
 
@@ -772,9 +773,10 @@ div.imgHome-hero {
 
 
 .main_images-flex-container {
-    border: none;
+    border: 3px solid #d6d6d6;
     background: #eee;
     border-radius: 1rem;
+     margin-top: -1.5rem
 }
 
 
@@ -1155,9 +1157,10 @@ div.imgHome-hero {
 
 
 .main_images-flex-container {
-    border: none;
+    border: 3px solid #d6d6d6;
     background: #eee;
     border-radius: 1rem;
+     margin-top: -2rem
 }
 
 
