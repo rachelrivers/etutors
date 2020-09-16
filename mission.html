@@ -7,8 +7,6 @@
 
     <link rel="stylesheet" href="css/styles.css">
    
-   
-   
 
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
@@ -145,7 +143,7 @@
             background image
             heading statement inside
           -->
-    <div class="imgMission-hero-jg"><h2>VISION AND MISSION</h2></div>
+    <div class="imgMission-hero-rr"><h2>VISION AND MISSION</h2></div>
 
 
     
@@ -153,14 +151,13 @@
     <!-- Mission Page Placeholder, feel free to edit styles 
          -->
    
-<div id="main__section-mission">
-
-<h2>Our Mission</h2>
-    <div class="main_mission-icon-container">
-        <i class="far fa-paper-plane"></i>
-    </div>
-    
 <div class="main_mission-wrapper">
+
+<div class="mission_icon-container">
+  <i class="far fa-paper-plane mission_icon"></i>
+</div>
+  
+<div class="mission_main-para">  
 
 <h2>Vision</h2>
 
@@ -182,7 +179,7 @@
     <li>lorem</li>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore velit eos aspernatur quis assumenda libero natus eius perspiciatis, officiis deserunt esse blanditiis odit perferendis optio animi? Dolorem ab quis dolores.</p>
 </ul></p>
-
+</div> <!--Para Wrapper Closing-->
 
 <!--PLACE HOLDER HERE, maybe we could add a small gallery of photos here?like fake "team" or "tutoring" stock. Possibly could click through them with JS-->
 
@@ -279,5 +276,18 @@
     </footer>
 
     <script src="script/script.js"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.js"
+    integrity="sha512-D/zaRVk05q6ERt1JgWB49kL6tyerY7a94egaVv6ObiGcw3OCEv0tvoPDEsVqL28HyAZhDd483ix8gkWQGDgEKw=="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+        var mainSlider = tns({
+        container: "#mission_sliding-gallery",
+        items: 1,
+        autoplay: true,
+        autoplayTimeout: 4000,
+      });
+ </script>
 </body>
 </html>

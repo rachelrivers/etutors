@@ -1325,4 +1325,10 @@ div.footer_copyright-container {
     font-size: 1.4rem;
     color: #f0f0dd;
 }
+
+
+/*-------------Resources Page Queries ----------*/
+
+div.img-resources-hero {
+top: 10.5rem;
 }
