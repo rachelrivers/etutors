@@ -313,6 +313,140 @@ main section padding top */
 }
 
 
+.homeFun-the-role-style-jg {
+    font-size: 2.6rem;
+    margin-top: 5rem;
+    padding: 0 2rem 4rem 2rem;
+  }
+
+
+  .homeFun-the-role-para-jg {
+    font-size: 1.6rem;
+    padding: 13rem 2rem 2rem 2rem;
+    line-height: 4rem;
+  }
+
+
+.home-girl-imgBut-container-jg{
+    height: 35rem;
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-but-jg {
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+button.home-girl-but-jg {
+    width: 50%;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+
+
+.learnMore-home-gir-jg {
+    background: #591013;
+}
+
+
+.learnMore-home-gir-jg a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.learnMore-home-gir-jg:hover {
+    background: #262626;
+}
+
+.volunteer-learnmore-jg {
+    background: rgb(43, 9, 107);
+}
+
+
+.volunteer-learnmore-jg a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.volunteer-learnmore-jg:hover {
+    background: #262626;
+}
+/* button.home-girl-but-volunteer-jg {
+    width: 40%;
+    padding: 1rem 4rem;
+} */
+
+
+
+  div.home-girl-computer-container-jg {
+    width: 100%;
+    height: 30rem;
+    position: relative;
+  }
+
+
+   img.home-girl-bg-jg {
+       display: block;
+      position: absolute;
+      z-index: -1;
+      top: -10rem;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50rem;
+      height: 69rem;
+  }
+  img.home-girl-computer-jg {
+    display: none;
+    width: 40rem;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .5rem;
+    border: 2rem solid white;
+   
+  }
+
+
+  img.home-girl-largerScreen-jg {
+    display: block;
+    width: 40rem;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .5rem;
+   
+  }
+
+ 
+
+
+  .home-game-learn-title-jg {
+    font-size: 2.4rem;
+    margin-top: 2.5rem;
+    padding: 0 2rem 1rem 2rem;
+  }
+
+
+  .home-game-learning-para {
+    font-size: 1.6rem;
+    padding: 1rem 2rem 1rem 2rem;
+    line-height: 4rem;
+  }
+
+
+
 
 .main__section-contact-jg {
     padding-top: 12rem;
@@ -368,18 +502,7 @@ hr.main_para-hr-bottom {
     height: 25rem;
 }
 
-
-
-.main_kid-on-floor-image {
-    display: block;
-    position:absolute;
-    z-index: 996;
-    bottom: 0;
-    height: 19rem;
-    background: none;
-    margin-left: 0;
-    transition: all .500s ease-in-out;
-}
+/* blue shapes image here */
 
 
 .main_images-flex-container {

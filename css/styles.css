@@ -401,8 +401,6 @@ ul.primary-nav-flex-container {
   }
 
 
-
-  
   .tutoring-services-h3 {
       font-size: 1.6rem;
       text-align: center;
@@ -515,15 +513,21 @@ button.find-your-tutor-jg:hover {
   
   h3.main-para-home-heading {
       font-size: 1.8rem;
-      padding: 2rem 2rem 1rem 2rem;
+      padding: 2rem 0 1rem 0;
      
   }
   
   
   .main_para-home p {
       font-size: 1.6rem;
-      padding: 0 2rem 2rem 2rem;
+      padding: 0 0 2rem 0;
       
+  }
+
+
+
+ .line-height-main-home-para-jg {
+    line-height: 4rem;
   }
 
 
@@ -555,6 +559,82 @@ button.find-your-tutor-jg:hover {
       
   }
 
+
+
+  .homeFun-lightBulb-icon {
+    display: none;
+  }
+
+  .home-girl-bg-jg {
+    display: none;
+  }
+
+
+  .home-girl-largerScreen-jg {
+    display: none;
+  }
+
+
+  .homeFun-the-role-style-jg {
+    font-size: 2.4rem;
+    margin-top: 5rem;
+    padding: 2rem 2rem 3rem 2rem;
+    text-align: center;
+  }
+
+  .homeFun-the-role-para-large-jg {
+    display: none;
+  }
+
+
+  .homeFun-the-role-para-jg {
+    font-size: 1.6rem;
+    padding: 4rem 2rem 2rem 2rem;
+    line-height: 4rem;
+  }
+
+  
+
+
+  div.home-girl-computer-container-jg {
+    width: 100%;
+  }
+  img.home-girl-computer-jg {
+    display: block;
+    width: 30rem;
+    height: 27rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+   
+  }
+
+
+  .container-but-jg {
+    display: none;
+  }
+
+
+  .home-game-learn-title-jg {
+    font-size: 2.4rem;
+    margin-top: 2.5rem;
+    padding: 0 2rem 1rem 2rem;
+  }
+
+
+  .home-game-learning-para {
+    font-size: 1.6rem;
+    padding: 1rem 2rem 1rem 2rem;
+    line-height: 4rem;
+  }
+
+  .home-arrow-jg {
+    height: 20rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6rem;
+  }
 
   .contact-map-jg {
       display: none;
@@ -665,7 +745,7 @@ div.background-paper {
   border: 2px solid rgb(228, 226, 226);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 8rem;
+  margin-top: 2rem;
   border-radius: 2rem;
   padding-bottom: 12rem;
 }
