@@ -1455,3 +1455,8 @@ div.footer_copyright-container {
 div.img-resources-hero {
 top: 10.5rem;
 }
+
+.resources_image-wrap {
+    display: block;
+    justify-content: center;
+}
