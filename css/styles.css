@@ -561,7 +561,7 @@ div.img-resources-hero {
   top: 10.5rem;
   width: 100%;
   height: 35rem;
-  background-image: url("https://images.pexels.com/photos/3825569/pexels-photo-3825569.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-image: url("https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-color: gray;
   background-size: cover;
   background-repeat: "no-repeat";
@@ -577,38 +577,119 @@ div.img-resources-hero {
   transition: 0.8s ease-in-out;
 }
 
-.resources_main-wrapper {
+.resources_main-section-rr {
   padding-top: 10rem;
-  padding-bottom: 10rem;
-  margin: 40px;
+  padding-bottom: 8rem;
 }
 
-.resources_head {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 10px;
-}
-
-.eureka-image-wrapper {
-  display: flex;
+hr.resources_hr-rr {
+  display: block;
+  position: relative;
+  border-style: inset;
+  border-width: 1px;
   width: 100%;
-}
-
-.resources_main-text {
-  /* font-size: 15px;
-  display: flex;
-  justify-content: end; */
-  width: 75%;
-  background: #f3f3f3;
-  margin-top: 3rem;
   margin-left: auto;
   margin-right: auto;
-  padding: 2.5rem 2rem 3rem 2rem;
+  top: 1.25rem;
+}
+
+hr.resources_hr-bottom {
+  display: block;
+  position: relative;
+  border-style: inset;
+  border-width: 1px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0.5rem;
+}
+
+.resources_icon {
+  position: relative;
+  z-index: 996;
+  top: 5.5rem;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  border: 0.01px solid rgb(116, 116, 116);
+  background: rgb(207, 207, 207);
+  padding: 1.5rem;
+  border-radius: 50rem;
+  font-size: 3rem;
+  color: rgb(75, 75, 75);
+}
+
+.resources_main-para-rr {
+  background: #f3f3f3;
+  margin-top: 3rem;
+  margin: 30px;
+  padding: 3rem 2rem 3rem 2rem;
+}
+
+.resources_main-text-rr {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+}
+
+.resources_main-para-rr h3 {
+  padding-bottom: 0.6rem;
+  text-align: center;
+}
+
+.resources_main-para-rr ul {
+  font-size: 1.6rem;
+  margin-left: 3rem;
+}
+
+.resources_main-para-rr li {
+  padding: 0.5rem;
+}
+
+#resources_wrapper-rr {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+
+.resources_section-heading-rr {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+  margin-right: 1.9rem;
+}
+
+.resources_section-heading-rr p {
+  text-align: center;
+}
+
+.resources_image-wrap {
+  display: block;
+  justify-content: center;
+  height: 30rem;
+  width: auto;
+  margin-left: 1.9rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h3.resources_image-text-wrap {
+  font-size: 2.4rem;
+  color: #000000;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  transition: 0.8s ease-in-out;
 }
 
 .resources_accordian-content {
-  padding-top: 40px;
-  padding-bottom: 10px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 1.9rem;
+}
+
+.resources_accordian-content h4 {
+  text-align: center;
 }
 
 /*Style the accordian content*/
@@ -618,17 +699,22 @@ div.img-resources-hero {
   background-color: #f3f3f3;
   color: black;
   cursor: pointer;
-  padding: 18px;
+  padding: 1.125rem;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 1.6rem;
 }
 
-/*active style added with JS, add background color */
-.active,
+
+/* active style added with JS, add background color */
+.active, 
 .collapsible:hover {
+  background-color: #ccc;
+}
+
+button.collapsible:hover {
   background-color: #f5f0e6;
 }
 
@@ -640,38 +726,18 @@ div.img-resources-hero {
   display: none;
   overflow: hidden;
   background-color: #f3f3f3;
-  font-size: 15px;
+  font-size: 1.6rem;
   text-decoration: none;
 }
 
 .resources_main-para {
   background: #f3f3f3;
   padding: 3rem 2rem 3rem 2rem;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
 
 .resources_main-para p {
   font-size: 1.6rem;
   padding: 0 2rem 2rem 2rem;
-}
-
-/* .resources_content ul {
-    text-decoration:none;
-    list-style: none;
-} */
-
-.resources_icon {
-  position: relative;
-  z-index: 996;
-  margin-left: 50%;
-  transform: translatex(-50%);
-  border: 0.01px solid rgb(116, 116, 116);
-  background: rgb(207, 207, 207);
-  padding: 1.5rem;
-  border-radius: 50rem;
-  font-size: 3rem;
-  color: rgb(75, 75, 75);
 }
 
 /*----------------------------------------MISSION starts here-----------*/
