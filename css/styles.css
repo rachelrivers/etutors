@@ -125,7 +125,6 @@ nav#nav__primary {
 }
 
 ul.primary-nav-flex-container {
-<<<<<<< HEAD
       list-style: none;
       display: flex;
       flex-direction: column;
@@ -739,257 +738,6 @@ button.find-your-tutor-jg:hover {
   }
 
   
-=======
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size: 1.9rem;
-}
-
-.primary-nav-flex-container li {
-  padding-bottom: 2rem;
-  padding-top: 2rem;
-  border-bottom: 0.01px solid #aaa;
-  background: #591013;
-}
-
-ul.primary-nav-flex-container li ul.primary-nav-about-sub {
-  list-style: none;
-  position: relative;
-  top: 2.3rem;
-  background: rgb(248, 248, 248);
-  display: none;
-}
-
-ul.primary-nav-flex-container li:hover ul.primary-nav-about-sub {
-  display: block;
-}
-
-ul.primary-nav-flex-container li ul.primary-nav-about-sub li {
-  display: block;
-  background: rgb(248, 248, 248);
-}
-
-ul.primary-nav-flex-container li ul.primary-nav-about-sub li a {
-  color: #591013;
-}
-
-ul.primary-nav-flex-container li ul.primary-nav-about-sub li a:hover {
-  color: grey;
-}
-
-ul.primary-nav-flex-container li a {
-  text-decoration: none;
-  color: #f0f0dd;
-}
-
-ul.primary-nav-flex-container li a:visited {
-  text-decoration: none;
-  color: #f0f0dd;
-}
-
-ul.primary-nav-flex-container li a:hover {
-  color: #f0f0dd;
-}
-
-/* mobile only about sub menu arrow icon  */
-.arrow-icon {
-  position: relative;
-  top: 0;
-  color: rgb(248, 244, 244);
-  margin-left: 1rem;
-}
-
-button.volunteer-mobile {
-  margin-top: 1.2rem;
-  padding: 1.2rem 2rem;
-  margin-left: 50%;
-  transform: translatex(-50%);
-  background: #591013;
-  border: none;
-  border-radius: 0.5rem;
-  color: #f0f0dd;
-  font-weight: 700;
-  font-size: 1.8rem;
-}
-
-button.volunteer-mobile:hover {
-  background: #262626;
-  border: none;
-}
-
-button.volunteer-mobile:active {
-  background: grey;
-  color: yellow;
-  border: none;
-}
-
-button.volunteer {
-  display: none;
-}
-
-/* hero image  */
-div.imgHome-hero {
-  position: relative;
-  top: 24.5rem;
-  width: 100%;
-  height: 35rem;
-  background-image: url("https://images.unsplash.com/photo-1584697964328-b1e7f63dca95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
-  background-color: gray;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.imgHome-hero h2 {
-  font-family: "Anton", sans-serif;
-  font-size: 2.4rem;
-  color: #f0f0dd;
-  text-align: center;
-  padding-top: 18rem;
-  letter-spacing: 0.5rem;
-  transition: 0.8s ease-in-out;
-}
-
-.imgHome-hero-contact-jg {
-  position: relative;
-  z-index: 995;
-  top: 10.5rem;
-  width: 100%;
-  height: 45rem;
-  background-image: url("https://media.istockphoto.com/photos/human-hand-drawing-contact-us-on-blackboard-picture-id984585688?k=6&m=984585688&s=612x612&w=0&h=q6Jszkpz5ay1ub70I8wxUuL99_pJe-OyhFdbi7a_4Yw=");
-  background-color: gray;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  transition: 0.5s ease-in-out;
-}
-
-.imgHome-hero-contact-jg h2 {
-  font-family: "Anton", sans-serif;
-  font-size: 2.4rem;
-  color: #b6b6b6;
-  font-weight: 900;
-  padding: 32rem 4rem 0 3rem;
-  letter-spacing: 0.5rem;
-  text-align: left;
-  transition: 0.8s ease-in-out;
-}
-
-/* .......................main section begins here */
-
-/* just padded at top to position below hero image */
-.main__section {
-  padding-top: 26rem;
-  padding-bottom: 8rem;
-}
-
-.main__section-contact-jg {
-  padding-top: 18rem;
-  padding-bottom: 8rem;
-}
-
-h2.main_page-section-heading {
-  font-size: 2.4rem;
-  padding: 4rem 2rem 2rem 2rem;
-  text-align: center;
-}
-
-h3.main_page-section-heading {
-  font-size: 1.6rem;
-  text-align: center;
-  padding-bottom: 4rem;
-}
-
-.main_page-section-heading-contact-jg {
-  font-size: 2.4rem;
-  /* padding: 4rem 2rem 2rem 2rem; */
-  text-align: center;
-}
-
-hr {
-  display: none;
-}
-
-hr.main_para-hr-bottom {
-  display: none;
-}
-
-hr.contact-jg {
-  top: 2.5rem;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-hr.main_para-hr-bottom-contact-jg {
-  top: 0.5rem;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.contact-woman-jg {
-  display: none;
-}
-
-.main_kid-on-floor-image {
-  display: none;
-}
-
-.main_para-home {
-  background: #f3f3f3;
-  margin-top: 3rem;
-  padding: 3rem 2rem 3rem 2rem;
-}
-
-h3.main-para-home-heading {
-  font-size: 1.8rem;
-  padding: 2rem 2rem 1rem 2rem;
-}
-
-.main_para-home p {
-  font-size: 1.6rem;
-  padding: 0 2rem 2rem 2rem;
-}
-
-.main_para-contact-jg {
-  width: 75%;
-  background: #f3f3f3;
-  margin-top: 3rem;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 2.5rem 2rem 3rem 2rem;
-}
-
-h3.main-para-contact-heading-jg {
-  font-size: 1.8rem;
-  padding: 1rem 2rem 1rem 2rem;
-  text-align: center;
-}
-
-.main_para-contact-jg p {
-  font-size: 1.6rem;
-  padding: 0 2rem 2rem 2rem;
-  text-align: center;
-}
-
-.main-sec-icon {
-  position: relative;
-  z-index: 996;
-  top: 5.5rem;
-  margin-left: 50%;
-  transform: translatex(-50%);
-  border: 0.01px solid rgb(116, 116, 116);
-  background: rgb(207, 207, 207);
-  padding: 1.5rem;
-  border-radius: 50rem;
-  font-size: 3rem;
-  color: rgb(75, 75, 75);
-}
-
->>>>>>> d7278b6689e76d93aee0d68b5b4fd4682a53dc1f
 div.background-paper {
   width: 90%;
   height: 90%;
@@ -1014,7 +762,6 @@ img.eureka-corner-image {
 }
 
 div.eTutors-gameTitle-container {
-<<<<<<< HEAD
      
 }
 
@@ -1075,24 +822,6 @@ div.eTutors-gameTitle-container {
     margin-right: 4rem;
     margin-bottom: 2rem;
   }
-=======
-  border-bottom: 1px solid rgb(196, 196, 196);
-}
-
-.main_page-section-heading-two-jg {
-  text-align: center;
-  font-size: 2.4rem;
-  color: #000000;
-  padding: 4rem 5rem 0.5rem 5rem;
-}
-
-h3.eTutots-game-subTitle-jg {
-  text-align: center;
-  padding-bottom: 2.5rem;
-  font-size: 1.8rem;
-  color: #591013;
-}
->>>>>>> d7278b6689e76d93aee0d68b5b4fd4682a53dc1f
 
 .main_images-flex-container {
   display: flex;
@@ -1110,7 +839,6 @@ h3.eTutots-game-subTitle-jg {
   color: #262626;
 }
 
-<<<<<<< HEAD
 button.start-game-jg {
     padding: 2rem;
     margin-bottom: 5rem;
@@ -1119,22 +847,6 @@ button.start-game-jg {
      background: #353a40;
      color: white;
      border: .1rem solid white;
-=======
-.main_flex-image-text-wrapper h3 {
-  text-align: center;
-}
-
-.main_img-tutor-network-item {
-  /* margin: 1rem; */
-}
-
-img.main_img-tutor-network-item {
-  height: 200px;
-  width: 200px;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  margin-bottom: 2rem;
->>>>>>> d7278b6689e76d93aee0d68b5b4fd4682a53dc1f
 }
 
 button.start-game-jg {
@@ -1148,7 +860,6 @@ button.start-game-jg {
 }
 
 button.start-game-jg:hover {
-<<<<<<< HEAD
     background: #591013;
     transition: .300s ease-in-out;
     color: white;
@@ -1202,43 +913,6 @@ button.start-game-jg:hover {
       flex-wrap: wrap;
       padding: 2rem;
       /* margin-left: auto;
-=======
-  background: grey;
-  transition: 0.3s ease-in-out;
-  color: white;
-}
-
-/* ........................footer section begins here */
-#footer__section {
-  /* height: 40rem; */
-  width: 100%;
-  padding-top: 2rem;
-  background: #262626;
-}
-
-img.footer_logo {
-  height: 5rem;
-  display: none;
-}
-
-.footer_logo-address-container {
-  display: none;
-}
-
-h2.footer_quicklinks-heading {
-  color: #f0f0dd;
-  font-size: 2rem;
-  width: 100%;
-  text-align: center;
-  margin-top: 3rem;
-}
-
-ul.footer-quicklinks-flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 2rem;
-  /* margin-left: auto;
->>>>>>> d7278b6689e76d93aee0d68b5b4fd4682a53dc1f
       margin-right: auto; */
   text-align: center;
 }
