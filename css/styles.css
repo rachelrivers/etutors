@@ -599,7 +599,9 @@ button.find-your-tutor-jg:hover {
     text-align: center;
   }
 
-  
+  .girl-heading-text-jg {
+    display: none;
+  }
 
 
   .homeFun-the-role-para-jg {

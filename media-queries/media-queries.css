@@ -182,8 +182,34 @@ ul.primary-nav-about-sub li.primary-sub a:hover {
 
 /* sub menu ending */
 
+.home-pageBackground {
+    position: absolute;
+    top: 125rem;
+    right: 0;
+    z-index: -1;
+    opacity: .2;
+    background: url("https://i.ibb.co/MSH95sF/home-digital-bg-top.png");
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 80%;
+}
 
 
+.home-pageBackground-main-sec {
+    position: absolute;
+    top: 262rem;
+    left: 0;
+    z-index: -1;
+    opacity: 1;
+    background: url("https://i.ibb.co/4MvDPzF/home-digital-bg.png");
+    background-position: top left ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
 
 
 button.volunteer {
@@ -386,7 +412,14 @@ hr.main_para-hr-bottom {
 
 
 .girl-text-jg {
-    border-top: none;
+    border: none;
+    background: white;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 }
 
 .contact-woman-jg {
@@ -829,7 +862,7 @@ div.imgHome-hero {
 
 
 .girl-text-jg {
-    border-top: none;
+    border: none;
     line-height: 3.5rem;
     text-align: justify;
     font-size: 1.6rem;
@@ -912,6 +945,36 @@ div.imgHome-hero {
 .homeFun-the-role-para-jg{
     display: none;
 }
+
+
+.home-pageBackground {
+    position: absolute;
+    top: 135rem;
+    right: 0;
+    z-index: -1;
+    opacity: .2;
+    background: url("https://i.ibb.co/MSH95sF/home-digital-bg-top.png");
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 80%;
+}
+
+.home-pageBackground-main-sec {
+    position: absolute;
+    top: 242rem;
+    left: 0;
+    z-index: -1;
+    opacity: 1;
+    background: url("https://i.ibb.co/4MvDPzF/home-digital-bg.png");
+    background-position: top left ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
 
 
 .contact-woman-jg {
@@ -1323,25 +1386,60 @@ div.imgHome-hero {
 
 .girl-text-jg {
     position: relative;
-    border-top: 10px solid rgb(43, 9, 107);
+    border-top: .5px solid rgb(43, 9, 107);
     margin-top: 2rem;
-   
+    border-bottom: 1px solid rgb(43, 9, 107);
+    padding: 4rem 4rem 4rem 4rem;
 }
 
 
-.girl-text-jg::after {
+/* .girl-text-jg::after {
     content: "";
     position: absolute;
     background: rgb(43, 9, 107);
-    height: 1rem;
-    width: 1rem;
-    margin-top: 1.35rem;
-    margin-left: .5rem;
+    height: .1rem;
+    width: 10rem;
+    right: 0;
+    margin-top: 4rem;
     
 
+} */
+
+
+
+.home-pageBackground {
+    position: absolute;
+    top: 125rem;
+    right: 0;
+    z-index: -1;
+    opacity: .2;
+    background: url("https://i.ibb.co/MSH95sF/home-digital-bg-top.png");
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 80%;
 }
 
 
+.home-pageBackground-main-sec {
+    position: absolute;
+    top: 220rem;
+    left: 0;
+    z-index: -1;
+    opacity: 1;
+    background: url("https://i.ibb.co/4MvDPzF/home-digital-bg.png");
+    background-position: top left ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.home-graph {
+    background: yellow;
+    width: 65rem;
+    height: 19.5rem;
+}
 .contact-woman-jg {
     display: block;
     position: absolute;
