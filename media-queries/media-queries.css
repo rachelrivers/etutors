@@ -313,125 +313,6 @@ main section padding top */
 }
 
 
-.homeFun-the-role-style-jg {
-    font-size: 2.6rem;
-    margin-top: 5rem;
-    padding: 0 2rem 4rem 2rem;
-  }
-
-
-  .homeFun-the-role-para-jg {
-    font-size: 1.6rem;
-    padding: 13rem 2rem 2rem 2rem;
-    line-height: 4rem;
-  }
-
-
-.home-girl-imgBut-container-jg{
-    height: 35rem;
-    width: 40rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.container-but-jg {
-    display:flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
- 
-button.home-girl-but-jg {
-    width: 50%;
-    border: none;
-    color: white;
-    font-size: 1.6rem;
-    padding: 1rem;
-}
-
-
-
-.learnMore-home-gir-jg {
-    background: #591013;
-}
-
-
-.learnMore-home-gir-jg a {
-    text-decoration: none;
-    color: white;
-}
-
-
-.learnMore-home-gir-jg:hover {
-    background: #262626;
-}
-
-.volunteer-learnmore-jg {
-    background: rgb(43, 9, 107);
-}
-
-
-.volunteer-learnmore-jg a{
-    text-decoration: none;
-    color: white;
-}
-
-
-.volunteer-learnmore-jg:hover {
-    background: #262626;
-}
-/* button.home-girl-but-volunteer-jg {
-    width: 40%;
-    padding: 1rem 4rem;
-} */
-
-
-
-  div.home-girl-computer-container-jg {
-    width: 100%;
-    height: 30rem;
-    position: relative;
-  }
-
-
-   img.home-girl-bg-jg {
-       display: block;
-      position: absolute;
-      z-index: -1;
-      top: -10rem;
-      left: 0;
-      right: 0;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50rem;
-      height: 69rem;
-  }
-  img.home-girl-computer-jg {
-    display: none;
-    width: 40rem;
-    height: 30rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: .5rem;
-    border: 2rem solid white;
-   
-  }
-
-
-  img.home-girl-largerScreen-jg {
-    display: block;
-    width: 40rem;
-    height: 30rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: .5rem;
-   
-  }
-
- 
-
-
   .home-game-learn-title-jg {
     font-size: 2.4rem;
     margin-top: 2.5rem;
@@ -471,6 +352,7 @@ h2.main_page-section-heading-contact-jg {
 h3.contactPage-h3-jg {
       text-align: center;
       font-weight: normal;
+      font-size: 1.6rem;
   }
 
   hr {
@@ -493,6 +375,19 @@ hr.main_para-hr-bottom {
     padding:2rem;
 }
 
+
+.girl-heading-text-jg {
+    display: none;
+}
+
+.girl-heading-text-sub-para-jg {
+    display: none;
+}
+
+
+.girl-text-jg {
+    border-top: none;
+}
 
 .contact-woman-jg {
     display: block;
@@ -873,6 +768,149 @@ div.imgHome-hero {
 .main_para-home {
     background: #eaeaea;
     padding:2rem;
+}
+
+
+.homeFun-the-role-style-jg {
+    display: none;
+}
+
+
+.girl-para-flex-container-jg {
+    display: flex;
+    height: 35rem;
+    padding-top: 3rem;
+    margin-bottom: 8rem;
+    transition: all .500s ease-in-out;
+}
+
+/* .image-container-flex-item-jg {
+    position: relative;
+    width: 50%;
+    height: 20rem;
+} */
+
+
+.computer-girl-jg {
+    display: block;
+    width:28rem; 
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .500s ease-in-out;
+}
+
+
+.computer-girl-background-jg {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 8rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51rem;
+}
+
+
+
+.image-container-flex-item-jg {
+    padding: 2rem;
+}
+
+
+.home-girl-para-container-flex-item-jg {
+    width: 100%;
+    padding-right: 2rem;
+    margin-left: 1rem;
+}
+
+
+
+.girl-text-jg {
+    border-top: none;
+    line-height: 3.5rem;
+    text-align: justify;
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+
+.girl-heading-text-jg {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.9rem;
+    letter-spacing: .1rem;
+    padding: 0 2rem 0 2rem;
+    margin-top: 15rem;
+    text-align: left;
+}
+
+
+.girl-heading-text-sub-para-jg {
+    display: block;
+    font-size: 1.6rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.girl-image-but-flex-container-jg {
+    width: 28rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+     transition: all .500s ease-in-out;
+
+}
+
+
+.girl-but-jg {
+    width: 50%;
+    padding: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+}
+
+
+.learn-more-jg {
+    background: #591013;
+    
+}
+
+
+.learn-more-jg a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.volunteer-jg {
+    background: rgb(43, 9, 107);
+    color: white;
+}
+
+.girl-but-jg:hover {
+   background: #262626;
+}
+
+
+.home-girl-computer-container-jg {
+    display: none;
+}
+
+
+
+.homeFun-the-role-style-jg {
+    display: none;
+}
+.homeFun-the-role-para-jg{
+    display: none;
 }
 
 
@@ -1259,6 +1297,51 @@ div.imgHome-hero {
 
 
 
+.computer-girl-jg {
+    display: block;
+    width:45rem; 
+    height: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.girl-image-but-flex-container-jg {
+    width: 45rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+}
+
+.girl-para-flex-container-jg {
+    display: flex;
+    height: 35rem;
+    padding-top: 1rem;
+    margin-bottom: 15rem;
+}
+
+
+.girl-text-jg {
+    position: relative;
+    border-top: 10px solid rgb(43, 9, 107);
+    margin-top: 2rem;
+   
+}
+
+
+.girl-text-jg::after {
+    content: "";
+    position: absolute;
+    background: rgb(43, 9, 107);
+    height: 1rem;
+    width: 1rem;
+    margin-top: 1.35rem;
+    margin-left: .5rem;
+    
+
+}
+
+
 .contact-woman-jg {
     display: block;
     position: absolute;
@@ -1452,11 +1535,7 @@ div.footer_copyright-container {
 
 /*-------------Resources Page Queries ----------*/
 
-div.img-resources-hero {
-top: 10.5rem;
-}
-
-.resources_image-wrap {
-    display: block;
-    justify-content: center;
+    div.img-resources-hero {
+    top: 10.5rem;
+    }
 }
