@@ -807,9 +807,11 @@ div.eTutors-gameTitle-container {
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
+      padding: 2rem;
 
   }
-  
+
+
   
   
   .main_flex-image-text-wrapper p {
@@ -830,7 +832,8 @@ div.eTutors-gameTitle-container {
 
   
   .main_flex-image-text-wrapper {
-    width: 50%;
+    /* width: 100%; */
+    padding: 2rem;
   }
 
   img.main_img-tutor-network-item {

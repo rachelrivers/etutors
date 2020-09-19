@@ -492,6 +492,10 @@ div.background-paper {
 
 
 
+  .main_flex-image-text-wrapper {
+    width: 50%;
+  }
+  
 
    .tutoring-services-text-wrapper {
     width: 27rem;
@@ -523,6 +527,8 @@ img.footer_logo {
 .eTutors-gameTitle-container {
     background: ghostwhite;
     border-radius: 2rem;
+    border-top: .1rem solid #591013;
+    border-bottom: .1rem solid #591013;
     padding-bottom: 5rem;
     padding-top: 4rem;  
     margin-bottom: 12rem;
