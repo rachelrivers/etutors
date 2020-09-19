@@ -184,7 +184,7 @@ ul.primary-nav-about-sub li.primary-sub a:hover {
 
 .home-pageBackground {
     position: absolute;
-    top: 125rem;
+    top: 143rem;
     right: 0;
     z-index: -1;
     opacity: .2;
@@ -192,8 +192,8 @@ ul.primary-nav-about-sub li.primary-sub a:hover {
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 60%;
-    width: 80%;
+    height: 50%;
+    width: 100%;
 }
 
 
@@ -203,8 +203,8 @@ ul.primary-nav-about-sub li.primary-sub a:hover {
     left: 0;
     z-index: -1;
     opacity: 1;
-    background: url("https://i.ibb.co/4MvDPzF/home-digital-bg.png");
-    background-position: top left ;
+    background: url("https://i.ibb.co/rvwXt8D/home-digital-bg.png");
+    background-position: top right ;
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
@@ -443,10 +443,13 @@ hr.main_para-hr-bottom {
 
 
 img.home-brain-jg {
+    position: absolute;
     display: block;
     margin-left: 50%;
     transform: translatex(-50%);
     height: 10rem;
+    background: ghostwhite;
+    border-radius: 50%;
 }
 
 
@@ -517,19 +520,29 @@ img.footer_logo {
 }
 
 
+.eTutors-gameTitle-container {
+    background: ghostwhite;
+    border-radius: 2rem;
+    padding-bottom: 5rem;
+    padding-top: 4rem;  
+    margin-bottom: 12rem;
+    position: relative;
+}
 
  .main_page-section-heading-two-jg {
       text-align: center;
       font-size: 2.9rem;
       color: #000000;
       padding: 1rem 3rem 0 3rem;
-      letter-spacing: .1rem;
+      letter-spacing: .5rem;
   }
 
 
   h3.eTutots-game-subTitle-jg {
-      color: #591013;
+      color: #000;
     font-size: 2rem;
+    padding-top: 0;
+    margin-bottom: 0;
   }
 
 
@@ -963,15 +976,15 @@ div.imgHome-hero {
 
 .home-pageBackground-main-sec {
     position: absolute;
-    top: 242rem;
-    left: 0;
+    top: 222rem;
+    right: 0;
     z-index: -1;
-    opacity: 1;
-    background: url("https://i.ibb.co/4MvDPzF/home-digital-bg.png");
-    background-position: top left ;
+    opacity: .1;
+    background: url("https://i.ibb.co/619Mkgc/home-boy-illustration-bg.png");
+    background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 90%;
     width: 100%;
 }
 
@@ -1428,13 +1441,15 @@ div.imgHome-hero {
     left: 0;
     z-index: -1;
     opacity: 1;
-    background: url("https://i.ibb.co/MSH95sF/home-digital-bg-top.png");
+    background: url("https://i.ibb.co/rvwXt8D/home-digital-bg.png");
     background-position: top left ;
     background-size: contain;
     background-repeat: no-repeat;
     height: 50%;
     width: 100%;
 }
+
+
 .home-graph {
     background: yellow;
     width: 65rem;

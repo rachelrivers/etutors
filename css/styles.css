@@ -829,15 +829,16 @@ div.eTutors-gameTitle-container {
   }
 
   
-  .main_img-tutor-network-item {
-      /* margin: 1rem; */
+  .main_flex-image-text-wrapper {
+    width: 50%;
   }
 
   img.main_img-tutor-network-item {
+    display: block;
     height: 200px;
     width: 200px;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 2rem;
   }
 
