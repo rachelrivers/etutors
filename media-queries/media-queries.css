@@ -195,6 +195,7 @@ ul.primary-nav-about-sub li.primary-sub a:hover {
     height: 60%;
     width: 85%;
     transform: rotate(-10dg);
+    transition: all .500s ease-in-out;
 }
 
 
