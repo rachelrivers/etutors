@@ -129,34 +129,48 @@ ul.primary-nav-flex-container li a:hover {
 
 
 /* sub menu hover */
+
 ul.primary-nav-flex-container li:hover ul.primary-nav-about-sub {
     display: block;
     list-style: none;
     position: absolute;
     top: 10rem;
-    background: rgba(248, 248, 248, 0.774);
-    line-height: 0;
+    /* background: rgba(248, 248, 248, 0.774); */
     text-align: center;
+    width: 15rem;
+    height: 11.5rem;
+    opacity: .99;
+    box-shadow: 1px 2px .5rem rgba(0, 0, 0, .2);
+    
     
 }
 
 
 
 ul.primary-nav-about-sub li.primary-sub {
+    display: block;
+    padding: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-
+ul.primary-nav-about-sub li.primary-sub a {
+    line-height: 2rem;
+    padding: 0;
+}
 ul.primary-nav-about-sub li.primary-sub a:link {
     text-decoration: none;
     color: #591013;
-    font-size: 1.6rem;
-    line-height: 0;
+    font-size: 1.7rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    text-align: center;
+    text-align: left;
+    display: block;
+    line-height: 2rem;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    letter-spacing: .1rem;
 
 }
 
@@ -168,16 +182,18 @@ ul.primary-nav-about-sub li.primary-sub a:visited {
 
 
 ul.primary-nav-about-sub li.primary-sub:hover {
+    display: block;
     color: rgb(133, 133, 133);
     background:#591013;
     transition: .100s ease-in-out;
+     
 }
 
 
 ul.primary-nav-about-sub li.primary-sub a:hover {
     display: block;
      background:#591013;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
 }
 
 /* sub menu ending */
