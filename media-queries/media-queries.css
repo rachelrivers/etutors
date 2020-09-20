@@ -184,16 +184,17 @@ ul.primary-nav-about-sub li.primary-sub a:hover {
 
 .home-pageBackground {
     position: absolute;
-    top: 153rem;
+    top: 158rem;
     right: 0;
     z-index: -1;
     opacity: .2;
-    background: url("https://i.ibb.co/MSH95sF/home-digital-bg-top.png");
+    background: url("https://svgshare.com/i/Ppx.svg");
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 50%;
-    width: 100%;
+    height: 60%;
+    width: 85%;
+    transform: rotate(-10dg);
 }
 
 
@@ -970,16 +971,16 @@ div.imgHome-hero {
 
 .home-pageBackground {
     position: absolute;
-    top: 135rem;
+    top: 157rem;
     right: 0;
     z-index: -1;
     opacity: .2;
-    background: url("https://i.ibb.co/MSH95sF/home-digital-bg-top.png");
+    background: url("https://svgshare.com/i/Ppx.svg");
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
     height: 60%;
-    width: 80%;
+    width: 100%;
 }
 
 .home-pageBackground-main-sec {
@@ -1429,16 +1430,16 @@ div.imgHome-hero {
 
 .home-pageBackground {
     position: absolute;
-    top: 125rem;
+    top: 135rem;
     right: 0;
     z-index: -1;
     opacity: .2;
-    background: url("https://i.ibb.co/MSH95sF/home-digital-bg-top.png");
+    background: url("https://svgshare.com/i/Ppx.svg");
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
     height: 80%;
-    width: 80%;
+    width: 100%;
 }
 
 
