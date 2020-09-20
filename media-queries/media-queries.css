@@ -184,7 +184,7 @@ ul.primary-nav-about-sub li.primary-sub a:hover {
 
 .home-pageBackground {
     position: absolute;
-    top: 143rem;
+    top: 153rem;
     right: 0;
     z-index: -1;
     opacity: .2;
@@ -199,15 +199,16 @@ ul.primary-nav-about-sub li.primary-sub a:hover {
 
 .home-pageBackground-main-sec {
     position: absolute;
-    top: 262rem;
+    top: .2rem;
     left: 0;
-    z-index: -1;
-    opacity: 1;
-    background: url("https://i.ibb.co/rvwXt8D/home-digital-bg.png");
-    background-position: top right ;
+    z-index: 1;
+    opacity: .1;
+    background: url("https://i.ibb.co/KX0Rz1d/home-play-games-title-bg.png");
+    background-position: top center ;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100%;
+    border-radius: 1rem;
+    height: 90%;
     width: 100%;
 }
 
@@ -414,8 +415,8 @@ hr.main_para-hr-bottom {
 .girl-text-jg {
     border: none;
     background: white;
-    border-radius: 2rem;
-    padding-bottom: 2rem;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
     padding-right: 1rem;
     padding-left: 2rem;
 
@@ -525,6 +526,7 @@ img.footer_logo {
 
 
 .eTutors-gameTitle-container {
+    position: relative;
     background: ghostwhite;
     border-radius: 2rem;
     border-top: .1rem solid #591013;
@@ -982,12 +984,12 @@ div.imgHome-hero {
 
 .home-pageBackground-main-sec {
     position: absolute;
-    top: 222rem;
-    right: 0;
-    z-index: -1;
+    top: .2rem;
+    left: 0;
+    z-index: 1;
     opacity: .1;
-    background: url("https://i.ibb.co/619Mkgc/home-boy-illustration-bg.png");
-    background-position: top right;
+    background: url("https://i.ibb.co/KX0Rz1d/home-play-games-title-bg.png");
+    background-position: top center ;
     background-size: contain;
     background-repeat: no-repeat;
     height: 90%;
@@ -1405,10 +1407,10 @@ div.imgHome-hero {
 
 .girl-text-jg {
     position: relative;
-    border-top: .5px solid rgb(43, 9, 107);
+    border-top: .1px solid rgb(43, 9, 107);
     margin-top: 2rem;
     border-bottom: 1px solid rgb(43, 9, 107);
-    padding: 4rem 4rem 4rem 4rem;
+    padding: 4rem 4rem 1rem 4rem;
 }
 
 
@@ -1443,15 +1445,15 @@ div.imgHome-hero {
 
 .home-pageBackground-main-sec {
     position: absolute;
-    top: 220rem;
+    top: .2rem;
     left: 0;
-    z-index: -1;
-    opacity: 1;
-    background: url("https://i.ibb.co/rvwXt8D/home-digital-bg.png");
-    background-position: top left ;
+    z-index: 1;
+    opacity: .1;
+    background: url("https://i.ibb.co/KX0Rz1d/home-play-games-title-bg.png");
+    background-position: top center ;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 50%;
+    height: 90%;
     width: 100%;
 }
 
