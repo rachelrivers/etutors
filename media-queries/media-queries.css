@@ -439,7 +439,7 @@ hr.main_para-hr-bottom {
     padding-right: 1rem;
     padding-left: 2rem;
 
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.2); */
 }
 
 .contact-woman-jg {
@@ -1435,10 +1435,10 @@ div.imgHome-hero {
 
 .girl-text-jg {
     position: relative;
-    border-top: .1px solid rgb(43, 9, 107);
+    /* border-top: .1px solid rgb(43, 9, 107); */
     margin-top: 2rem;
-    border-bottom: 1px solid rgb(43, 9, 107);
-    padding: 4rem 4rem 1rem 4rem;
+    /* border-bottom: 1px solid rgb(43, 9, 107); */
+    padding: 1rem 4rem 1rem 4rem;
 }
 
 
