@@ -628,8 +628,12 @@ button.find-your-tutor-jg:hover {
 
 
   div.home-girl-computer-container-jg {
+    position: relative;
     width: 100%;
   }
+
+
+
   img.home-girl-computer-jg {
     display: block;
     width: 30rem;
@@ -637,6 +641,16 @@ button.find-your-tutor-jg:hover {
     margin-left: auto;
     margin-right: auto;
     padding-top: 2rem;
+   
+  }
+
+
+    .home-girl-computer-after-jg {
+      background: rgb(43, 9, 107);
+      height: 1.5rem;
+      width: 30rem;
+      margin-left: auto;
+      margin-right: auto;
    
   }
 
