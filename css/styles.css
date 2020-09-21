@@ -453,7 +453,7 @@ ul.primary-nav-flex-container {
 
 
 .tutoring-services-flexed-h3 {
-    color: rgb(43, 100, 185);
+    color: #2f3f4f;
     margin: 1rem 3rem;
     border-bottom: .5rem solid #2f3f4f;
 }
@@ -752,7 +752,15 @@ button.find-your-tutor-jg:hover {
 
 
   img.home-brain-jg {
-     display: none;
+     width: 10rem;
+     position: absolute;
+     top: -7rem;
+     left: 0;
+     right: 0;
+     margin-right: auto;
+     margin-left: auto;
+     background: #eee;
+     border-radius: 50%;
   }
 
   
@@ -765,7 +773,8 @@ div.background-paper {
   margin-right: auto;
   margin-top: 2rem;
   border-radius: 2rem;
-  padding-bottom: 12rem;
+  padding-bottom: 0;
+  margin-top: 10rem;
 }
 
 /* scaled eureka image hidden */
@@ -780,6 +789,7 @@ img.eureka-corner-image {
 }
 
 div.eTutors-gameTitle-container {
+  position: relative;
      
 }
 
@@ -795,7 +805,7 @@ div.eTutors-gameTitle-container {
   h3.eTutots-game-subTitle-jg {
       text-align: center;
       padding-bottom: 2.5rem;
-      padding-top: 2rem;
+      padding-top: 0rem;
       font-size: 1.8rem;
       padding-right: 1rem;
       padding-left: 1rem;
