@@ -453,9 +453,21 @@ ul.primary-nav-flex-container {
 
 
 .tutoring-services-flexed-h3 {
-    color: #2f3f4f;
+    position: relative;
+    color: #262626;
     margin: 1rem 3rem;
-    border-bottom: .5rem solid #2f3f4f;
+    border-bottom: .3rem solid #2f3f4f;
+}
+
+.tutoring-services-flexed-h3::after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 2.4rem;
+  height: 1rem;
+  width: 1rem;
+  background: #2f3f4f;
+  border-radius: 50%;
 }
 
 

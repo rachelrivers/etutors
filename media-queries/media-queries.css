@@ -158,6 +158,7 @@ ul.primary-nav-about-sub li.primary-sub {
 ul.primary-nav-about-sub li.primary-sub a {
     line-height: 2rem;
     padding: 0;
+    box-shadow: 1px 1px .5rem rgba(90, 13, 13, 0.5)
 }
 ul.primary-nav-about-sub li.primary-sub a:link {
     text-decoration: none;
@@ -183,7 +184,7 @@ ul.primary-nav-about-sub li.primary-sub a:visited {
 
 ul.primary-nav-about-sub li.primary-sub:hover {
     display: block;
-    color: rgb(133, 133, 133);
+    color: 262626;
     background:#591013;
     transition: .100s ease-in-out;
      
