@@ -437,8 +437,9 @@ ul.primary-nav-flex-container {
       flex-flow: row wrap;
       justify-content: space-around;
       position: relative;
-      top: 2rem;
+      top: 10rem;
       width: 100%;
+      padding-bottom: 20rem;
 
   }
 
@@ -456,10 +457,11 @@ ul.primary-nav-flex-container {
     position: relative;
     color: #262626;
     margin: 1rem 3rem;
-    border-bottom: .3rem solid #2f3f4f;
+    border-bottom: .1rem solid rgb(170, 170, 182);
+    padding-bottom: 1rem;
 }
 
-.tutoring-services-flexed-h3::after {
+/* .tutoring-services-flexed-h3::after {
   content: " ";
   position: absolute;
   right: 0;
@@ -468,7 +470,7 @@ ul.primary-nav-flex-container {
   width: 1rem;
   background: #a2c5c8;
   border-radius: 50%;
-}
+} */
 
 
 .tutoring-services-para {
@@ -770,8 +772,8 @@ button.find-your-tutor-jg:hover {
       border: .01px solid rgb(116, 116, 116);
     background: rgb(207, 207, 207);
       padding: 1.5rem;
-      border-radius: 50rem;
-      font-size: 3rem;
+      border-radius: 50%;
+      font-size: 2.8rem;
       color: rgb(75, 75, 75);
   }
 

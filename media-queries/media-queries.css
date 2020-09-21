@@ -138,7 +138,7 @@ ul.primary-nav-flex-container li:hover ul.primary-nav-about-sub {
     /* background: rgba(248, 248, 248, 0.774); */
     text-align: center;
     width: 15rem;
-    height: 11.5rem;
+    height: 10rem;
     opacity: .99;
     box-shadow: 1px 2px .5rem rgba(0, 0, 0, .2);
     
@@ -156,10 +156,12 @@ ul.primary-nav-about-sub li.primary-sub {
 }
 
 ul.primary-nav-about-sub li.primary-sub a {
-    line-height: 2rem;
+    line-height: 1rem;
     padding: 0;
-    box-shadow: 1px 1px .5rem rgba(90, 13, 13, 0.5)
+    border-bottom: .1px solid rgba(0,0,0,.1);
+    
 }
+
 ul.primary-nav-about-sub li.primary-sub a:link {
     text-decoration: none;
     color: #591013;
@@ -168,7 +170,7 @@ ul.primary-nav-about-sub li.primary-sub a:link {
     padding-right: 1rem;
     text-align: left;
     display: block;
-    line-height: 2rem;
+    line-height: 1rem;
     padding-top:2rem;
     padding-bottom: 2rem;
     letter-spacing: .1rem;
@@ -205,12 +207,12 @@ ul.primary-nav-about-sub li.primary-sub a:hover {
     right: 0;
     z-index: -1;
     opacity: .2;
-    background: url("https://svgshare.com/i/Ppx.svg");
+    background: url("https://svgshare.com/i/Pr3.svg");
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 60%;
-    width: 85%;
+    height: 80%;
+    width: 100%;
     transform: rotate(-10dg);
     transition: all .500s ease-in-out;
 }
@@ -359,16 +361,38 @@ main section padding top */
 }
 
 
-  .home-game-learn-title-jg {
+hr.gameBased-Learning-sec-jg{
+    position: relative;
+    top: 0;
+    margin-bottom: 6rem;
+}
+
+
+
+
+.home-game-learning-conn-container-jg {
+    margin-top: 8rem;
+}
+
+
+.game-learning-ben-flex-container-jg {
+    display: none;
+
+}
+
+  
+
+.home-game-learn-title-jg {
     font-size: 2.4rem;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     padding: 0 2rem 1rem 2rem;
+    text-align: center;
   }
 
 
   .home-game-learning-para {
     font-size: 1.6rem;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 6rem 2rem;
     line-height: 4rem;
   }
 
@@ -426,20 +450,28 @@ hr.main_para-hr-bottom {
     display: none;
 }
 
+
+
 .girl-heading-text-sub-para-jg {
     display: none;
 }
 
 
 .girl-text-jg {
+    position: relative;
     border: none;
     background: white;
     border-radius: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     padding-right: 1rem;
     padding-left: 2rem;
 
     /* box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.2); */
+}
+
+
+.girl-text-jg::before {
+  
 }
 
 .contact-woman-jg {
@@ -862,7 +894,7 @@ div.imgHome-hero {
 .girl-para-flex-container-jg {
     display: flex;
     height: 35rem;
-    padding-top: 3rem;
+    padding-top: 15rem;
     margin-bottom: 8rem;
     transition: all .500s ease-in-out;
 }
@@ -909,7 +941,14 @@ div.imgHome-hero {
     margin-left: 1rem;
 }
 
+.test-jg {
+    background: white;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
 
+}
 
 .girl-text-jg {
     border: none;
@@ -924,10 +963,10 @@ div.imgHome-hero {
 .girl-heading-text-jg {
     display: block;
     font-family: 'Open Sans', sans-serif;
-    font-size: 2.9rem;
+    font-size: 2.4rem;
     letter-spacing: .1rem;
     padding: 0 2rem 0 2rem;
-    margin-top: 15rem;
+    margin-top: 1rem;
     text-align: left;
 }
 
@@ -987,7 +1026,10 @@ div.imgHome-hero {
     display: none;
 }
 
+.game-learning-ben-flex-container-jg {
+    display: none;
 
+}
 
 .homeFun-the-role-style-jg {
     display: none;
@@ -997,17 +1039,33 @@ div.imgHome-hero {
 }
 
 
+.home-game-learn-title-jg {
+    font-size: 3rem;
+    margin-top: 2rem;
+    padding: 0 2rem 1rem 2rem;
+    text-align: center;
+    transition: all .500s ease-in-out;
+  }
+
+
+  
+.home-game-learning-conn-container-jg {
+    margin-top: 40rem;
+}
+
+
+
 .home-pageBackground {
     position: absolute;
-    top: 157rem;
+    top: 150rem;
     right: 0;
     z-index: -1;
     opacity: .2;
-    background: url("https://svgshare.com/i/Ppx.svg");
+    background: url("https://svgshare.com/i/Pr3.svg");
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 60%;
+    height:80%;
     width: 100%;
 }
 
@@ -1428,7 +1486,6 @@ div.imgHome-hero {
 .girl-para-flex-container-jg {
     display: flex;
     height: 35rem;
-    padding-top: 1rem;
     margin-bottom: 15rem;
 }
 
@@ -1454,15 +1511,79 @@ div.imgHome-hero {
 
 } */
 
+.home-game-learning-conn-container-jg {
+    
+    margin-top: 40rem;
+}
 
+
+
+.home-game-learn-title-jg {
+    font-size: 3rem;
+    margin-top: 8rem;
+    padding: 0 2rem 1rem 2rem;
+    text-align: center;
+    transition: all .500s ease-in-out;
+  }
+
+
+  .game-learning-ben-flex-container-jg {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+
+
+.game-learning-benefits-icons {
+    
+    position: relative;
+    height: 20rem;
+    width: 100%;
+    /* background: ghostwhite; */
+}
+
+
+
+.game-learning-benefits-icons::after {
+    position: absolute;
+    right:0;
+    content: " ";
+    height: 20rem;
+    width: .1rem;
+    background: teal;
+    margin-left: 5rem;
+    opacity: .3;
+}
+
+div.end-jg::after {
+    position: absolute;
+    left:50%;
+    content: " ";
+    height: 20rem;
+    width: .1rem;
+    background:white;
+}
+
+
+.game-learning-subTitles {
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    
+}
 
 .home-pageBackground {
     position: absolute;
-    top: 135rem;
+    top: 140rem;
     right: 0;
     z-index: -1;
     opacity: .2;
-    background: url("https://svgshare.com/i/Ppx.svg");
+    background: url("https://svgshare.com/i/Pr3.svg");
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
