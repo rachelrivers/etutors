@@ -466,7 +466,7 @@ ul.primary-nav-flex-container {
   top: 2.4rem;
   height: 1rem;
   width: 1rem;
-  background: #2f3f4f;
+  background: #a2c5c8;
   border-radius: 50%;
 }
 
@@ -474,6 +474,7 @@ ul.primary-nav-flex-container {
 .tutoring-services-para {
     margin: 0 3rem;
     font-size: 1.5rem;
+    line-height: 3rem;
 }
 
 
