@@ -376,6 +376,13 @@ ul.primary-nav-flex-container {
       display: none;
   }
 
+  .gameBased-Learning-sec-jg {
+    display: none;
+  }
+
+  .game-learning-ben-flex-container-jg {
+    display: none;
+  }
 
   .contactPage-h3-jg {
       font-size: 1.6rem;
@@ -647,14 +654,14 @@ button.find-your-tutor-jg:hover {
   }
 
 
-    .home-girl-computer-after-jg {
+    /* .home-girl-computer-after-jg {
       background: rgb(43, 9, 107);
       height: 1.5rem;
       width: 30rem;
       margin-left: auto;
       margin-right: auto;
    
-  }
+  } */
 
 
   .container-but-jg {
@@ -846,7 +853,7 @@ div.eTutors-gameTitle-container {
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
-      padding: 2rem;
+      padding: 0;
 
   }
 
@@ -908,17 +915,11 @@ button.start-game-jg {
      background: #353a40;
      color: white;
      border: .1rem solid white;
+     margin-left: 50%;
+     transform: translatex(-50%);
+     width: 100%;
 }
 
-button.start-game-jg {
-  padding: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-  border-radius: 1rem;
-  background: #353a40;
-  color: white;
-  border: 0.1rem solid white;
-}
 
 button.start-game-jg:hover {
     background: #591013;

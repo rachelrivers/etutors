@@ -361,10 +361,11 @@ main section padding top */
 }
 
 
-hr.gameBased-Learning-sec-jg{
-    position: relative;
-    top: 0;
-    margin-bottom: 6rem;
+
+
+
+hr.game-learning-bottom-hr-jg {
+    display: none;
 }
 
 
@@ -386,14 +387,15 @@ hr.gameBased-Learning-sec-jg{
     font-size: 2.4rem;
     margin-top: 2rem;
     padding: 0 2rem 1rem 2rem;
-    text-align: center;
+    text-align: left;
   }
 
 
   .home-game-learning-para {
     font-size: 1.6rem;
-    padding: 1rem 2rem 6rem 2rem;
+    padding: 2rem 2rem 6rem 2rem;
     line-height: 4rem;
+    text-align: justify;
   }
 
 
@@ -486,12 +488,25 @@ hr.main_para-hr-bottom {
 
 
 .main_images-flex-container {
+    position: relative;
      border: 3px solid #d6d6d6;
     background: #eee;
     border-radius: 1rem;
     padding-top: 4rem;
+    padding-bottom: 2rem;
     margin-top: -1rem;
 }
+
+.main_images-flex-container::before {
+     position: absolute;
+     top: 0;
+     content: " ";
+     background:#262626;
+     height: 100%;
+     width: .1px;
+     opacity: .1;
+}
+
 
 
 img.home-brain-jg {
@@ -513,7 +528,7 @@ div.background-paper {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0rem;
-    padding-top: 3rem;
+    padding-top: 0;
     border-radius: 2rem;
     border: none;
   }
@@ -1026,10 +1041,62 @@ div.imgHome-hero {
     display: none;
 }
 
-.game-learning-ben-flex-container-jg {
-    display: none;
+ .game-learning-ben-flex-container-jg {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+
+
+.game-learning-benefits-icons {
+    
+    position: relative;
+    height: 20rem;
+    width: 100%;
+    /* background: ghostwhite; */
+}
+
+img.game-learning-icons-jg {
+    margin-left: 50%;
+    transform: translatex(-50%);
+    height: 13rem;
 
 }
+
+.game-learning-benefits-icons::after {
+    position: absolute;
+    right:0;
+    content: " ";
+    height: 20rem;
+    width: .1rem;
+    background: teal;
+    margin-left: 5rem;
+    opacity: .1;
+}
+
+div.end-jg::after {
+    position: absolute;
+    left:50%;
+    content: " ";
+    height: 20rem;
+    width: .1rem;
+    background:white;
+}
+
+
+.game-learning-subTitles {
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
 
 .homeFun-the-role-style-jg {
     display: none;
@@ -1041,8 +1108,8 @@ div.imgHome-hero {
 
 .home-game-learn-title-jg {
     font-size: 3rem;
-    margin-top: 2rem;
-    padding: 0 2rem 1rem 2rem;
+    margin-top: 1rem;
+    padding: 0 2rem 5rem 2rem;
     text-align: center;
     transition: all .500s ease-in-out;
   }
@@ -1053,6 +1120,18 @@ div.imgHome-hero {
     margin-top: 40rem;
 }
 
+
+
+hr.gameBased-Learning-sec-jg{
+    display: block;
+    position: relative;
+    top: 0;
+    margin-bottom: 3rem;
+}
+
+hr.game-learning-bottom-hr-jg {
+    display: block;
+}
 
 
 .home-pageBackground {
@@ -1107,7 +1186,8 @@ div.imgHome-hero {
     border: 3px solid #d6d6d6;
     background: #eee;
     border-radius: 1rem;
-     margin-top: -1.5rem
+     margin-top: -1.5rem;
+     padding-bottom: 0;
 }
 
 
@@ -1118,6 +1198,7 @@ div.background-paper {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
+    padding-bottom: 0;
     padding-top: 6rem;
   }
 
@@ -1520,8 +1601,8 @@ div.imgHome-hero {
 
 .home-game-learn-title-jg {
     font-size: 3rem;
-    margin-top: 8rem;
-    padding: 0 2rem 1rem 2rem;
+    margin-top: 1rem;
+    padding: 0 2rem 5rem 2rem;
     text-align: center;
     transition: all .500s ease-in-out;
   }
@@ -1575,6 +1656,11 @@ div.end-jg::after {
     bottom: 0;
     width: 100%;
     
+}
+
+
+hr.game-learning-bottom-hr-jg {
+    margin-top: 2rem;
 }
 
 .home-pageBackground {
@@ -1647,7 +1733,7 @@ div.background-paper {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    padding-top: 3rem;
+    padding-top: 0;
   }
 
 
