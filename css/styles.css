@@ -280,15 +280,17 @@ ul.primary-nav-flex-container {
   }
 
 
-  .imgHome-hero-contact-jg h2 {
+  div.imgHome-hero-contact-jg h2 {
       font-family: 'Anton', sans-serif;
-      font-size: 2.4rem;
+      font-size: 2.6rem;
       color: #262626;
+      height: 45rem;
       font-weight: 900;
-      padding: 34rem 4rem 0 3rem;
+     padding-top: 15rem;
       letter-spacing: .5rem;
-      text-align: left;
+      text-align: center;
       transition: .800s ease-in-out;
+      background: radial-gradient(circle 208px, white, transparent);
   }
 
 
@@ -363,7 +365,7 @@ ul.primary-nav-flex-container {
 
 
   .main__section-tutoring-services-jg {
-      padding-top: 30rem;
+      padding-top: 15rem;
       padding-bottom: 8rem;
   }
   
@@ -458,32 +460,56 @@ ul.primary-nav-flex-container {
 
 
 img.tutoringPage-image-jg {
-  height: 25rem;
-  width: 35rem;
+  height: 20rem;
+  width: 30rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 
+.tutoring-top-title-scaled-jg {
+  display: none;
+}
+
+.tutoring-services-h3-scaled-jg {
+  display: none;
+}
 
 
-
-.tutoring-top-title-jg {
+h2.tutoring-top-title-jg {
 font-size: 2.6rem;
-    padding: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 4rem 2rem;
     text-align: center;
+    letter-spacing: .5rem;
 }
 
 
   .tutoring-services-h3 {
       font-size: 1.6rem;
+      padding-top: 2rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
       text-align: center;
-      color: #591013;
-      letter-spacing: .2rem;
   }
 
 
+ 
+  img.tut-twentyYear-image-jg {
+    display: block;
+    height: 8rem;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+.tutoring-services-para-jg {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  padding: 3rem 2rem 1rem 2rem;
+  text-align: justify;
+}
 
   .tutoring-services-text-wrapper {
     margin:2rem 0;
@@ -520,16 +546,7 @@ font-size: 2.6rem;
     padding-bottom: 1rem;
 }
 
-/* .tutoring-services-flexed-h3::after {
-  content: " ";
-  position: absolute;
-  right: 0;
-  top: 2.4rem;
-  height: 1rem;
-  width: 1rem;
-  background: #a2c5c8;
-  border-radius: 50%;
-} */
+
 
 
 .tutoring-services-para {
@@ -537,6 +554,41 @@ font-size: 2.6rem;
     font-size: 1.5rem;
     line-height: 3rem;
 }
+
+
+.tutPage-but-scaled-jg {
+  display: none;
+}
+
+
+button.tutPage-but-jg {
+    font-size: 1.6rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    margin-left: 50%;
+    transform: translatex(-50%);
+    border-radius: 1rem;
+    background: #353a40;
+    font-weight: bold;
+    color: white;
+    border: .1rem solid white;
+    width: 25rem;
+}
+
+
+button.tutPage-but-jg:hover {
+    background: #591013;
+    transition: .300s ease-in-out;
+    color: white;
+}
+
+button.tutPage-but-jg:active {
+    background: grey;
+    transition: .300s ease-in-out;
+    color: white;
+}
+
 
 
 .find-your-tutor-jg {
@@ -580,14 +632,18 @@ a.find-your-tutor-jg a {
 
 
 
-/* tutoring page snippet */
-
   p.main_home-par-tutoring-jg {
     line-height: 4rem;
   }
 
+
+  .Choose-tutor-sec-flex-container-jg {
+    padding: 1rem 2rem 2rem 2rem;
+
+  }
+
 .choose-tutor-title-jg {
-  margin-top: 8rem;
+  margin-top: 2rem;
   font-size: 2.6rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -819,6 +875,8 @@ a.find-your-tutor-jg a {
     margin-bottom: .8rem;
 
   }
+
+  
 
 
   .input-subject-jg {
@@ -1331,7 +1389,7 @@ button.collapsible:hover {
   background-size: cover;
   background-repeat: "no-repeat";
 }
-}
+
 
 .imgMission-hero-rr h2 {
   font-family: "Anton", sans-serif;
@@ -1384,6 +1442,13 @@ button.collapsible:hover {
 
 
 /* volunteer page snippet */
+
+.main__volunteer-heading-jg {
+  font-size: 2.6rem;
+    padding: 0 2rem .1rem 2rem;
+    text-align: center;
+}
+
 
 button.volunteerPage-but-jg {
   font-size: 1.6rem;

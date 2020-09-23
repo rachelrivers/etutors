@@ -307,16 +307,19 @@ div.imgHome-hero {
   }
 
 
-  h2.contact-h2-jg {
-      background: rgba(255, 255, 255, 0.39);
+  
+   div.imgHome-hero-contact-jg h2.contact-h2-jg {
       font-family: 'Anton', sans-serif;
+      font-size: 3.4rem;
       text-align: center;
-      font-size: 2.4rem;
-      color: #424242;
+      color: #262626;
       font-weight: 900;
-      padding: 4rem 15rem 1rem 15rem;
-      letter-spacing: .1rem;
+      padding: 12rem 15rem 2rem 15rem;
+      letter-spacing: 1rem;
       transition: .800s ease-in-out;
+      border-radius: 1rem;
+      height: 45rem;
+      background: radial-gradient( rgba(250, 255, 220, .5), transparent);
   }
 
 
@@ -350,31 +353,9 @@ div.imgHome-hero {
 
 
 
-   .imgHome-hero-volunteer-jg {
-    position: relative;
-    z-index: 995;
-    top: 10.5rem;
-    width: 100%;
-    height: 45rem;
-    background-image: url("https://www.opexengine.com/wp-content/uploads/2020/04/Hiring-and-Layoff-Poll.jpg");
-    background-color: gray;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      transition: .500s ease-in-out;
-  }
+   
 
-
-    .imgHome-hero-volunteer-jg h2 {
-       font-family: 'Anton', sans-serif;
-      font-size: 2.4rem;
-      color: #262626;
-      font-weight: 900;
-      padding: 8rem 4rem 2rem 4rem;
-      letter-spacing: .1rem;
-      text-align: center;
-      transition: .800s ease-in-out;
-  }
+   
 
 
 
@@ -508,11 +489,12 @@ hr.main_para-hr-bottom {
     height: 25rem;
 }
 
-/* blue shapes image here */
+
 
 
 .main_images-flex-container {
     position: relative;
+    z-index: -1;
      border: 3px solid #d6d6d6;
     background: #eee;
     border-radius: 1rem;
@@ -589,15 +571,138 @@ div.background-paper {
   }
   
 
+/* tutoring section................ */
+
+/* hidded mobile titles */
+
+.tutoring-top-title-jg{
+    display:none;
+}
+
+  .tutoring-services-h3 {
+      display: none;
+  }
+
+
+  /* div.tutPage-topBanner-jg {
+      height: 20rem;
+      width: 100%;
+      background:#000000;
+  }
+
+  img.twentyYear-svg-jg {
+    padding-top: 8rem;
+      display: block;
+      height: 25rem;
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+  } */
+
+  div.tutPage-image-bg-jg {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 14rem;
+    opacity: .1;
+    height: 100%;
+    width: 100%;
+    background: url("https://svgshare.com/i/Pr3.svg");
+    background-repeat: no-repeat;
+  }
+
 
 .main__section-tutoring-services-jg {
-      padding-top: 20rem;
+      padding-top: 12rem;
       padding-bottom: 8rem;
   }
 
 
+h2.tutoring-top-title-scaled-jg {
+    display: block;
+    width: 100%;
+    font-size: 3rem;
+    padding: 5rem 2rem 5rem 0;
+    text-align: center;
+    letter-spacing: .4rem;
+}
 
-   .tutoring-services-text-wrapper {
+
+
+
+  .tut-serv-topTitle-para-image-flexContainer-jg {
+      background:white;
+  }
+
+
+
+  img.tutoringPage-image-jg {
+        height: 25rem;
+        width: 35rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+
+  .tut-serv-Title-para-item-container-jg {
+      background:none;
+  }
+
+
+.tutoring-services-h3-scaled-jg {
+      display: block;
+        font-size: 1.9rem;
+        padding-left: 0rem;
+        padding-right: 2rem;
+        text-align: left;
+  }
+
+
+  .tutoring-services-para-jg {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  padding: 1rem 2rem 1rem 0rem;
+  text-align: justify;
+}
+
+
+
+.tutPage-but-jg {
+    display: none;
+}
+
+
+button.tutPage-but-scaled-jg {
+    display: block;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+    border-radius: 1rem;
+    background: #353a40;
+    font-weight: bold;
+    color: white;
+    border: .1rem solid white;
+    width: 25rem;
+}
+
+
+button.tutPage-but-scaled-jg:hover {
+    background: #591013;
+    transition: .300s ease-in-out;
+    color: white;
+}
+
+button.tutPage-but-scaled-jg:active {
+    background: grey;
+    transition: .300s ease-in-out;
+    color: white;
+}
+
+
+
+.tutoring-services-text-wrapper {
     width: 27rem;
     margin:2rem 0;
     transition: all .200s ease-in-out;
@@ -606,7 +711,23 @@ div.background-paper {
 
   .tut-serv-topTitle-para-image-flexContainer-jg {
   display: flex;
-  align-items: center;
+}
+
+
+.tutPage-find-tut-sec-container-jg {
+    margin-top: 5rem;
+    padding: 0 0 2rem 0;
+
+  }
+
+
+  p.choose-tutor-para-jg {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  text-align: center;
 }
 
 
@@ -614,6 +735,48 @@ div.background-paper {
   padding: 0 1rem 0 2rem;
 }
 
+
+
+/* volunteer section.................. */
+
+.imgHome-hero-volunteer-jg {
+    position: relative;
+    z-index: 995;
+    top: 10.5rem;
+    width: 100%;
+    height: 45rem;
+    background-image: url("https://mma.prnewswire.com/media/1243575/BookNook___MobileServe_Partnership.jpg?p=publish&w=950");
+    background-color: gray;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: .500s ease-in-out;
+  }
+
+
+.imgHome-hero-volunteer-jg h2 {
+     font-family: 'Anton', sans-serif;
+      font-size: 3.4rem;
+      color: rgb(32, 32, 32);
+      font-weight: 900;
+      padding: 15rem 4rem 2rem 4rem;
+      letter-spacing: 1rem;
+      text-align: center;
+      transition: .800s ease-in-out;
+      height: 45rem;
+      background: radial-gradient( rgba(250, 255, 220, .8), transparent);
+}
+
+
+
+
+.main__volunteer-heading-jg {
+  font-size: 3rem;
+    padding: 5rem 2rem .1rem 2rem;
+    text-align: center;
+}
+
+/* volunteer end.............. */
 
 .footer_logo-container {
     position: absolute;
@@ -922,8 +1085,8 @@ div.imgHome-hero {
       text-align: center;
       color: #262626;
       font-weight: 900;
-      padding: 4rem 0 2rem 4rem;
-      letter-spacing: .1rem;
+      padding: 12rem 15rem 2rem 15rem;
+      letter-spacing: 1rem;
       transition: .800s ease-in-out;
       border-radius: 1rem;
   }
@@ -1275,6 +1438,11 @@ div.background-paper {
 
 
 
+
+
+
+
+
    .tutoring-services-text-wrapper {
     width: 40rem;
     margin:2rem 0;
@@ -1552,12 +1720,12 @@ div.imgHome-hero {
 
   div.imgHome-hero-contact-jg h2.contact-h2-jg {
       font-family: 'Anton', sans-serif;
-      font-size: 3.6rem;
+      font-size: 3.4rem;
       text-align: center;
       color: #262626;
       font-weight: 900;
-      padding: 4rem 0 2rem 6rem;
-      letter-spacing: .1rem;
+      padding: 12rem 15rem 2rem 15rem;
+      letter-spacing: 1rem;
       transition: .800s ease-in-out;
       border-radius: 1rem;
   }
