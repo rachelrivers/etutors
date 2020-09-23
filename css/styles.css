@@ -319,6 +319,33 @@ ul.primary-nav-flex-container {
       text-align: center;
       transition: .800s ease-in-out;
   }
+
+
+  .imgHome-hero-volunteer-jg {
+    position: relative;
+    z-index: 995;
+    top: 22.5rem;
+    width: 100%;
+    height: 45rem;
+    background-image: url("https://www.businessinsider.com/~~/f?id=4a03277e14b9b929000ba9ff");
+    background-color: gray;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: .500s ease-in-out;
+  }
+
+
+    .imgHome-hero-volunteer-jg h2 {
+       font-family: 'Anton', sans-serif;
+      font-size: 2.4rem;
+      color: #262626;
+      font-weight: 900;
+      padding: 8rem 4rem 2rem 4rem;
+      letter-spacing: .1rem;
+      text-align: center;
+      transition: .800s ease-in-out;
+  }
   
   /* .......................main section begins here */
   
@@ -336,7 +363,7 @@ ul.primary-nav-flex-container {
 
 
   .main__section-tutoring-services-jg {
-      padding-top: 15rem;
+      padding-top: 30rem;
       padding-bottom: 8rem;
   }
   
@@ -424,6 +451,31 @@ ul.primary-nav-flex-container {
   }
 
 
+
+/* Tutoring services section snippet */
+
+
+
+
+img.tutoringPage-image-jg {
+  height: 25rem;
+  width: 35rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+.tutoring-top-title-jg {
+font-size: 2.6rem;
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+
   .tutoring-services-h3 {
       font-size: 1.6rem;
       text-align: center;
@@ -454,7 +506,7 @@ ul.primary-nav-flex-container {
     height: 8rem;
     width: 8.5rem;
     border-radius: .5rem;
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-bottom: 2rem;
     
 }
@@ -487,29 +539,22 @@ ul.primary-nav-flex-container {
 }
 
 
-button.find-your-tutor-jg {
-    padding: 2rem;
+.find-your-tutor-jg {
     margin-bottom: 5rem;
-    margin-top: 2rem;
-    border-radius: 1rem;
-     background: #591013;
-     color: white;
-     border: .1rem solid white;
+     color: #591013;
      font-weight: bold;
 }
 
 
 
-button.find-your-tutor-jg a {
+a.find-your-tutor-jg a {
     color: white;
     text-decoration: none;
 }
 
 
-button.find-your-tutor-jg:hover {
-    color: white;
+.find-your-tutor-jg:hover {
     text-decoration: none;
-    background: #262626;
     transition: .350s ease-in-out;
 }
 
@@ -532,6 +577,50 @@ button.find-your-tutor-jg:hover {
     transform: skewy(-6deg);
     transform-origin: top left;
 }
+
+
+
+/* tutoring page snippet */
+
+  p.main_home-par-tutoring-jg {
+    line-height: 4rem;
+  }
+
+.choose-tutor-title-jg {
+  margin-top: 8rem;
+  font-size: 2.6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+
+}
+
+.eTutors-check-jg {
+  height: 3rem;
+  vertical-align: middle;
+  padding-right: .5rem;
+}
+
+.choose-tutor-para-jg {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  text-align: center;
+}
+
+
+
+
+/* end tutoring page section snippet */
+
+
+
+
+
+
+
 
   .contact-woman-jg {
     display: none;
@@ -596,6 +685,7 @@ button.find-your-tutor-jg:hover {
       text-align: center;
       
   }
+
 
 
 
@@ -1288,4 +1378,196 @@ button.collapsible:hover {
 .mission_main-para ul {
   font-size: 1.6rem;
   padding: 0 2rem 2rem 2rem;
+}
+
+
+
+
+/* volunteer page snippet */
+
+button.volunteerPage-but-jg {
+  font-size: 1.6rem;
+  padding: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-left: 50%;
+    transform: translatex(-50%);
+    border-radius: 1rem;
+     background: #353a40;
+     color: white;
+     border: .1rem solid white;
+     width: 25rem;
+}
+
+
+button.volunteerPage-but-jg:hover {
+    background: #591013;
+    transition: .300s ease-in-out;
+    color: white;
+}
+
+button.volunteerPage-but-jg:active {
+    background: grey;
+    transition: .300s ease-in-out;
+    color: white;
+}
+
+
+.volPage-hr-jg {
+  display: block;
+}
+
+.vol-hr-half-jg {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h2.volunteerPage-title-jg {
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-align: center;
+  color: #120772;
+  padding: 8rem 2rem 2rem 2rem;
+}
+
+
+h2.volunteer-top-title-jg {
+  padding-bottom: .5rem;
+}
+
+
+.volunteerPage-h3-jg {
+  padding: 5rem 2rem 1rem 2rem;
+}
+
+p.volunteerPage-para-jg {
+  font-size: 1.6rem;
+  padding: 0 2rem 5rem 2rem;
+  line-height: 3rem;
+}
+
+.volunteer-top-para-jg {
+  text-align: center;
+}
+
+
+.volunteerPage-signUp-butToo-jg {
+   font-size: 1.6rem;
+  padding: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+     background: #353a40;
+     color: white;
+     border: .1rem solid white;
+     margin-left: 2rem;
+     width: 25rem;
+}
+
+
+button.volunteerPage-signUp-butToo-jg:hover {
+    background: #591013;
+    transition: .300s ease-in-out;
+    color: white;
+}
+
+button.volunteerPage-signUp-butToo-jg:active {
+    background: grey;
+    transition: .300s ease-in-out;
+    color: white;
+}
+
+
+
+
+.volunteer-name-to-email-input-container-jg {
+  width: 95%;
+  margin: 2rem;
+}
+
+
+label.volunteer-formLabels-jg {
+  display: block;
+  font-size: 1.6rem;
+  padding: 2rem .5rem .5rem 0;
+}
+
+
+
+.volunteer-contact-input-container-jg {
+  display: flex;
+  max-width: 65rem;
+}
+
+.volunteer-contact-inputs-jg {
+  padding: 1rem;
+  width:50%;
+
+}
+
+input.volunteer-email-input-jg {
+  display: block;
+   padding: 1rem;
+    width: 100%;
+    margin-bottom: .8rem;
+}
+
+.voluteerPage-formTitle-iAmCurr-jg {
+  padding: 4rem 2rem 0 2rem;
+  font-size: 1.8rem;
+}
+
+
+.voluteer-form-select-para-jg {
+  font-size: 1.3rem;
+  padding: .5rem 2rem 2rem 2rem;
+}
+
+
+.volunteer-checkboxes-jg {
+  margin: 2rem;
+}
+
+.volunteer-checkboxes-para-jg {
+  font-size: 1.6rem;
+  display: inline-block;
+}
+
+.volutneer-status-checkboxes-jg {
+    font-size: 1.6rem;
+  display: inline-block;
+}
+
+
+h3.vol-textArea-title-jg {
+  padding-bottom: 2rem;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+ 
+
+div.volunteer-textArea-title-container {
+  width: 95%;
+  margin-left: 2rem;
+}
+
+
+textarea#volunteer-comment-input-jg {
+  display: block;
+    width:100%;
+    resize: vertical;
+    max-height: 300px;
+    min-height:100px;
+    max-width: 65rem;
+    
+
+}
+
+
+.volunteer-referralFeild-input-jg {
+  margin-left: 2rem;
+  padding: 1rem;
 }
