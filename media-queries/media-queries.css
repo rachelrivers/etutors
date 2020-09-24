@@ -129,34 +129,51 @@ ul.primary-nav-flex-container li a:hover {
 
 
 /* sub menu hover */
+
 ul.primary-nav-flex-container li:hover ul.primary-nav-about-sub {
     display: block;
     list-style: none;
     position: absolute;
     top: 10rem;
-    background: rgba(248, 248, 248, 0.774);
-    line-height: 0;
+    /* background: rgba(248, 248, 248, 0.774); */
     text-align: center;
+    width: 15rem;
+    height: 10rem;
+    opacity: .99;
+    box-shadow: 1px 2px .5rem rgba(0, 0, 0, .2);
+    
     
 }
 
 
 
 ul.primary-nav-about-sub li.primary-sub {
+    display: block;
+    padding: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
+ul.primary-nav-about-sub li.primary-sub a {
+    line-height: 1rem;
+    padding: 0;
+    border-bottom: .1px solid rgba(0,0,0,.1);
+    
+}
 
 ul.primary-nav-about-sub li.primary-sub a:link {
     text-decoration: none;
     color: #591013;
-    font-size: 1.6rem;
-    line-height: 0;
+    font-size: 1.7rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    text-align: center;
+    text-align: left;
+    display: block;
+    line-height: 1rem;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    letter-spacing: .1rem;
 
 }
 
@@ -168,22 +185,53 @@ ul.primary-nav-about-sub li.primary-sub a:visited {
 
 
 ul.primary-nav-about-sub li.primary-sub:hover {
-    color: rgb(133, 133, 133);
+    display: block;
+    color: 262626;
     background:#591013;
     transition: .100s ease-in-out;
+     
 }
 
 
 ul.primary-nav-about-sub li.primary-sub a:hover {
     display: block;
      background:#591013;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
 }
 
 /* sub menu ending */
 
+.home-pageBackground {
+    position: absolute;
+    top: 158rem;
+    right: 0;
+    z-index: -1;
+    opacity: .2;
+    background: url("https://svgshare.com/i/Pr3.svg");
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 100%;
+    transform: rotate(-10dg);
+    transition: all .500s ease-in-out;
+}
 
 
+.home-pageBackground-main-sec {
+    position: absolute;
+    top: 0rem;
+    z-index: 1;
+    opacity: .1;
+    background: url("https://svgshare.com/i/Pp4.svg");
+    background-position: top right ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    height: 50%;
+    width: 100%;
+    transition: all .500s ease-in-out;
+}
 
 
 button.volunteer {
@@ -259,16 +307,19 @@ div.imgHome-hero {
   }
 
 
-  h2.contact-h2-jg {
-      background: rgba(255, 255, 255, 0.39);
+  
+   div.imgHome-hero-contact-jg h2.contact-h2-jg {
       font-family: 'Anton', sans-serif;
+      font-size: 3.4rem;
       text-align: center;
-      font-size: 2.4rem;
-      color: #424242;
+      color: #262626;
       font-weight: 900;
-      padding: 4rem 15rem 1rem 15rem;
-      letter-spacing: .1rem;
+      padding: 12rem 15rem 2rem 15rem;
+      letter-spacing: 1rem;
       transition: .800s ease-in-out;
+      border-radius: 1rem;
+      height: 45rem;
+      background: radial-gradient( rgba(250, 255, 220, .5), transparent);
   }
 
 
@@ -302,6 +353,12 @@ div.imgHome-hero {
 
 
 
+   
+
+   
+
+
+
 /* .......................main section begins here
 changes made
 main section padding top */
@@ -313,136 +370,41 @@ main section padding top */
 }
 
 
-.homeFun-the-role-style-jg {
-    font-size: 2.6rem;
-    margin-top: 5rem;
-    padding: 0 2rem 4rem 2rem;
-  }
-
-
-  .homeFun-the-role-para-jg {
-    font-size: 1.6rem;
-    padding: 13rem 2rem 2rem 2rem;
-    line-height: 4rem;
-  }
-
-
-.home-girl-imgBut-container-jg{
-    height: 35rem;
-    width: 40rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.container-but-jg {
-    display:flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
- 
-button.home-girl-but-jg {
-    width: 50%;
-    border: none;
-    color: white;
-    font-size: 1.6rem;
-    padding: 1rem;
-}
 
 
 
-.learnMore-home-gir-jg {
-    background: #591013;
-}
-
-
-.learnMore-home-gir-jg a {
-    text-decoration: none;
-    color: white;
-}
-
-
-.learnMore-home-gir-jg:hover {
-    background: #262626;
-}
-
-.volunteer-learnmore-jg {
-    background: rgb(43, 9, 107);
-}
-
-
-.volunteer-learnmore-jg a{
-    text-decoration: none;
-    color: white;
-}
-
-
-.volunteer-learnmore-jg:hover {
-    background: #262626;
-}
-/* button.home-girl-but-volunteer-jg {
-    width: 40%;
-    padding: 1rem 4rem;
-} */
-
-
-
-  div.home-girl-computer-container-jg {
-    width: 100%;
-    height: 30rem;
-    position: relative;
-  }
-
-
-   img.home-girl-bg-jg {
-       display: block;
-      position: absolute;
-      z-index: -1;
-      top: -10rem;
-      left: 0;
-      right: 0;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50rem;
-      height: 69rem;
-  }
-  img.home-girl-computer-jg {
+hr.game-learning-bottom-hr-jg {
     display: none;
-    width: 40rem;
-    height: 30rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: .5rem;
-    border: 2rem solid white;
-   
-  }
+}
 
 
-  img.home-girl-largerScreen-jg {
-    display: block;
-    width: 40rem;
-    height: 30rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: .5rem;
-   
-  }
-
- 
 
 
-  .home-game-learn-title-jg {
+.home-game-learning-conn-container-jg {
+    margin-top: 8rem;
+}
+
+
+.game-learning-ben-flex-container-jg {
+    display: none;
+
+}
+
+  
+
+.home-game-learn-title-jg {
     font-size: 2.4rem;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     padding: 0 2rem 1rem 2rem;
+    text-align: left;
   }
 
 
   .home-game-learning-para {
     font-size: 1.6rem;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 2rem 2rem 6rem 2rem;
     line-height: 4rem;
+    text-align: justify;
   }
 
 
@@ -471,6 +433,7 @@ h2.main_page-section-heading-contact-jg {
 h3.contactPage-h3-jg {
       text-align: center;
       font-weight: normal;
+      font-size: 1.6rem;
   }
 
   hr {
@@ -494,6 +457,30 @@ hr.main_para-hr-bottom {
 }
 
 
+.girl-heading-text-jg {
+    display: none;
+}
+
+
+
+.girl-heading-text-sub-para-jg {
+    display: none;
+}
+
+
+.girl-text-jg {
+    position: relative;
+    border: none;
+    background: white;
+    border-radius: 1rem;
+    padding-bottom: 3rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+
+    /* box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.2); */
+}
+
+
 .contact-woman-jg {
     display: block;
     position: absolute;
@@ -502,23 +489,41 @@ hr.main_para-hr-bottom {
     height: 25rem;
 }
 
-/* blue shapes image here */
+
 
 
 .main_images-flex-container {
+    position: relative;
+    z-index: -1;
      border: 3px solid #d6d6d6;
     background: #eee;
     border-radius: 1rem;
     padding-top: 4rem;
+    padding-bottom: 2rem;
     margin-top: -1rem;
 }
 
+.main_images-flex-container::before {
+     position: absolute;
+     top: 0;
+     content: " ";
+     background:#262626;
+     height: 100%;
+     width: .1px;
+     opacity: .1;
+}
+
+
 
 img.home-brain-jg {
+    position: absolute;
+    z-index: 2;
     display: block;
     margin-left: 50%;
     transform: translatex(-50%);
     height: 10rem;
+    background: ghostwhite;
+    border-radius: 50%;
 }
 
 
@@ -529,7 +534,7 @@ div.background-paper {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0rem;
-    padding-top: 3rem;
+    padding-top: 0;
     border-radius: 2rem;
     border: none;
   }
@@ -561,13 +566,217 @@ div.background-paper {
 
 
 
+  .main_flex-image-text-wrapper {
+    width: 50%;
+  }
+  
 
-   .tutoring-services-text-wrapper {
+/* tutoring section................ */
+
+/* hidded mobile titles */
+
+.tutoring-top-title-jg{
+    display:none;
+}
+
+  .tutoring-services-h3 {
+      display: none;
+  }
+
+
+  /* div.tutPage-topBanner-jg {
+      height: 20rem;
+      width: 100%;
+      background:#000000;
+  }
+
+  img.twentyYear-svg-jg {
+    padding-top: 8rem;
+      display: block;
+      height: 25rem;
+      width: 30%;
+      margin-left: auto;
+      margin-right: auto;
+  } */
+
+  div.tutPage-image-bg-jg {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 14rem;
+    opacity: .1;
+    height: 100%;
+    width: 100%;
+    background: url("https://svgshare.com/i/Pr3.svg");
+    background-repeat: no-repeat;
+  }
+
+
+.main__section-tutoring-services-jg {
+      padding-top: 12rem;
+      padding-bottom: 8rem;
+  }
+
+
+h2.tutoring-top-title-scaled-jg {
+    display: block;
+    width: 100%;
+    font-size: 3rem;
+    padding: 5rem 2rem 5rem 0;
+    text-align: center;
+    letter-spacing: .4rem;
+}
+
+
+
+
+  .tut-serv-topTitle-para-image-flexContainer-jg {
+      background:white;
+  }
+
+
+
+  img.tutoringPage-image-jg {
+        height: 25rem;
+        width: 35rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  }
+
+
+  .tut-serv-Title-para-item-container-jg {
+      background:none;
+  }
+
+
+.tutoring-services-h3-scaled-jg {
+      display: block;
+        font-size: 1.9rem;
+        padding-left: 0rem;
+        padding-right: 2rem;
+        text-align: left;
+  }
+
+
+  .tutoring-services-para-jg {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  padding: 1rem 2rem 1rem 0rem;
+  text-align: justify;
+}
+
+
+
+.tutPage-but-jg {
+    display: none;
+}
+
+
+button.tutPage-but-scaled-jg {
+    display: block;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+    border-radius: 1rem;
+    background: #353a40;
+    font-weight: bold;
+    color: white;
+    border: .1rem solid white;
+    width: 25rem;
+}
+
+
+button.tutPage-but-scaled-jg:hover {
+    background: #591013;
+    transition: .300s ease-in-out;
+    color: white;
+}
+
+button.tutPage-but-scaled-jg:active {
+    background: grey;
+    transition: .300s ease-in-out;
+    color: white;
+}
+
+
+
+.tutoring-services-text-wrapper {
     width: 27rem;
     margin:2rem 0;
     transition: all .200s ease-in-out;
   }
 
+
+  .tut-serv-topTitle-para-image-flexContainer-jg {
+  display: flex;
+}
+
+
+.tutPage-find-tut-sec-container-jg {
+    margin-top: 5rem;
+    padding: 0 0 2rem 0;
+
+  }
+
+
+  p.choose-tutor-para-jg {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  text-align: center;
+}
+
+
+.servItem-jg {
+  padding: 0 1rem 0 2rem;
+}
+
+
+
+/* volunteer section.................. */
+
+.imgHome-hero-volunteer-jg {
+    position: relative;
+    z-index: 995;
+    top: 10.5rem;
+    width: 100%;
+    height: 45rem;
+    background-image: url("https://mma.prnewswire.com/media/1243575/BookNook___MobileServe_Partnership.jpg?p=publish&w=950");
+    background-color: gray;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: .500s ease-in-out;
+  }
+
+
+.imgHome-hero-volunteer-jg h2 {
+     font-family: 'Anton', sans-serif;
+      font-size: 3.4rem;
+      color: rgb(32, 32, 32);
+      font-weight: 900;
+      padding: 15rem 4rem 2rem 4rem;
+      letter-spacing: 1rem;
+      text-align: center;
+      transition: .800s ease-in-out;
+      height: 45rem;
+      background: radial-gradient( rgba(250, 255, 220, .8), transparent);
+}
+
+
+
+
+.main__volunteer-heading-jg {
+  font-size: 3rem;
+    padding: 5rem 2rem .1rem 2rem;
+    text-align: center;
+}
+
+/* volunteer end.............. */
 
 .footer_logo-container {
     position: absolute;
@@ -589,19 +798,41 @@ img.footer_logo {
 }
 
 
+.eTutors-gameTitle-container {
+    position: relative;
+    background: ghostwhite;
+    border-radius: 2rem;
+    border-top: .1rem solid #591013;
+    border-bottom: .1rem solid #591013;
+    padding-bottom: 5rem;
+    padding-top: 4rem; 
+    margin-top: 6rem; 
+    margin-bottom: 8rem;
+    transition: all .500s ease-in-out;
+}
 
  .main_page-section-heading-two-jg {
-      text-align: center;
+      position: relative;
+      display: inline-block;
+      z-index: 2;
+      left: 50%;
+      transform: translatex(-50%);
       font-size: 2.9rem;
       color: #000000;
-      padding: 1rem 3rem 0 3rem;
-      letter-spacing: .1rem;
+      padding: 1rem 0 0 0;
+      letter-spacing: .5rem;
+      background: linear-gradient(to bottom,  ghostwhite, transparent );
+      border-radius: 2rem;
+      transition: all .500s ease-in-out;
+      
   }
 
 
   h3.eTutots-game-subTitle-jg {
-      color: #591013;
+      color: #000;
     font-size: 2rem;
+    padding-top: 0;
+    margin-bottom: 0;
   }
 
 
@@ -854,8 +1085,8 @@ div.imgHome-hero {
       text-align: center;
       color: #262626;
       font-weight: 900;
-      padding: 4rem 0 2rem 4rem;
-      letter-spacing: .1rem;
+      padding: 12rem 15rem 2rem 15rem;
+      letter-spacing: 1rem;
       transition: .800s ease-in-out;
       border-radius: 1rem;
   }
@@ -874,6 +1105,268 @@ div.imgHome-hero {
     background: #eaeaea;
     padding:2rem;
 }
+
+
+.homeFun-the-role-style-jg {
+    display: none;
+}
+
+
+.girl-para-flex-container-jg {
+    display: flex;
+    height: 35rem;
+    padding-top: 15rem;
+    margin-bottom: 8rem;
+    transition: all .500s ease-in-out;
+}
+
+/* .image-container-flex-item-jg {
+    position: relative;
+    width: 50%;
+    height: 20rem;
+} */
+
+
+.computer-girl-jg {
+    display: block;
+    width:28rem; 
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .500s ease-in-out;
+}
+
+
+.computer-girl-background-jg {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 8rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 51rem;
+}
+
+
+
+.image-container-flex-item-jg {
+    padding: 2rem;
+}
+
+
+.home-girl-para-container-flex-item-jg {
+    width: 100%;
+    padding-right: 2rem;
+    margin-left: 1rem;
+}
+
+.test-jg {
+    background: white;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+
+}
+
+.girl-text-jg {
+    border: none;
+    line-height: 3.5rem;
+    text-align: justify;
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+
+.girl-heading-text-jg {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.4rem;
+    letter-spacing: .1rem;
+    padding: 0 2rem 0 2rem;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+
+.girl-heading-text-sub-para-jg {
+    display: block;
+    font-size: 1.6rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.girl-image-but-flex-container-jg {
+    width: 28rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+     transition: all .500s ease-in-out;
+
+}
+
+
+.girl-but-jg {
+    width: 50%;
+    padding: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+}
+
+
+.learn-more-jg {
+    background: #591013;
+    
+}
+
+
+.learn-more-jg a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.volunteer-jg {
+    background: rgb(43, 9, 107);
+    color: white;
+}
+
+.girl-but-jg:hover {
+   background: #262626;
+}
+
+
+.home-girl-computer-container-jg {
+    display: none;
+}
+
+ .game-learning-ben-flex-container-jg {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+
+
+.game-learning-benefits-icons {
+    
+    position: relative;
+    height: 20rem;
+    width: 100%;
+    /* background: ghostwhite; */
+}
+
+img.game-learning-icons-jg {
+    margin-left: 50%;
+    transform: translatex(-50%);
+    height: 10rem;
+
+}
+
+.game-learning-benefits-icons::after {
+    position: absolute;
+    right:0;
+    content: " ";
+    height: 20rem;
+    width: .1rem;
+    background: teal;
+    margin-left: 5rem;
+    opacity: .1;
+}
+
+div.end-jg::after {
+    position: absolute;
+    left:50%;
+    content: " ";
+    height: 20rem;
+    width: .1rem;
+    background:white;
+}
+
+
+.game-learning-subTitles {
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+
+.homeFun-the-role-style-jg {
+    display: none;
+}
+.homeFun-the-role-para-jg{
+    display: none;
+}
+
+
+.home-game-learn-title-jg {
+    font-size: 3rem;
+    margin-top: 1rem;
+    padding: 0 2rem 5rem 2rem;
+    text-align: center;
+    transition: all .500s ease-in-out;
+  }
+
+
+  
+.home-game-learning-conn-container-jg {
+    margin-top: 40rem;
+}
+
+
+
+hr.gameBased-Learning-sec-jg{
+    display: block;
+    position: relative;
+    top: 0;
+    margin-bottom: 3rem;
+}
+
+hr.game-learning-bottom-hr-jg {
+    display: block;
+}
+
+
+.home-pageBackground {
+    position: absolute;
+    top: 150rem;
+    right: 0;
+    z-index: -1;
+    opacity: .2;
+    background: url("https://svgshare.com/i/Pr3.svg");
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:80%;
+    width: 100%;
+}
+
+.home-pageBackground-main-sec {
+    position: absolute;
+    top: 0rem;
+    z-index: 1;
+    opacity: .1;
+    background: url("https://svgshare.com/i/Pp4.svg");
+    background-position: top left ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+}
+
 
 
 .contact-woman-jg {
@@ -899,7 +1392,8 @@ div.imgHome-hero {
     border: 3px solid #d6d6d6;
     background: #eee;
     border-radius: 1rem;
-     margin-top: -1.5rem
+     margin-top: -1.5rem;
+     padding-bottom: 0;
 }
 
 
@@ -910,6 +1404,7 @@ div.background-paper {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
+    padding-bottom: 0;
     padding-top: 6rem;
   }
 
@@ -939,6 +1434,11 @@ div.background-paper {
    h3.eTutots-game-subTitle-jg {
     font-size: 2rem;
   }
+
+
+
+
+
 
 
 
@@ -1220,12 +1720,12 @@ div.imgHome-hero {
 
   div.imgHome-hero-contact-jg h2.contact-h2-jg {
       font-family: 'Anton', sans-serif;
-      font-size: 3.6rem;
+      font-size: 3.4rem;
       text-align: center;
       color: #262626;
       font-weight: 900;
-      padding: 4rem 0 2rem 6rem;
-      letter-spacing: .1rem;
+      padding: 12rem 15rem 2rem 15rem;
+      letter-spacing: 1rem;
       transition: .800s ease-in-out;
       border-radius: 1rem;
   }
@@ -1259,6 +1759,155 @@ div.imgHome-hero {
 
 
 
+.computer-girl-jg {
+    display: block;
+    width:45rem; 
+    height: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.girl-image-but-flex-container-jg {
+    width: 45rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+}
+
+.girl-para-flex-container-jg {
+    display: flex;
+    height: 35rem;
+    margin-bottom: 15rem;
+}
+
+
+.girl-text-jg {
+    position: relative;
+    /* border-top: .1px solid rgb(43, 9, 107); */
+    margin-top: 2rem;
+    /* border-bottom: 1px solid rgb(43, 9, 107); */
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+
+/* .girl-text-jg::after {
+    content: "";
+    position: absolute;
+    background: rgb(43, 9, 107);
+    height: .1rem;
+    width: 10rem;
+    right: 0;
+    margin-top: 4rem;
+    
+
+} */
+
+.home-game-learning-conn-container-jg {
+    
+    margin-top: 40rem;
+}
+
+
+
+.home-game-learn-title-jg {
+    font-size: 3rem;
+    margin-top: 1rem;
+    padding: 0 2rem 5rem 2rem;
+    text-align: center;
+    transition: all .500s ease-in-out;
+  }
+
+
+  .game-learning-ben-flex-container-jg {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+
+
+.game-learning-benefits-icons {
+    
+    position: relative;
+    height: 20rem;
+    width: 100%;
+    /* background: ghostwhite; */
+}
+
+
+
+.game-learning-benefits-icons::after {
+    position: absolute;
+    right:0;
+    content: " ";
+    height: 20rem;
+    width: .1rem;
+    background: teal;
+    margin-left: 5rem;
+    opacity: .3;
+}
+
+div.end-jg::after {
+    position: absolute;
+    left:50%;
+    content: " ";
+    height: 20rem;
+    width: .1rem;
+    background:white;
+}
+
+
+.game-learning-subTitles {
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+hr.game-learning-bottom-hr-jg {
+    margin-top: 2rem;
+}
+
+.home-pageBackground {
+    position: absolute;
+    top: 140rem;
+    right: 0;
+    z-index: -1;
+    opacity: .2;
+    background: url("https://svgshare.com/i/Pr3.svg");
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 100%;
+}
+
+
+.home-pageBackground-main-sec {
+    position: absolute;
+    top: 0rem;
+    z-index: 1;
+    opacity: .1;
+    background: url("https://svgshare.com/i/Pp4.svg");
+    background-position: top left ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 100%;
+}
+
+
+.home-graph {
+    background: yellow;
+    width: 65rem;
+    height: 19.5rem;
+}
 .contact-woman-jg {
     display: block;
     position: absolute;
@@ -1295,7 +1944,7 @@ div.background-paper {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    padding-top: 3rem;
+    padding-top: 0;
   }
 
 
@@ -1450,11 +2099,7 @@ div.footer_copyright-container {
 
 /*-------------Resources Page Queries ----------*/
 
-div.img-resources-hero {
-top: 10.5rem;
-}
-
-.resources_image-wrap {
-    display: block;
-    justify-content: center;
+    div.img-resources-hero {
+    top: 10.5rem;
+    }
 }
