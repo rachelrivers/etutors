@@ -629,41 +629,45 @@ h2.tutoring-top-title-scaled-jg {
 
 
 
-
   .tut-serv-topTitle-para-image-flexContainer-jg {
-      background:white;
-  }
-
-
-
-  img.tutoringPage-image-jg {
-        height: 25rem;
-        width: 35rem;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-  }
+  display: flex;
+  flex-direction: row-reverse;
+}
 
 
   .tut-serv-Title-para-item-container-jg {
-      background:none;
+      background:white;
+      
   }
+
+
+img.tutoringPage-image-jg {
+        height: 25rem;
+        width: 38rem;
+        display: block;
+        padding-right: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all .500s ease-in-out;
+  }
+
 
 
 .tutoring-services-h3-scaled-jg {
       display: block;
         font-size: 1.9rem;
+        padding-top: 0;
         padding-left: 0rem;
         padding-right: 2rem;
-        text-align: left;
+        text-align: right;
+        transition: all .500s ease-in-out;
   }
-
 
   .tutoring-services-para-jg {
   font-size: 1.6rem;
   line-height: 3rem;
   padding: 1rem 2rem 1rem 0rem;
-  text-align: justify;
+  text-align: right;
 }
 
 
@@ -671,9 +675,14 @@ h2.tutoring-top-title-scaled-jg {
 .tutPage-but-jg {
     display: none;
 }
-
+.tut-but-container-jg {
+    position: relative;
+    
+}
 
 button.tutPage-but-scaled-jg {
+    position: absolute;
+    right: 2rem;
     display: block;
     font-size: 1.6rem;
     padding: 1.5rem;
@@ -683,7 +692,6 @@ button.tutPage-but-scaled-jg {
     background: #353a40;
     font-weight: bold;
     color: white;
-    border: .1rem solid white;
     width: 25rem;
 }
 
@@ -708,10 +716,6 @@ button.tutPage-but-scaled-jg:active {
     transition: all .200s ease-in-out;
   }
 
-
-  .tut-serv-topTitle-para-image-flexContainer-jg {
-  display: flex;
-}
 
 
 .tutPage-find-tut-sec-container-jg {
@@ -1439,7 +1443,7 @@ div.background-paper {
 
 
 
-
+/* tutoring page................... */
 
 
 
@@ -1454,6 +1458,8 @@ div.background-paper {
     width: 18%;
     margin-left: 0;
     margin-top: 3.5rem;
+
+
 }
 
 
@@ -1973,6 +1979,26 @@ div.background-paper {
       display: none;
   }
 
+/* tutoring page.......................... */
+
+.tutoring-services-h3-scaled-jg {
+      display: block;
+        font-size: 1.9rem;
+        padding-top: 3rem;
+        padding-left: 0rem;
+        padding-right: 2rem;
+        text-align: right;
+        transition: all .500s ease-in-out;
+  }
+
+  img.tutoringPage-image-jg {
+        height: 30rem;
+        width: 40rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all .500s ease-in-out;
+  }
 
 
    .tutoring-services-text-wrapper {
