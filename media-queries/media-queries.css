@@ -772,12 +772,171 @@ button.tutPage-but-scaled-jg:active {
 }
 
 
+.vol-but-sec-bgGraphic-container-jg {
+    position: relative;
+    height: 20rem;
+}
+
+.volunteer-pageBackground {
+    position: absolute;
+    top:12rem;
+    left: 0;
+    z-index: -1;
+    opacity: .2;
+    background: url("https://svgshare.com/i/PzE.svg");
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 60%;
+    transition: all .500s ease-in-out;
+}
 
 
 .main__volunteer-heading-jg {
   font-size: 3rem;
     padding: 5rem 2rem .1rem 2rem;
     text-align: center;
+}
+
+
+.volunteerPage-h3-jg {
+  padding: 4rem 2rem 1rem 2rem;
+}
+
+p.volunteerPage-para-jg {
+  font-size: 1.6rem;
+  padding: 0 2rem 3.5rem 2rem;
+  line-height: 3rem;
+}
+
+
+.volPage-hr-jg {
+  
+display: none;
+}
+
+
+.vol-center-tit-para-secs-container-jg {
+    background: ghostwhite;
+    margin:2rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0, .5);
+    border-radius: .5rem;
+}
+
+
+.vol-signUp-subTitle-container-jg  {
+    width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+p.vol-signUp-subTitle {
+    text-align: center;
+}
+
+
+.vol-hr-half-jg {
+    display: none;
+}
+
+
+.vol-but-container-top-jg {
+  position: relative;
+  margin: 5rem 2rem 0 2rem;
+  height: 13rem;
+  background: #eee;
+  border-top: 5px solid rgb(156, 156, 156);;
+  border-bottom: 5px solid rgb(156, 156, 156);
+}
+
+button.volunteerPage-but-jg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.2rem;
+  font-size: 1.6rem;
+  padding: 2rem;
+    border-radius: 1rem;
+     background: #353a40;
+     color: white;
+     border: .1rem solid white;
+     width: 25rem;
+     letter-spacing: .2rem;
+}
+
+
+button.volunteerPage-but-jg:hover {
+    background: #591013;
+    transition: .300s ease-in-out;
+    color: white;
+}
+
+button.volunteerPage-but-jg:active {
+    background: grey;
+    transition: .300s ease-in-out;
+    color: white;
+}
+
+/* name and email input container */
+.volunteer-name-to-email-input-container-jg {
+  max-width: 65rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.volunteer-contact-input-container-jg {
+  display: flex;
+  max-width: 65rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label.volunteer-formLabels-jg {
+    display: block;
+    font-size: 1.6rem;
+  padding: 2rem .5rem .5rem 0;
+  background:none;
+}
+
+
+.volunteerCheckbox-toBottom-container-jg {
+    width: 65rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.voluteerPage-formTitle-iAmCurr-jg {
+  padding: 4rem 0 0 0;
+  font-size: 1.9rem;
+  margin-left: auto;
+}
+
+
+.voluteer-form-select-para-jg {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 1.6rem;
+}
+
+
+
+h3.vol-textArea-title-jg {
+  padding-bottom: 2rem;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+
+div.volunteer-textArea-title-container {
+  /* width: 95%; */
+  margin-left: 0rem;
 }
 
 /* volunteer end.............. */

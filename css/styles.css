@@ -343,7 +343,7 @@ ul.primary-nav-flex-container {
       font-size: 2.4rem;
       color: #262626;
       font-weight: 900;
-      padding: 8rem 4rem 2rem 4rem;
+      padding: 20rem 4rem 2rem 4rem;
       letter-spacing: .1rem;
       text-align: center;
       transition: .800s ease-in-out;
@@ -486,7 +486,7 @@ font-size: 2.6rem;
 
 
   .tutoring-services-h3 {
-      font-size: 1.6rem;
+      font-size: 1.9rem;
       padding-top: 2rem;
       padding-left: 2rem;
       padding-right: 2rem;
@@ -899,7 +899,7 @@ a.find-your-tutor-jg a {
    margin-top: 1.2rem;
    padding: 1.2rem 2rem;
     border: none;
-   background: rgb(56, 68, 243);
+   background:#262626;
    border-radius: .5rem;
    color: #dfdfdf;
    font-weight: bold;
@@ -911,7 +911,7 @@ a.find-your-tutor-jg a {
 
 
    input.contact-submit-jg:hover {
-    background: rgb(120, 128, 238);
+    background: #591013;
     color: white;
     transition: .200s ease-in-out;
    
@@ -1445,18 +1445,33 @@ button.collapsible:hover {
 
 .main__volunteer-heading-jg {
   font-size: 2.6rem;
-    padding: 0 2rem .1rem 2rem;
+    padding: 10rem 2rem .1rem 2rem;
     text-align: center;
 }
 
+.volunteer-subTitle-h3 {
+      font-size: 1.7rem;
+      padding-top: 1rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      text-align: center;
+      font-weight: normal;
+  }
 
+.vol-but-container-top-jg {
+  position: relative;
+  height: 13rem;
+}
 button.volunteerPage-but-jg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1.6rem;
   padding: 2rem;
     margin-bottom: 5rem;
     margin-top: 2rem;
-    margin-left: 50%;
-    transform: translatex(-50%);
     border-radius: 1rem;
      background: #353a40;
      color: white;
@@ -1489,17 +1504,11 @@ button.volunteerPage-but-jg:active {
 }
 
 
-h2.volunteerPage-title-jg {
-  font-size: 2.6rem;
-  font-weight: bold;
-  text-align: center;
-  color: #120772;
-  padding: 8rem 2rem 2rem 2rem;
-}
-
 
 h2.volunteer-top-title-jg {
-  padding-bottom: .5rem;
+  color: #591013;
+  padding: 5rem 2rem .5rem 2rem;
+  text-align: center;
 }
 
 
@@ -1544,11 +1553,27 @@ button.volunteerPage-signUp-butToo-jg:active {
     color: white;
 }
 
+.voluteer-signUpIcon-title-conatiner-jg {
+  background: none;
+}
+h2.volunteerPage-title-jg {
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-align: center;
+  color: #591013;
+  padding: 1rem 2rem 2rem 2rem;
+}
 
-
+.voluteerSignUp-icon-jg {
+  width: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+}
 
 .volunteer-name-to-email-input-container-jg {
-  width: 95%;
+  /* width: 95%; */
   margin: 2rem;
 }
 
@@ -1592,7 +1617,7 @@ input.volunteer-email-input-jg {
 
 
 .volunteer-checkboxes-jg {
-  margin: 2rem;
+  margin-left: 4rem;
 }
 
 .volunteer-checkboxes-para-jg {
@@ -1615,8 +1640,9 @@ h3.vol-textArea-title-jg {
  
 
 div.volunteer-textArea-title-container {
-  width: 95%;
+  /* width: 95%; */
   margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 
