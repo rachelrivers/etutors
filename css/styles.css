@@ -123,7 +123,6 @@ nav#nav__primary {
 }
 
 ul.primary-nav-flex-container {
-<<<<<<< HEAD
       list-style: none;
       display: flex;
       flex-direction: column;
@@ -399,14 +398,6 @@ ul.primary-nav-flex-container {
       display: none;
    
   }
-=======
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size: 1.9rem;
-}
->>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 
 .primary-nav-flex-container li {
   padding-bottom: 2rem;
@@ -696,17 +687,10 @@ img.tutoringPage-image-jg {
 }
 
 h2.tutoring-top-title-jg {
-<<<<<<< HEAD
 font-size: 2.6rem;
     padding: 10rem 2rem 4rem 2rem;
     text-align: center;
     letter-spacing: .5rem;
-=======
-  font-size: 2.6rem;
-  padding: 2rem 2rem 4rem 2rem;
-  text-align: center;
-  letter-spacing: 0.5rem;
->>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 }
 
 .tutoring-services-h3 {
@@ -717,7 +701,6 @@ font-size: 2.6rem;
   text-align: center;
 }
 
-<<<<<<< HEAD
   .tutoring-services-h3 {
       font-size: 1.9rem;
       padding-top: 2rem;
@@ -736,15 +719,6 @@ font-size: 2.6rem;
     margin-right: auto;
 
   }
-=======
-img.tut-twentyYear-image-jg {
-  display: block;
-  height: 8rem;
-  margin-top: 5rem;
-  margin-left: auto;
-  margin-right: auto;
-}
->>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 
 .tutoring-services-para-jg {
   font-size: 1.6rem;
@@ -795,7 +769,6 @@ img.tut-twentyYear-image-jg {
   display: none;
 }
 
-<<<<<<< HEAD
 .tut-mobile-book-but-container-jg{
   display: none;
 }
@@ -814,21 +787,6 @@ button.tutPage-but-jg {
     color: white;
     border: .1rem solid white;
     width: 25rem;
-=======
-button.tutPage-but-jg {
-  font-size: 1.6rem;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 5rem;
-  margin-left: 50%;
-  transform: translatex(-50%);
-  border-radius: 1rem;
-  background: #353a40;
-  font-weight: bold;
-  color: white;
-  border: 0.1rem solid white;
-  width: 25rem;
->>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 }
 
 button.tutPage-but-jg:hover {
@@ -960,7 +918,6 @@ h3.main-para-contact-heading-jg {
   text-align: center;
 }
 
-<<<<<<< HEAD
  .line-height-main-home-para-jg {
     line-height: 4rem;
   }
@@ -1035,15 +992,6 @@ h3.main-para-contact-heading-jg {
   .girl-text-jg {
     background: white;
   }
-=======
-.homeFun-lightBulb-icon {
-  display: none;
-}
-
-.home-girl-bg-jg {
-  display: none;
-}
->>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 
 .home-girl-largerScreen-jg {
   display: none;
@@ -1095,7 +1043,6 @@ img.home-girl-computer-jg {
   display: none;
 }
 
-<<<<<<< HEAD
   .container-but-jg {
     display: none;
   }
@@ -1125,13 +1072,6 @@ img.home-girl-computer-jg {
   .contact-map-jg {
       display: none;
   }
-=======
-.home-game-learn-title-jg {
-  font-size: 2.4rem;
-  margin-top: 2.5rem;
-  padding: 0 2rem 1rem 2rem;
-}
->>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 
 .home-game-learning-para {
   font-size: 1.6rem;
@@ -1241,7 +1181,6 @@ img.home-brain-jg {
   border-radius: 50%;
 }
 
-<<<<<<< HEAD
   textarea#contact-messageInput-jg {
       margin-left: auto;
       margin-right: auto;
@@ -1306,8 +1245,6 @@ img.home-brain-jg {
   }
 
   
-=======
->>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 div.background-paper {
   width: 90%;
   height: 90%;
@@ -1409,7 +1346,6 @@ img.main_img-tutor-network-item {
 }
 
 button.start-game-jg {
-<<<<<<< HEAD
 
     padding: 2rem;
     margin-bottom: 5rem;
@@ -1421,18 +1357,6 @@ button.start-game-jg {
      /* margin-left: 50%;
      transform: translatex(-50%); */
      width: 100%;
-=======
-  padding: 2rem;
-  margin-bottom: 5rem;
-  margin-top: 1rem;
-  border-radius: 1rem;
-  background: #353a40;
-  color: white;
-  border: 0.1rem solid white;
-  margin-left: 50%;
-  transform: translatex(-50%);
-  width: 100%;
->>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 }
 
 button.start-game-jg:hover {
@@ -1840,7 +1764,6 @@ h2.mission_heading {
 
 .main__volunteer-heading-jg {
   font-size: 2.6rem;
-<<<<<<< HEAD
     padding: 10rem 2rem .1rem 2rem;
     text-align: center;
 }
@@ -1858,12 +1781,6 @@ h2.mission_heading {
   position: relative;
   height: 13rem;
 }
-=======
-  padding: 0 2rem 0.1rem 2rem;
-  text-align: center;
-}
-
->>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 button.volunteerPage-but-jg {
   position: absolute;
   left: 0;
@@ -1871,7 +1788,6 @@ button.volunteerPage-but-jg {
   margin-left: auto;
   margin-right: auto;
   font-size: 1.6rem;
-<<<<<<< HEAD
   padding: 1.5rem;
     margin-bottom: 5rem;
     margin-top: 2rem;
@@ -1889,20 +1805,6 @@ button.volunteerPage-but-jg a {
 }
 
 
-=======
-  padding: 2rem;
-  margin-bottom: 5rem;
-  margin-top: 2rem;
-  margin-left: 50%;
-  transform: translatex(-50%);
-  border-radius: 1rem;
-  background: #353a40;
-  color: white;
-  border: 0.1rem solid white;
-  width: 25rem;
-}
-
->>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 button.volunteerPage-but-jg:hover {
   background: #591013;
   transition: 0.3s ease-in-out;
@@ -1925,25 +1827,12 @@ button.volunteerPage-but-jg:active {
   margin-right: auto;
 }
 
-<<<<<<< HEAD
 
 
 h2.volunteer-top-title-jg {
   color: #591013;
   padding: 5rem 2rem .5rem 2rem;
   text-align: center;
-=======
-h2.volunteerPage-title-jg {
-  font-size: 2.6rem;
-  font-weight: bold;
-  text-align: center;
-  color: #120772;
-  padding: 8rem 2rem 2rem 2rem;
-}
-
-h2.volunteer-top-title-jg {
-  padding-bottom: 0.5rem;
->>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 }
 
 .volunteerPage-h3-jg {
@@ -1985,7 +1874,6 @@ button.volunteerPage-signUp-butToo-jg:active {
   color: white;
 }
 
-<<<<<<< HEAD
 .voluteer-signUpIcon-title-conatiner-jg {
   background: none;
 }
@@ -2005,8 +1893,6 @@ h2.volunteerPage-title-jg {
   padding-top: 5rem;
 }
 
-=======
->>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 .volunteer-name-to-email-input-container-jg {
   /* width: 95%; */
   margin: 2rem;
