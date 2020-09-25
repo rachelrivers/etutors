@@ -8,11 +8,9 @@ project colors:
 font-family(already linked in head section of index.html
 font-family: 
 'Open Sans', sans-serif; font-family: 
-
 hero image font
 font-family: 'Anton', sans-serif;
     
-
 no need for @font-face
 */
 
@@ -125,6 +123,7 @@ nav#nav__primary {
 }
 
 ul.primary-nav-flex-container {
+<<<<<<< HEAD
       list-style: none;
       display: flex;
       flex-direction: column;
@@ -400,64 +399,285 @@ ul.primary-nav-flex-container {
       display: none;
    
   }
+=======
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.9rem;
+}
+>>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 
-  .computer-girl-background-jg {
-      display: none;
-  }
+.primary-nav-flex-container li {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-bottom: 0.01px solid #aaa;
+  background: #591013;
+}
 
-  .gameBased-Learning-sec-jg {
-    display: none;
-  }
+ul.primary-nav-flex-container li ul.primary-nav-about-sub {
+  list-style: none;
+  position: relative;
+  top: 2.3rem;
+  background: rgb(248, 248, 248);
+  display: none;
+}
 
-  .game-learning-ben-flex-container-jg {
-    display: none;
-  }
+ul.primary-nav-flex-container li:hover ul.primary-nav-about-sub {
+  display: block;
+}
 
-  .contactPage-h3-jg {
-      font-size: 1.6rem;
-      text-align: center;
-      font-weight: normal;
-      padding-top: 0;
-      margin-top: 0;
-  }
+ul.primary-nav-flex-container li ul.primary-nav-about-sub li {
+  display: block;
+  background: rgb(248, 248, 248);
+}
 
+ul.primary-nav-flex-container li ul.primary-nav-about-sub li a {
+  color: #591013;
+}
 
+ul.primary-nav-flex-container li ul.primary-nav-about-sub li a:hover {
+  color: grey;
+}
 
-  
-  hr {
-      display: none;
-  }
-  
-  
-  hr.main_para-hr-bottom {
-    display: none;
-  }
+ul.primary-nav-flex-container li a {
+  text-decoration: none;
+  color: #f0f0dd;
+}
 
+ul.primary-nav-flex-container li a:visited {
+  text-decoration: none;
+  color: #f0f0dd;
+}
 
+ul.primary-nav-flex-container li a:hover {
+  color: #f0f0dd;
+}
 
-   hr.contact-jg {
-      top: 2.5rem;
-      width: 75%;
-       margin-left: auto;
-      margin-right: auto;
-  }
+/* mobile only about sub menu arrow icon  */
+.arrow-icon {
+  position: relative;
+  top: 0;
+  color: rgb(248, 244, 244);
+  margin-left: 1rem;
+}
 
+button.volunteer-mobile {
+  margin-top: 1.2rem;
+  padding: 1.2rem 2rem;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  background: #591013;
+  border: none;
+  border-radius: 0.5rem;
+  color: #f0f0dd;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
 
-  
+button.volunteer-mobile:hover {
+  background: #262626;
+  border: none;
+}
 
-  hr.main_para-hr-bottom-contact-jg {
-      top: .5rem;
-      width: 75%;
-      margin-left: auto;
-      margin-right: auto;
-  }
+button.volunteer-mobile:active {
+  background: grey;
+  color: yellow;
+  border: none;
+}
 
+button.volunteer {
+  display: none;
+}
 
+/* hero image  */
+div.imgHome-hero {
+  position: relative;
+  top: 24.5rem;
+  width: 100%;
+  height: 35rem;
+  background-image: url("https://images.unsplash.com/photo-1584697964328-b1e7f63dca95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+  background-color: gray;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgHome-hero h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 2.4rem;
+  color: #f0f0dd;
+  text-align: center;
+  padding-top: 18rem;
+  letter-spacing: 0.5rem;
+  transition: 0.8s ease-in-out;
+}
+
+.imgHome-hero-contact-jg {
+  position: relative;
+  z-index: 995;
+  top: 22.5rem;
+  width: 100%;
+  height: 45rem;
+  background-image: url("https://images.pexels.com/photos/4031818/pexels-photo-4031818.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-color: gray;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.5s ease-in-out;
+}
+
+div.imgHome-hero-contact-jg h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 2.6rem;
+  color: #262626;
+  height: 45rem;
+  font-weight: 900;
+  padding-top: 15rem;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  transition: 0.8s ease-in-out;
+  background: radial-gradient(circle 208px, white, transparent);
+}
+
+.imgHome-hero-tutoring-services-jg {
+  position: relative;
+  z-index: 995;
+  top: 22.5rem;
+  width: 100%;
+  height: 45rem;
+  background-image: url("https://images.pexels.com/photos/4261789/pexels-photo-4261789.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-color: gray;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.5s ease-in-out;
+}
+
+.imgHome-hero-tutoring-services-jg h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 2.4rem;
+  color: #262626;
+  font-weight: 900;
+  background: rgba(255, 255, 255, 0.39);
+  padding: 4rem 4rem 2rem 4rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  transition: 0.8s ease-in-out;
+}
+
+.imgHome-hero-volunteer-jg {
+  position: relative;
+  z-index: 995;
+  top: 22.5rem;
+  width: 100%;
+  height: 45rem;
+  background-image: url("https://www.businessinsider.com/~~/f?id=4a03277e14b9b929000ba9ff");
+  background-color: gray;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.5s ease-in-out;
+}
+
+.imgHome-hero-volunteer-jg h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 2.4rem;
+  color: #262626;
+  font-weight: 900;
+  padding: 8rem 4rem 2rem 4rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  transition: 0.8s ease-in-out;
+}
+
+/* .......................main section begins here */
+
+/* just padded at top to position below hero image */
+.main__section {
+  padding-top: 26rem;
+  padding-bottom: 8rem;
+}
+
+.main__section-contact-jg {
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+
+.main__section-tutoring-services-jg {
+  padding-top: 15rem;
+  padding-bottom: 8rem;
+}
+
+h2.main_page-section-heading {
+  font-size: 2.4rem;
+  padding: 4rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+h3.main_page-section-heading {
+  font-size: 1.6rem;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.main_page-section-heading-contact-jg {
+  font-size: 2.6rem;
+  padding: 15rem 2rem 0.1rem 2rem;
+  text-align: center;
+}
+
+h2.contact-h2-jg {
+  padding-top: 33rem;
+}
+
+.girl-para-flex-container-jg {
+  display: none;
+}
+
+.computer-girl-background-jg {
+  display: none;
+}
+
+.gameBased-Learning-sec-jg {
+  display: none;
+}
+
+.game-learning-ben-flex-container-jg {
+  display: none;
+}
+
+.contactPage-h3-jg {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: normal;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+hr {
+  display: none;
+}
+
+hr.main_para-hr-bottom {
+  display: none;
+}
+
+hr.contact-jg {
+  top: 2.5rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr.main_para-hr-bottom-contact-jg {
+  top: 0.5rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Tutoring services section snippet */
-
-
-
 
 img.tutoringPage-image-jg {
   height: 20rem;
@@ -467,7 +687,6 @@ img.tutoringPage-image-jg {
   margin-right: auto;
 }
 
-
 .tutoring-top-title-scaled-jg {
   display: none;
 }
@@ -476,15 +695,29 @@ img.tutoringPage-image-jg {
   display: none;
 }
 
-
 h2.tutoring-top-title-jg {
+<<<<<<< HEAD
 font-size: 2.6rem;
     padding: 10rem 2rem 4rem 2rem;
     text-align: center;
     letter-spacing: .5rem;
+=======
+  font-size: 2.6rem;
+  padding: 2rem 2rem 4rem 2rem;
+  text-align: center;
+  letter-spacing: 0.5rem;
+>>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 }
 
+.tutoring-services-h3 {
+  font-size: 1.6rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+}
 
+<<<<<<< HEAD
   .tutoring-services-h3 {
       font-size: 1.9rem;
       padding-top: 2rem;
@@ -503,6 +736,15 @@ font-size: 2.6rem;
     margin-right: auto;
 
   }
+=======
+img.tut-twentyYear-image-jg {
+  display: block;
+  height: 8rem;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+>>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 
 .tutoring-services-para-jg {
   font-size: 1.6rem;
@@ -511,55 +753,49 @@ font-size: 2.6rem;
   text-align: justify;
 }
 
-  .tutoring-services-text-wrapper {
-    margin:2rem 0;
-  }
+.tutoring-services-text-wrapper {
+  margin: 2rem 0;
+}
 
-  .tutoring-services-image-flex-container {
-      display: flex;
-      /* margin-left: 50%;
+.tutoring-services-image-flex-container {
+  display: flex;
+  /* margin-left: 50%;
       transform: translatex(-50%); */
-      flex-flow: row wrap;
-      justify-content: space-around;
-      position: relative;
-      top: 10rem;
-      width: 100%;
-      padding-bottom: 20rem;
-
-  }
+  flex-flow: row wrap;
+  justify-content: space-around;
+  position: relative;
+  top: 10rem;
+  width: 100%;
+  padding-bottom: 20rem;
+}
 
 .tutoring-image-flex-item {
-    height: 8rem;
-    width: 8.5rem;
-    border-radius: .5rem;
-    margin-left: 2rem;
-    margin-bottom: 2rem;
-    
+  height: 8rem;
+  width: 8.5rem;
+  border-radius: 0.5rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
-
 
 .tutoring-services-flexed-h3 {
-    position: relative;
-    color: #262626;
-    margin: 1rem 3rem;
-    border-bottom: .1rem solid rgb(170, 170, 182);
-    padding-bottom: 1rem;
+  position: relative;
+  color: #262626;
+  margin: 1rem 3rem;
+  border-bottom: 0.1rem solid rgb(170, 170, 182);
+  padding-bottom: 1rem;
 }
-
-
-
 
 .tutoring-services-para {
-    margin: 0 3rem;
-    font-size: 1.5rem;
-    line-height: 3rem;
+  margin: 0 3rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
 }
-
 
 .tutPage-but-scaled-jg {
   display: none;
 }
 
+<<<<<<< HEAD
 .tut-mobile-book-but-container-jg{
   display: none;
 }
@@ -578,73 +814,77 @@ button.tutPage-but-jg {
     color: white;
     border: .1rem solid white;
     width: 25rem;
+=======
+button.tutPage-but-jg {
+  font-size: 1.6rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  border-radius: 1rem;
+  background: #353a40;
+  font-weight: bold;
+  color: white;
+  border: 0.1rem solid white;
+  width: 25rem;
+>>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 }
 
-
 button.tutPage-but-jg:hover {
-    background: #591013;
-    transition: .300s ease-in-out;
-    color: white;
+  background: #591013;
+  transition: 0.3s ease-in-out;
+  color: white;
 }
 
 button.tutPage-but-jg:active {
-    background: grey;
-    transition: .300s ease-in-out;
-    color: white;
+  background: grey;
+  transition: 0.3s ease-in-out;
+  color: white;
 }
-
-
 
 .find-your-tutor-jg {
-    margin-bottom: 5rem;
-     color: #591013;
-     font-weight: bold;
+  margin-bottom: 5rem;
+  color: #591013;
+  font-weight: bold;
 }
-
-
 
 a.find-your-tutor-jg a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
-
 
 .find-your-tutor-jg:hover {
-    text-decoration: none;
-    transition: .350s ease-in-out;
+  text-decoration: none;
+  transition: 0.35s ease-in-out;
 }
 
-
-.skew-container{
-    background: #eee;
-    height: 20rem;
+.skew-container {
+  background: #eee;
+  height: 20rem;
 }
 .tutoring-services-sponsers-container {
   position: relative;
   z-index: -1;
-  top:-10rem;
+  top: -10rem;
   bottom: 0;
   right: 0;
   left: 0;
   width: 100%;
   height: 100%;
-    background: #eee;
-    height: 25rem;
-    transform: skewy(-6deg);
-    transform-origin: top left;
+  background: #eee;
+  height: 25rem;
+  transform: skewy(-6deg);
+  transform-origin: top left;
 }
 
+p.main_home-par-tutoring-jg {
+  line-height: 4rem;
+}
 
-
-  p.main_home-par-tutoring-jg {
-    line-height: 4rem;
-  }
-
-
-  .Choose-tutor-sec-flex-container-jg {
-    padding: 1rem 2rem 2rem 2rem;
-
-  }
+.Choose-tutor-sec-flex-container-jg {
+  padding: 1rem 2rem 2rem 2rem;
+}
 
 .choose-tutor-title-jg {
   margin-top: 2rem;
@@ -652,13 +892,12 @@ a.find-your-tutor-jg a {
   padding-left: 2rem;
   padding-right: 2rem;
   text-align: center;
-
 }
 
 .eTutors-check-jg {
   height: 3rem;
   vertical-align: middle;
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
 .choose-tutor-para-jg {
@@ -670,49 +909,58 @@ a.find-your-tutor-jg a {
   text-align: center;
 }
 
-
-
-
 /* end tutoring page section snippet */
 
-
-
-
-
-
-
-
-  .contact-woman-jg {
-    display: none;
+.contact-woman-jg {
+  display: none;
 }
-  
 
-  .main_kid-on-floor-image {
-      display: none;
-  }
-  
-  .main_para-home {
-      background: #f3f3f3;
-      margin-top: 3rem;
-      padding: 3rem 2rem 3rem 2rem;
-  }
-  
-  
-  h3.main-para-home-heading {
-      font-size: 1.8rem;
-      padding: 2rem 0 1rem 0;
-     
-  }
-  
-  
-  .main_para-home p {
-      font-size: 1.6rem;
-      padding: 0 0 2rem 0;
-      
-  }
+.main_kid-on-floor-image {
+  display: none;
+}
 
+.main_para-home {
+  background: #f3f3f3;
+  margin-top: 3rem;
+  padding: 3rem 2rem 3rem 2rem;
+}
 
+h3.main-para-home-heading {
+  font-size: 1.8rem;
+  padding: 2rem 0 1rem 0;
+}
 
+.main_para-home p {
+  font-size: 1.6rem;
+  padding: 0 0 2rem 0;
+}
+
+.line-height-main-home-para-jg {
+  line-height: 4rem;
+}
+
+.main_para-contact-jg {
+  width: 75%;
+  background: #f3f3f3;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5rem 2rem 3rem 2rem;
+}
+
+h3.main-para-contact-heading-jg {
+  font-size: 1.8rem;
+  padding: 1rem 2rem 1rem 2rem;
+  text-align: center;
+}
+
+.main_para-contact-jg p {
+  font-size: 1.6rem;
+  padding: 0 2rem 2rem 2rem;
+  text-align: center;
+}
+
+<<<<<<< HEAD
  .line-height-main-home-para-jg {
     line-height: 4rem;
   }
@@ -787,27 +1035,54 @@ a.find-your-tutor-jg a {
   .girl-text-jg {
     background: white;
   }
+=======
+.homeFun-lightBulb-icon {
+  display: none;
+}
 
+.home-girl-bg-jg {
+  display: none;
+}
+>>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 
-  div.home-girl-computer-container-jg {
-    position: relative;
-    width: 100%;
-  }
+.home-girl-largerScreen-jg {
+  display: none;
+}
 
+.homeFun-the-role-style-jg {
+  display: block;
+  font-size: 2.4rem;
+  margin-top: 5rem;
+  padding: 2rem 2rem 3rem 2rem;
+  text-align: center;
+}
 
+.girl-heading-text-jg {
+  display: none;
+}
 
-  img.home-girl-computer-jg {
-    display: block;
-    width: 30rem;
-    height: 27rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 2rem;
-   
-  }
+.homeFun-the-role-para-jg {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 4rem;
+  padding: 4rem 2rem 0 2rem;
+}
 
+div.home-girl-computer-container-jg {
+  position: relative;
+  width: 100%;
+}
 
-    /* .home-girl-computer-after-jg {
+img.home-girl-computer-jg {
+  display: block;
+  width: 30rem;
+  height: 27rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+}
+
+/* .home-girl-computer-after-jg {
       background: rgb(43, 9, 107);
       height: 1.5rem;
       width: 30rem;
@@ -816,7 +1091,11 @@ a.find-your-tutor-jg a {
    
   } */
 
+.container-but-jg {
+  display: none;
+}
 
+<<<<<<< HEAD
   .container-but-jg {
     display: none;
   }
@@ -846,51 +1125,123 @@ a.find-your-tutor-jg a {
   .contact-map-jg {
       display: none;
   }
+=======
+.home-game-learn-title-jg {
+  font-size: 2.4rem;
+  margin-top: 2.5rem;
+  padding: 0 2rem 1rem 2rem;
+}
+>>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 
+.home-game-learning-para {
+  font-size: 1.6rem;
+  padding: 1rem 2rem 1rem 2rem;
+  line-height: 4rem;
+}
 
-  
+.home-arrow-jg {
+  height: 20rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6rem;
+}
 
-  .contactForm-h2-jg {
-      padding-top: 5rem;
-      padding-bottom: 1rem;
-      font-weight: 900;
-  }
+.contact-map-jg {
+  display: none;
+}
 
-  .contact-how-can-we-help-para-jg {
-      font-size: 1.2rem;
-      margin-top: 0;
-      padding-top: 0;
-  }
+.contactForm-h2-jg {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  font-weight: 900;
+}
 
+.contact-how-can-we-help-para-jg {
+  font-size: 1.2rem;
+  margin-top: 0;
+  padding-top: 0;
+}
 
-  .contact-form-container-jg {
-      width: 75%;
-   margin-left: auto;
-   margin-right: auto;
-  }
+.contact-form-container-jg {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+form.contact-form-jg {
+  width: 100%;
+  margin-top: 1rem;
+}
 
-  form.contact-form-jg {
-    width: 100%;
-    margin-top: 1rem;
-  }
+.contact-input-jg {
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 0.8rem;
+}
 
+.input-subject-jg {
+  width: 100%;
+  margin-bottom: 0.8rem;
+}
 
-  .contact-input-jg {
-    padding: 1rem;
-    width: 100%;
-    margin-bottom: .8rem;
+textarea#contact-messageInput-jg {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  width: 100%;
+  resize: vertical;
+  max-height: 300px;
+  min-height: 100px;
+}
 
-  }
+input.contact-submit-jg {
+  margin-top: 1.2rem;
+  padding: 1.2rem 2rem;
+  border: none;
+  background: rgb(56, 68, 243);
+  border-radius: 0.5rem;
+  color: #dfdfdf;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 0.1rem;
+}
 
-  
+input.contact-submit-jg:hover {
+  background: rgb(120, 128, 238);
+  color: white;
+  transition: 0.2s ease-in-out;
+}
 
+.main-sec-icon {
+  position: relative;
+  z-index: 996;
+  top: 5.5rem;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  border: 0.01px solid rgb(116, 116, 116);
+  background: rgb(207, 207, 207);
+  padding: 1.5rem;
+  border-radius: 50%;
+  font-size: 2.8rem;
+  color: rgb(75, 75, 75);
+}
 
-  .input-subject-jg {
-      width: 100%;
-      margin-bottom: .8rem;
-  }
+img.home-brain-jg {
+  width: 10rem;
+  position: absolute;
+  top: -7rem;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  background: #eee;
+  border-radius: 50%;
+}
 
+<<<<<<< HEAD
   textarea#contact-messageInput-jg {
       margin-left: auto;
       margin-right: auto;
@@ -955,6 +1306,8 @@ a.find-your-tutor-jg a {
   }
 
   
+=======
+>>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 div.background-paper {
   width: 90%;
   height: 90%;
@@ -983,70 +1336,61 @@ img.eureka-corner-image {
 
 div.eTutors-gameTitle-container {
   position: relative;
-     
 }
 
 .main_page-section-heading-two-jg {
-      text-align: center;
-      font-size: 2.4rem;
-      color: #000000;
-      padding: 4rem 5rem .5rem 5rem;
-  }
-  
+  text-align: center;
+  font-size: 2.4rem;
+  color: #000000;
+  padding: 4rem 5rem 0.5rem 5rem;
+}
 
+h3.eTutots-game-subTitle-jg {
+  text-align: center;
+  padding-bottom: 2.5rem;
+  padding-top: 0rem;
+  font-size: 1.8rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: #591013;
+  font-weight: normal;
+}
 
-  h3.eTutots-game-subTitle-jg {
-      text-align: center;
-      padding-bottom: 2.5rem;
-      padding-top: 0rem;
-      font-size: 1.8rem;
-      padding-right: 1rem;
-      padding-left: 1rem;
-      color: #591013;
-      font-weight: normal;
-  }
-  
-  .main_images-flex-container {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      padding: 0;
+.main_images-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+}
 
-  }
+.main_flex-image-text-wrapper p {
+  width: 215px;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  color: #262626;
+}
 
+.main_flex-image-text-wrapper h3 {
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
 
-  
-  
-  .main_flex-image-text-wrapper p {
-     
-      width: 215px;
-      font-size:1.5rem;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: center;
-      font-weight: bold;
-      color: #262626;
-  }
-  
-  .main_flex-image-text-wrapper h3 {
-      padding-bottom: 1.5rem;
-    text-align:center;
-  }
+.main_flex-image-text-wrapper {
+  /* width: 100%; */
+  padding: 2rem;
+}
 
-  
-  .main_flex-image-text-wrapper {
-    /* width: 100%; */
-    padding: 2rem;
-  }
-
-  img.main_img-tutor-network-item {
-    display: block;
-    height: 200px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-  }
+img.main_img-tutor-network-item {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
 
 .main_images-flex-container {
   display: flex;
@@ -1065,6 +1409,7 @@ div.eTutors-gameTitle-container {
 }
 
 button.start-game-jg {
+<<<<<<< HEAD
 
     padding: 2rem;
     margin-bottom: 5rem;
@@ -1076,63 +1421,65 @@ button.start-game-jg {
      /* margin-left: 50%;
      transform: translatex(-50%); */
      width: 100%;
+=======
+  padding: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background: #353a40;
+  color: white;
+  border: 0.1rem solid white;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  width: 100%;
+>>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 }
-
 
 button.start-game-jg:hover {
-    background: #591013;
-    transition: .300s ease-in-out;
-    color: white;
+  background: #591013;
+  transition: 0.3s ease-in-out;
+  color: white;
 }
 
+/* ........................footer section begins here */
+#footer__section {
+  /* height: 40rem; */
+  width: 100%;
+  padding-top: 2rem;
+  background: #262626;
+}
 
-  
-  /* ........................footer section begins here */
-  #footer__section {
-      /* height: 40rem; */
-      width: 100%;
-      padding-top: 2rem;
-      background: #262626;
-  }
-  
-  
-  img.footer_logo {
-      height: 5rem;
-      display: none;
-  
-  }
+img.footer_logo {
+  height: 5rem;
+  display: none;
+}
 
+.skew-home-new-jg {
+  background: grey;
+  height: 25rem;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 111.5rem;
+}
 
-  .skew-home-new-jg {
-      background: grey;
-      height: 25rem;
-      width: 100%;
-      position: absolute;
-      z-index: -1;
-      top: 111.5rem;
-  }
-  
-  
-  .footer_logo-address-container {
-      display: none;
-  }
-  
-  
-  h2.footer_quicklinks-heading {
-      color: #f0f0dd;
-      font-size: 2rem;
-      width: 100%;
-      text-align: center;
-      margin-top: 3rem;
-  }
-  
-  
-  
-  ul.footer-quicklinks-flex-container{
-      display: flex;
-      flex-wrap: wrap;
-      padding: 2rem;
-      /* margin-left: auto;
+.footer_logo-address-container {
+  display: none;
+}
+
+h2.footer_quicklinks-heading {
+  color: #f0f0dd;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+ul.footer-quicklinks-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  /* margin-left: auto;
       margin-right: auto; */
   text-align: center;
 }
@@ -1209,11 +1556,11 @@ div.img-resources-hero {
 
 .img-resources-hero h2 {
   font-family: "Anton", sans-serif;
-  font-size: 2.4rem;
+  font-size: 4rem;
   color: #f0f0dd;
   text-align: center;
   padding-top: 18rem;
-  letter-spacing: 0.5rem;
+  letter-spacing: 1rem;
   transition: 0.8s ease-in-out;
 }
 
@@ -1347,9 +1694,8 @@ h3.resources_image-text-wrap {
   font-size: 1.6rem;
 }
 
-
 /* active style added with JS, add background color */
-.active, 
+.active,
 .collapsible:hover {
   background-color: #ccc;
 }
@@ -1381,45 +1727,62 @@ button.collapsible:hover {
 }
 
 /*----------------------------------------MISSION starts here-----------*/
-
-/*place holder, feel free to change around */
-
-.main__section-contact-rr{
+.main_mission-wrapper {
   padding-top: 10rem;
   padding-bottom: 8rem;
 }
 
 .imgMission-hero-rr {
   position: relative;
-  top: 12.5rem;
+  top: 2.5rem;
   width: 100%;
   height: 35rem;
-  background-image: url("https://images.pexels.com/photos/4143793/pexels-photo-4143793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://images.pexels.com/photos/4145038/pexels-photo-4145038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-color: gray;
+  padding-top: 12rem;
   background-size: cover;
   background-repeat: "no-repeat";
 }
 
-
 .imgMission-hero-rr h2 {
   font-family: "Anton", sans-serif;
-  font-size: 2.4rem;
-  color: #f0f0dd;
+  font-size: 3rem;
+  color: #262626;
+  padding: 8rem 4rem 2rem 4rem;
+  letter-spacing: 1rem;
   text-align: center;
-  padding-top: 18rem;
-  letter-spacing: 0.5rem;
   transition: 0.8s ease-in-out;
 }
 
+hr.mission_hr-rr {
+  display: block;
+  width: 95.5%;
+  border-style: inset;
+  border-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 3rem;
+}
+
+hr.mission_hr-bottom {
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 2rem;
+}
+
 .main_mission-wrapper {
-  padding-top: 13rem;
-  padding-bottom: 8rem;
-  margin: 
+  margin-top: 3rem;
+  padding: 3rem 2rem 3rem 2rem;
 }
 
 .mission_icon {
   position: relative;
   z-index: 996;
+  top: 5.5rem;
   margin-left: 50%;
   transform: translatex(-50%);
   border: 0.01px solid rgb(116, 116, 116);
@@ -1431,30 +1794,53 @@ button.collapsible:hover {
 }
 
 .mission_main-para {
-  margin:1.2rem;
-  background: #f3f3f3;
+  margin: 1.2rem;
   padding: 3rem 2rem 3rem 2rem;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+}
+
+.mission_main-para-text {
+  padding-top: 2rem;
+  background: #f3f3f3;
+  width: 100%;
+  border-radius: 2rem;
 }
 
 .mission_main-para p {
   font-size: 1.6rem;
-  padding: 0 2rem 2rem 2rem;
+  margin: 2rem;
 }
 
 .mission_main-para ul {
   font-size: 1.6rem;
   padding: 0 2rem 2rem 2rem;
+  margin: 2rem;
 }
 
+.mission_image-wrapper-rr {
+  display: flex;
+  justify-content: center;
+}
 
+img.mission_image-wrap {
+  display: block;
+  width: 50%;
+  height: 550px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-left: 1.9rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+h2.mission_heading {
+  margin: 2rem;
+}
 
 /* volunteer page snippet */
 
 .main__volunteer-heading-jg {
   font-size: 2.6rem;
+<<<<<<< HEAD
     padding: 10rem 2rem .1rem 2rem;
     text-align: center;
 }
@@ -1472,6 +1858,12 @@ button.collapsible:hover {
   position: relative;
   height: 13rem;
 }
+=======
+  padding: 0 2rem 0.1rem 2rem;
+  text-align: center;
+}
+
+>>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 button.volunteerPage-but-jg {
   position: absolute;
   left: 0;
@@ -1479,6 +1871,7 @@ button.volunteerPage-but-jg {
   margin-left: auto;
   margin-right: auto;
   font-size: 1.6rem;
+<<<<<<< HEAD
   padding: 1.5rem;
     margin-bottom: 5rem;
     margin-top: 2rem;
@@ -1496,18 +1889,31 @@ button.volunteerPage-but-jg a {
 }
 
 
+=======
+  padding: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  border-radius: 1rem;
+  background: #353a40;
+  color: white;
+  border: 0.1rem solid white;
+  width: 25rem;
+}
+
+>>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 button.volunteerPage-but-jg:hover {
-    background: #591013;
-    transition: .300s ease-in-out;
-    color: white;
+  background: #591013;
+  transition: 0.3s ease-in-out;
+  color: white;
 }
 
 button.volunteerPage-but-jg:active {
-    background: grey;
-    transition: .300s ease-in-out;
-    color: white;
+  background: grey;
+  transition: 0.3s ease-in-out;
+  color: white;
 }
-
 
 .volPage-hr-jg {
   display: block;
@@ -1519,14 +1925,26 @@ button.volunteerPage-but-jg:active {
   margin-right: auto;
 }
 
+<<<<<<< HEAD
 
 
 h2.volunteer-top-title-jg {
   color: #591013;
   padding: 5rem 2rem .5rem 2rem;
   text-align: center;
+=======
+h2.volunteerPage-title-jg {
+  font-size: 2.6rem;
+  font-weight: bold;
+  text-align: center;
+  color: #120772;
+  padding: 8rem 2rem 2rem 2rem;
 }
 
+h2.volunteer-top-title-jg {
+  padding-bottom: 0.5rem;
+>>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
+}
 
 .volunteerPage-h3-jg {
   padding: 5rem 2rem 1rem 2rem;
@@ -1542,33 +1960,32 @@ p.volunteerPage-para-jg {
   text-align: center;
 }
 
-
 .volunteerPage-signUp-butToo-jg {
-   font-size: 1.6rem;
+  font-size: 1.6rem;
   padding: 2rem;
-    margin-bottom: 5rem;
-    margin-top: 3rem;
-    border-radius: 1rem;
-     background: #353a40;
-     color: white;
-     border: .1rem solid white;
-     margin-left: 2rem;
-     width: 25rem;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
+  background: #353a40;
+  color: white;
+  border: 0.1rem solid white;
+  margin-left: 2rem;
+  width: 25rem;
 }
 
-
 button.volunteerPage-signUp-butToo-jg:hover {
-    background: #591013;
-    transition: .300s ease-in-out;
-    color: white;
+  background: #591013;
+  transition: 0.3s ease-in-out;
+  color: white;
 }
 
 button.volunteerPage-signUp-butToo-jg:active {
-    background: grey;
-    transition: .300s ease-in-out;
-    color: white;
+  background: grey;
+  transition: 0.3s ease-in-out;
+  color: white;
 }
 
+<<<<<<< HEAD
 .voluteer-signUpIcon-title-conatiner-jg {
   background: none;
 }
@@ -1588,19 +2005,18 @@ h2.volunteerPage-title-jg {
   padding-top: 5rem;
 }
 
+=======
+>>>>>>> 8a2f4ad46a4c710d74d5504a321d03129b131f00
 .volunteer-name-to-email-input-container-jg {
   /* width: 95%; */
   margin: 2rem;
 }
 
-
 label.volunteer-formLabels-jg {
   display: block;
   font-size: 1.6rem;
-  padding: 2rem .5rem .5rem 0;
+  padding: 2rem 0.5rem 0.5rem 0;
 }
-
-
 
 .volunteer-contact-input-container-jg {
   display: flex;
@@ -1609,15 +2025,14 @@ label.volunteer-formLabels-jg {
 
 .volunteer-contact-inputs-jg {
   padding: 1rem;
-  width:50%;
-
+  width: 50%;
 }
 
 input.volunteer-email-input-jg {
   display: block;
-   padding: 1rem;
-    width: 100%;
-    margin-bottom: .8rem;
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 0.8rem;
 }
 
 .voluteerPage-formTitle-iAmCurr-jg {
@@ -1625,12 +2040,10 @@ input.volunteer-email-input-jg {
   font-size: 1.8rem;
 }
 
-
 .voluteer-form-select-para-jg {
   font-size: 1.3rem;
-  padding: .5rem 2rem 2rem 2rem;
+  padding: 0.5rem 2rem 2rem 2rem;
 }
-
 
 .volunteer-checkboxes-jg {
   margin-left: 4rem;
@@ -1642,10 +2055,9 @@ input.volunteer-email-input-jg {
 }
 
 .volutneer-status-checkboxes-jg {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
   display: inline-block;
 }
-
 
 h3.vol-textArea-title-jg {
   padding-bottom: 2rem;
@@ -1653,28 +2065,293 @@ h3.vol-textArea-title-jg {
   padding-left: 0;
 }
 
- 
-
 div.volunteer-textArea-title-container {
   /* width: 95%; */
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
-
 textarea#volunteer-comment-input-jg {
   display: block;
-    width:100%;
-    resize: vertical;
-    max-height: 300px;
-    min-height:100px;
-    max-width: 65rem;
-    
-
+  width: 100%;
+  resize: vertical;
+  max-height: 300px;
+  min-height: 100px;
+  max-width: 65rem;
 }
-
 
 .volunteer-referralFeild-input-jg {
   /* margin-left: 2rem; */
   padding: 1rem;
+}
+
+/*--------------------CAREERS STARTS HERE------------------------*/
+
+.main_careers-wrapper-rr {
+  padding-top: 9rem;
+  padding-bottom: 8rem;
+}
+
+.imgCareers-hero-rr {
+  position: relative;
+  top: 10.5rem;
+  width: 100%;
+  height: 35rem;
+  background-image: url("https://images.pexels.com/photos/3769714/pexels-photo-3769714.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-color: gray;
+  background-size: cover;
+  background-repeat: "no-repeat";
+}
+
+.imgCareers-hero-rr h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  color: #f0f0dd;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  padding-top: 18rem;
+  letter-spacing: 1rem;
+  transition: 0.8s ease-in-out;
+}
+
+hr.careers_hr-rr {
+  display: block;
+  width: 95.5%;
+  border-style: inset;
+  border-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 3rem;
+}
+
+hr.careers_hr-bottom {
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 2rem;
+}
+
+.careers_icon {
+  position: relative;
+  z-index: 996;
+  top: 5.5rem;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  border: 0.01px solid rgb(116, 116, 116);
+  background: rgb(207, 207, 207);
+  padding: 1.5rem;
+  border-radius: 50rem;
+  font-size: 3rem;
+  color: rgb(75, 75, 75);
+}
+
+.careers_main-para-wrap {
+  margin: 1.2rem;
+  padding: 3rem 2rem 3rem 2rem;
+  display: flex;
+}
+
+.careers_main-para-text {
+  padding-top: 2rem;
+  background: #f3f3f3;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.careers_main-para-text p {
+  font-size: 1.6rem;
+  margin: 2rem;
+}
+
+.careers_main-para-text ul {
+  font-size: 1.6rem;
+  padding: 1rem 2rem 2rem 2rem;
+  margin: 2rem;
+  list-style: none;
+}
+
+.careers_main-para-text li {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.eTutors-check-jg {
+  height: 3rem;
+  vertical-align: middle;
+  padding-right: 0.5rem;
+}
+
+.careers_main-para-text h2 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.careers_main-para-text h3 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.careers_image-wrapper-rr {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+img.careers_image-wrap {
+  display: block;
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-left: 1.9rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.careers_button {
+  font-size: 1.6rem;
+  padding: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-left: 50%;
+  color: white;
+  transform: translatex(-50%);
+  border-radius: 1rem;
+  background: #353a40;
+  border: 0.1rem solid white;
+  width: 25rem;
+}
+
+.careers_button a {
+  text-decoration: none;
+  color: white;
+}
+
+button.careers_button:hover {
+  background: #591013;
+  transition: 0.3s ease-in-out;
+  color: white;
+  cursor: pointer;
+}
+
+button.careers_button:active {
+  background: grey;
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+
+.careers_signup-wrap {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"],
+select {
+  width: 300px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*---------------COVID STATEMENT BEGINS HERE-----------------------*/
+
+.main_covidstatement-wrapper-rr {
+  padding-top: 9rem;
+  padding-bottom: 8rem;
+}
+
+.imgCovid-hero-rr {
+  position: relative;
+  top: 10.5rem;
+  width: 100%;
+  height: 35rem;
+  background-image: url("https://images.pexels.com/photos/3992933/pexels-photo-3992933.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-repeat: "no-repeat";
+}
+
+h2.covid_main_heading {
+  text-align: center;
+  margin: 3rem;
+}
+
+/* .imgCovid-hero-rr h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 2.4rem;
+  color: #f0f0dd;
+  text-align: center;
+  padding-top: 18rem;
+  letter-spacing: 0.5rem;
+  transition: 0.8s ease-in-out;
+} */
+
+hr.covid_hr-rr {
+  display: block;
+  width: 95.5%;
+  border-style: inset;
+  border-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 3rem;
+}
+
+hr.covid_hr-bottom {
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 2rem;
+}
+
+.covid_icon {
+  position: relative;
+  z-index: 996;
+  top: 5.5rem;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  border: 0.01px solid rgb(116, 116, 116);
+  background: rgb(207, 207, 207);
+  padding: 1.5rem;
+  border-radius: 50rem;
+  font-size: 3rem;
+  color: rgb(75, 75, 75);
+}
+
+.covid_main-para-wrap {
+  margin: 1.2rem;
+  padding: 3rem 2rem 3rem 2rem;
+  display: flex;
+}
+
+.covid_main-para-text {
+  padding-top: 2rem;
+  background: #f3f3f3;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.covid_main-para-text p {
+  font-size: 1.6rem;
+  margin: 2rem;
+}
+
+.covid_main-para-text ul {
+  font-size: 1.6rem;
+  padding: 1rem 2rem 2rem 2rem;
+  margin: 2rem;
+}
+
+.covid_main-para-text h3 {
+  margin: 2rem;
 }
