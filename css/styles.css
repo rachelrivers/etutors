@@ -1485,6 +1485,12 @@ button.volunteerPage-but-jg {
 }
 
 
+button.volunteerPage-but-jg a {
+  color: white;
+  text-decoration: none;
+}
+
+
 button.volunteerPage-but-jg:hover {
     background: #591013;
     transition: .300s ease-in-out;

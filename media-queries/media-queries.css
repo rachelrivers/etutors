@@ -774,7 +774,7 @@ button.tutPage-but-scaled-jg:active {
 
 .vol-but-sec-bgGraphic-container-jg {
     position: relative;
-    height: 20rem;
+    height: 15rem;
 }
 
 .volunteer-pageBackground {
@@ -806,7 +806,7 @@ button.tutPage-but-scaled-jg:active {
 
 p.volunteerPage-para-jg {
   font-size: 1.6rem;
-  padding: 0 2rem 3.5rem 2rem;
+  padding: 0 2rem 0 2rem;
   line-height: 3rem;
 }
 
@@ -820,6 +820,7 @@ display: none;
 .vol-center-tit-para-secs-container-jg {
     background: ghostwhite;
     margin:2rem;
+    padding: 2rem 0;
     box-shadow: 0 0 .5rem rgba(0,0,0, .5);
     border-radius: .5rem;
 }
@@ -844,11 +845,9 @@ p.vol-signUp-subTitle {
 
 .vol-but-container-top-jg {
   position: relative;
-  margin: 5rem 2rem 0 2rem;
-  height: 13rem;
-  background: #eee;
-  border-top: 5px solid rgb(156, 156, 156);;
-  border-bottom: 5px solid rgb(156, 156, 156);
+  margin: 1rem 2rem 0 2rem;
+  height: 10rem;
+
 }
 
 button.volunteerPage-but-jg {
@@ -857,7 +856,7 @@ button.volunteerPage-but-jg {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3.2rem;
+  margin-top: 1rem;
   font-size: 1.6rem;
   padding: 2rem;
     border-radius: 1rem;
@@ -866,6 +865,12 @@ button.volunteerPage-but-jg {
      border: .1rem solid white;
      width: 25rem;
      letter-spacing: .2rem;
+}
+
+
+button.volunteerPage-but-jg a {
+  color: white;
+  text-decoration: none;
 }
 
 
