@@ -300,7 +300,6 @@ ul.primary-nav-flex-container {
     width: 100%;
     height: 45rem;
     background-image: url("https://images.pexels.com/photos/4261789/pexels-photo-4261789.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-    background-color: gray;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -534,11 +533,10 @@ div.imgHome-hero-contact-jg h2 {
 .imgHome-hero-tutoring-services-jg {
   position: relative;
   z-index: 995;
-  top: 10rem;
+  top: 22.5rem;
   width: 100%;
   height: 45rem;
   background-image: url("https://images.pexels.com/photos/4261789/pexels-photo-4261789.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-  background-color: gray;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
