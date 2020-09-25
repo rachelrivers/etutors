@@ -8,11 +8,9 @@ project colors:
 font-family(already linked in head section of index.html
 font-family: 
 'Open Sans', sans-serif; font-family: 
-
 hero image font
 font-family: 'Anton', sans-serif;
     
-
 no need for @font-face
 */
 
@@ -832,7 +830,7 @@ img.eureka-corner-image {
 }
 
 div.eTutors-gameTitle-container {
-  border-bottom: 1px solid rgb(196, 196, 196);
+  position: relative;
 }
 
 .main_page-section-heading-two-jg {
@@ -845,8 +843,48 @@ div.eTutors-gameTitle-container {
 h3.eTutots-game-subTitle-jg {
   text-align: center;
   padding-bottom: 2.5rem;
+  padding-top: 0rem;
   font-size: 1.8rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   color: #591013;
+  font-weight: normal;
+}
+
+.main_images-flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.main_flex-image-text-wrapper p {
+  width: 215px;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  color: #262626;
+}
+
+.main_flex-image-text-wrapper h3 {
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.main_flex-image-text-wrapper {
+  /* width: 100%; */
+  padding: 2rem;
+}
+
+img.main_img-tutor-network-item {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
 }
 
 .main_images-flex-container {
@@ -865,24 +903,21 @@ h3.eTutots-game-subTitle-jg {
   color: #262626;
 }
 
-.main_flex-image-text-wrapper h3 {
-  text-align: center;
-}
-
-.main_img-tutor-network-item {
-  /* margin: 1rem; */
-}
-
-img.main_img-tutor-network-item {
-  height: 200px;
-  width: 200px;
-  margin-left: 4rem;
-  margin-right: 4rem;
-  margin-bottom: 2rem;
+button.start-game-jg {
+  padding: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  background: #353a40;
+  color: white;
+  border: 0.1rem solid white;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  width: 100%;
 }
 
 button.start-game-jg:hover {
-  background: grey;
+  background: #591013;
   transition: 0.3s ease-in-out;
   color: white;
 }
@@ -898,6 +933,15 @@ button.start-game-jg:hover {
 img.footer_logo {
   height: 5rem;
   display: none;
+}
+
+.skew-home-new-jg {
+  background: grey;
+  height: 25rem;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 111.5rem;
 }
 
 .footer_logo-address-container {
@@ -1164,20 +1208,17 @@ button.collapsible:hover {
 }
 
 /*----------------------------------------MISSION starts here-----------*/
-
-/*place holder, feel free to change around */
-
-.main__section-contact-rr {
+.main_mission-wrapper {
   padding-top: 10rem;
   padding-bottom: 8rem;
 }
 
 .imgMission-hero-rr {
   position: relative;
-  top: 12.5rem;
+  top: 10.5rem;
   width: 100%;
   height: 35rem;
-  background-image: url("https://images.pexels.com/photos/4143793/pexels-photo-4143793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("https://images.pexels.com/photos/4145038/pexels-photo-4145038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-color: gray;
   background-size: cover;
   background-repeat: "no-repeat";
@@ -1186,22 +1227,42 @@ button.collapsible:hover {
 .imgMission-hero-rr h2 {
   font-family: "Anton", sans-serif;
   font-size: 2.4rem;
-  color: #f0f0dd;
+  color: #363636;
   text-align: center;
   padding-top: 18rem;
   letter-spacing: 0.5rem;
   transition: 0.8s ease-in-out;
 }
 
+hr.mission_hr-rr {
+  display: block;
+  width: 95.5%;
+  border-style: inset;
+  border-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 3rem;
+}
+
+hr.mission_hr-bottom {
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 2rem;
+}
+
 .main_mission-wrapper {
-  padding-top: 13rem;
-  padding-bottom: 8rem;
-  margin: ;
+  margin-top: 3rem;
+  padding: 3rem 2rem 3rem 2rem;
 }
 
 .mission_icon {
   position: relative;
   z-index: 996;
+  top: 5.5rem;
   margin-left: 50%;
   transform: translatex(-50%);
   border: 0.01px solid rgb(116, 116, 116);
@@ -1214,20 +1275,45 @@ button.collapsible:hover {
 
 .mission_main-para {
   margin: 1.2rem;
-  background: #f3f3f3;
   padding: 3rem 2rem 3rem 2rem;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+}
+
+.mission_main-para-text {
+  padding-top: 2rem;
+  background: #f3f3f3;
+  width: 100%;
+  border-radius: 2rem;
 }
 
 .mission_main-para p {
   font-size: 1.6rem;
-  padding: 0 2rem 2rem 2rem;
+  margin: 2rem;
 }
 
 .mission_main-para ul {
   font-size: 1.6rem;
   padding: 0 2rem 2rem 2rem;
+  margin: 2rem;
+}
+
+.mission_image-wrapper-rr {
+  display: flex;
+  justify-content: center;
+}
+
+img.mission_image-wrap {
+  display: block;
+  width: 50%;
+  height: 550px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-left: 1.9rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2.mission_heading {
+  margin: 2rem;
 }
 
 /* volunteer page snippet */
@@ -1400,4 +1486,275 @@ textarea#volunteer-comment-input-jg {
 .volunteer-referralFeild-input-jg {
   margin-left: 2rem;
   padding: 1rem;
+}
+
+/*--------------------CAREERS STARTS HERE------------------------*/
+
+.main_careers-wrapper-rr {
+  padding-top: 9rem;
+  padding-bottom: 8rem;
+}
+
+.imgCareers-hero-rr {
+  position: relative;
+  top: 10.5rem;
+  width: 100%;
+  height: 35rem;
+  background-image: url("https://images.pexels.com/photos/3769714/pexels-photo-3769714.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-color: gray;
+  background-size: cover;
+  background-repeat: "no-repeat";
+}
+
+.imgCareers-hero-rr h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  color: #f0f0dd;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  padding-top: 18rem;
+  letter-spacing: 0.5rem;
+  transition: 0.8s ease-in-out;
+}
+
+hr.careers_hr-rr {
+  display: block;
+  width: 95.5%;
+  border-style: inset;
+  border-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 3rem;
+}
+
+hr.careers_hr-bottom {
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 2rem;
+}
+
+.careers_icon {
+  position: relative;
+  z-index: 996;
+  top: 5.5rem;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  border: 0.01px solid rgb(116, 116, 116);
+  background: rgb(207, 207, 207);
+  padding: 1.5rem;
+  border-radius: 50rem;
+  font-size: 3rem;
+  color: rgb(75, 75, 75);
+}
+
+.careers_main-para-wrap {
+  margin: 1.2rem;
+  padding: 3rem 2rem 3rem 2rem;
+  display: flex;
+}
+
+.careers_main-para-text {
+  padding-top: 2rem;
+  background: #f3f3f3;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.careers_main-para-text p {
+  font-size: 1.6rem;
+  margin: 2rem;
+}
+
+.careers_main-para-text ul {
+  font-size: 1.6rem;
+  padding: 1rem 2rem 2rem 2rem;
+  margin: 2rem;
+  list-style: none;
+}
+
+.careers_main-para-text li {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.eTutors-check-jg {
+  height: 3rem;
+  vertical-align: middle;
+  padding-right: 0.5rem;
+}
+
+.careers_main-para-text h2 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.careers_main-para-text h3 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.careers_image-wrapper-rr {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+img.careers_image-wrap {
+  display: block;
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-left: 1.9rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.careers_button {
+  font-size: 1.6rem;
+  padding: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-left: 50%;
+  color: white;
+  transform: translatex(-50%);
+  border-radius: 1rem;
+  background: #353a40;
+  border: 0.1rem solid white;
+  width: 25rem;
+}
+
+.careers_button a {
+  text-decoration: none;
+  color: white;
+}
+
+button.careers_button:hover {
+  background: #591013;
+  transition: 0.3s ease-in-out;
+  color: white;
+  cursor: pointer;
+}
+
+button.careers_button:active {
+  background: grey;
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+
+.careers_signup-wrap {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"],
+select {
+  width: 300px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*---------------COVID STATEMENT BEGINS HERE-----------------------*/
+
+.main_covidstatement-wrapper-rr {
+  padding-top: 9rem;
+  padding-bottom: 8rem;
+}
+
+.imgCovid-hero-rr {
+  position: relative;
+  top: 10.5rem;
+  width: 100%;
+  height: 35rem;
+  background-image: url("https://images.pexels.com/photos/3992933/pexels-photo-3992933.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  background-repeat: "no-repeat";
+}
+
+h2.covid_main_heading {
+  text-align: center;
+  margin: 3rem;
+}
+
+/* .imgCovid-hero-rr h2 {
+  font-family: "Anton", sans-serif;
+  font-size: 2.4rem;
+  color: #f0f0dd;
+  text-align: center;
+  padding-top: 18rem;
+  letter-spacing: 0.5rem;
+  transition: 0.8s ease-in-out;
+} */
+
+hr.covid_hr-rr {
+  display: block;
+  width: 95.5%;
+  border-style: inset;
+  border-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 3rem;
+}
+
+hr.covid_hr-bottom {
+  display: block;
+  border-style: inset;
+  border-width: 1px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 2rem;
+}
+
+.covid_icon {
+  position: relative;
+  z-index: 996;
+  top: 5.5rem;
+  margin-left: 50%;
+  transform: translatex(-50%);
+  border: 0.01px solid rgb(116, 116, 116);
+  background: rgb(207, 207, 207);
+  padding: 1.5rem;
+  border-radius: 50rem;
+  font-size: 3rem;
+  color: rgb(75, 75, 75);
+}
+
+.covid_main-para-wrap {
+  margin: 1.2rem;
+  padding: 3rem 2rem 3rem 2rem;
+  display: flex;
+}
+
+.covid_main-para-text {
+  padding-top: 2rem;
+  background: #f3f3f3;
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.covid_main-para-text p {
+  font-size: 1.6rem;
+  margin: 2rem;
+}
+
+.covid_main-para-text ul {
+  font-size: 1.6rem;
+  padding: 1rem 2rem 2rem 2rem;
+  margin: 2rem;
+}
+
+.covid_main-para-text h3 {
+  margin: 2rem;
 }
