@@ -1037,11 +1037,11 @@ div.img-resources-hero {
 
 .img-resources-hero h2 {
   font-family: "Anton", sans-serif;
-  font-size: 2.4rem;
+  font-size: 4rem;
   color: #f0f0dd;
   text-align: center;
   padding-top: 18rem;
-  letter-spacing: 0.5rem;
+  letter-spacing: 1rem;
   transition: 0.8s ease-in-out;
 }
 
@@ -1215,22 +1215,23 @@ button.collapsible:hover {
 
 .imgMission-hero-rr {
   position: relative;
-  top: 10.5rem;
+  top: 2.5rem;
   width: 100%;
   height: 35rem;
   background-image: url("https://images.pexels.com/photos/4145038/pexels-photo-4145038.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-color: gray;
+  padding-top: 12rem;
   background-size: cover;
   background-repeat: "no-repeat";
 }
 
 .imgMission-hero-rr h2 {
   font-family: "Anton", sans-serif;
-  font-size: 2.4rem;
-  color: #363636;
+  font-size: 3rem;
+  color: #262626;
+  padding: 8rem 4rem 2rem 4rem;
+  letter-spacing: 1rem;
   text-align: center;
-  padding-top: 18rem;
-  letter-spacing: 0.5rem;
   transition: 0.8s ease-in-out;
 }
 
@@ -1514,7 +1515,7 @@ textarea#volunteer-comment-input-jg {
   text-align: center;
   letter-spacing: 0.1rem;
   padding-top: 18rem;
-  letter-spacing: 0.5rem;
+  letter-spacing: 1rem;
   transition: 0.8s ease-in-out;
 }
 
