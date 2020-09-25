@@ -325,12 +325,12 @@ div.imgHome-hero {
 
 
   .imgHome-hero-tutoring-services-jg {
-          position: relative;
+    position: relative;
     z-index: 995;
     top: 10.5rem;
     width: 100%;
     height: 45rem;
-    background-image: url("https://images.pexels.com/photos/4261789/pexels-photo-4261789.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-image: url("https://cdn-wordpress-info.futurelearn.com/info/wp-content/uploads/FL155_Remote_Teaching_Blog_Image.jpg");
     background-color: gray;
       background-position: center;
       background-size: cover;
@@ -344,7 +344,6 @@ div.imgHome-hero {
       font-size: 2.6rem;
       color: #262626;
       font-weight: 900;
-      background: rgba(255, 255, 255, 0.39);
       padding: 4rem 4rem 2rem 4rem;
       letter-spacing: .1rem;
       text-align: center;
@@ -494,7 +493,7 @@ hr.main_para-hr-bottom {
 
 .main_images-flex-container {
     position: relative;
-    z-index: -1;
+    z-index: 1;
      border: 3px solid #d6d6d6;
     background: #eee;
     border-radius: 1rem;
@@ -542,6 +541,8 @@ div.background-paper {
 
 
     img.eureka-corner-image-scaled {
+    position: relative;
+    z-index: 2;
     display: block;
      width:100%;
      margin-top: 0;
@@ -613,8 +614,9 @@ div.background-paper {
 
 
 .main__section-tutoring-services-jg {
-      padding-top: 12rem;
+      padding-top: 0rem;
       padding-bottom: 8rem;
+      transition: all .500s ease-in-out;
   }
 
 
@@ -622,9 +624,10 @@ h2.tutoring-top-title-scaled-jg {
     display: block;
     width: 100%;
     font-size: 3rem;
-    padding: 5rem 2rem 5rem 0;
+    padding: 10rem 2rem 5rem 0;
     text-align: center;
     letter-spacing: .4rem;
+    transition: all .500s ease-in-out;
 }
 
 
@@ -661,6 +664,7 @@ img.tutoringPage-image-jg {
         padding-right: 2rem;
         text-align: right;
         transition: all .500s ease-in-out;
+        color: #3c4358;
   }
 
   .tutoring-services-para-jg {
@@ -675,6 +679,7 @@ img.tutoringPage-image-jg {
 .tutPage-but-jg {
     display: none;
 }
+
 .tut-but-container-jg {
     position: relative;
     
@@ -749,7 +754,7 @@ button.tutPage-but-scaled-jg:active {
     top: 10.5rem;
     width: 100%;
     height: 45rem;
-    background-image: url("https://mma.prnewswire.com/media/1243575/BookNook___MobileServe_Partnership.jpg?p=publish&w=950");
+    background-image: url("https://media.nbcbayarea.com/2019/09/GettyImages-1138999558.jpg?crop=0px%2C199px%2C6000px%2C3375px&resize=1200%2C675");
     background-color: gray;
       background-position: center;
       background-size: cover;
@@ -797,6 +802,14 @@ button.tutPage-but-scaled-jg:active {
   font-size: 3rem;
     padding: 5rem 2rem .1rem 2rem;
     text-align: center;
+}
+
+
+h2.volunteer-top-title-jg {
+  color: #591013;
+  padding: 10rem 2rem .5rem 2rem;
+  text-align: center;
+  transition: all .500s ease-in-out;
 }
 
 
@@ -858,7 +871,7 @@ button.volunteerPage-but-jg {
   margin-right: auto;
   margin-top: 1rem;
   font-size: 1.6rem;
-  padding: 2rem;
+  padding: 1.5rem;
     border-radius: 1rem;
      background: #353a40;
      color: white;
@@ -1418,6 +1431,7 @@ div.imgHome-hero {
 
 
 
+
 .volunteer-jg {
     background: rgb(43, 9, 107);
 }
@@ -1630,13 +1644,37 @@ div.background-paper {
 
 /* tutoring page................... */
 
-
+.main__section-tutoring-services-jg {
+      padding-top: 5rem;
+      padding-bottom: 8rem;
+      transition: all .500s ease-in-out;
+  }
 
    .tutoring-services-text-wrapper {
     width: 40rem;
     margin:2rem 0;
     /* transition: all .100s ease-in-out; */
   }
+
+
+h2.tutoring-top-title-scaled-jg {
+    display: block;
+    width: 100%;
+    font-size: 3rem;
+    padding: 10rem 2rem 5rem 0;
+    text-align: center;
+    letter-spacing: .4rem;
+}
+
+
+/* volunteer section */
+
+.main__volunteer-heading-jg {
+  font-size: 3rem;
+    padding: 10rem 2rem .1rem 2rem;
+    text-align: center;
+}
+
 
 .footer_logo-container {
     position: absolute;
@@ -1927,7 +1965,6 @@ div.imgHome-hero {
       font-size: 3.4rem;
       color: #262626;
       font-weight: 900;
-      background: rgba(255, 255, 255, 0.39);
       padding: 4rem 4rem 2rem 4rem;
       letter-spacing: .1rem;
       text-align: center;

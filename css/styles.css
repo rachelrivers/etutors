@@ -315,7 +315,6 @@ ul.primary-nav-flex-container {
       font-size: 2.4rem;
       color: #262626;
       font-weight: 900;
-      background: rgba(255, 255, 255, 0.39);
       padding: 4rem 4rem 2rem 4rem;
       letter-spacing: .1rem;
       text-align: center;
@@ -367,6 +366,7 @@ ul.primary-nav-flex-container {
   .main__section-tutoring-services-jg {
       padding-top: 15rem;
       padding-bottom: 8rem;
+      transition: all .500s ease-in-out;
   }
   
   
@@ -479,7 +479,7 @@ img.tutoringPage-image-jg {
 
 h2.tutoring-top-title-jg {
 font-size: 2.6rem;
-    padding: 2rem 2rem 4rem 2rem;
+    padding: 10rem 2rem 4rem 2rem;
     text-align: center;
     letter-spacing: .5rem;
 }
@@ -488,8 +488,8 @@ font-size: 2.6rem;
   .tutoring-services-h3 {
       font-size: 1.9rem;
       padding-top: 2rem;
-      padding-left: 2rem;
-      padding-right: 2rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
       text-align: center;
   }
 
@@ -560,14 +560,18 @@ font-size: 2.6rem;
   display: none;
 }
 
-
+.tut-mobile-book-but-container-jg{
+  display: none;
+}
 button.tutPage-but-jg {
+  display: block;
     font-size: 1.6rem;
     padding: 2rem;
     margin-bottom: 2rem;
     margin-top: 5rem;
-    margin-left: 50%;
-    transform: translatex(-50%);
+    margin-left: auto;
+    margin-right: auto;
+    
     border-radius: 1rem;
     background: #353a40;
     font-weight: bold;
@@ -831,13 +835,13 @@ a.find-your-tutor-jg a {
     line-height: 4rem;
   }
 
-  .home-arrow-jg {
+  /* .home-arrow-jg {
     height: 20rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 6rem;
-  }
+  } */
 
   .contact-map-jg {
       display: none;
@@ -1061,6 +1065,7 @@ div.eTutors-gameTitle-container {
 }
 
 button.start-game-jg {
+
     padding: 2rem;
     margin-bottom: 5rem;
     margin-top: 1rem;
@@ -1068,8 +1073,8 @@ button.start-game-jg {
      background: #353a40;
      color: white;
      border: .1rem solid white;
-     margin-left: 50%;
-     transform: translatex(-50%);
+     /* margin-left: 50%;
+     transform: translatex(-50%); */
      width: 100%;
 }
 
@@ -1474,7 +1479,7 @@ button.volunteerPage-but-jg {
   margin-left: auto;
   margin-right: auto;
   font-size: 1.6rem;
-  padding: 2rem;
+  padding: 1.5rem;
     margin-bottom: 5rem;
     margin-top: 2rem;
     border-radius: 1rem;
