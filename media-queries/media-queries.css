@@ -1348,6 +1348,7 @@ div.imgHome-hero {
     font-size: 1.6rem;
     padding-top: 1rem;
     width: 100%;
+    background: white;
 }
 
 
@@ -1383,7 +1384,7 @@ div.imgHome-hero {
 
 .girl-but-jg {
     width: 50%;
-    padding: 1rem;
+    /* padding: 1rem; */
     border: none;
     font-size: 1.5rem;
     font-weight: bold;
@@ -1400,17 +1401,30 @@ div.imgHome-hero {
 .learn-more-jg a {
     text-decoration: none;
     color: white;
+    padding: 1.5rem;
+    line-height: 1.5rem;
 }
 
 
-.volunteer-jg {
-    background: rgb(43, 9, 107);
-    color: white;
-}
 
 .girl-but-jg:hover {
    background: #262626;
 }
+
+
+
+.volunteer-jg {
+    background: rgb(43, 9, 107);
+}
+
+.volunteer-jg a {
+    display: block;
+    line-height: 1.5rem;
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+}
+
 
 
 .home-girl-computer-container-jg {
@@ -1956,6 +1970,7 @@ div.imgHome-hero {
 
 .girl-text-jg {
     position: relative;
+    background: white;
     /* border-top: .1px solid rgb(43, 9, 107); */
     margin-top: 2rem;
     /* border-bottom: 1px solid rgb(43, 9, 107); */

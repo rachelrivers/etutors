@@ -777,9 +777,12 @@ a.find-your-tutor-jg a {
     font-size: 1.6rem;
     line-height: 4rem;
     padding: 4rem 2rem 0 2rem;
+    background: white;
   }
 
-  
+  .girl-text-jg {
+    background: white;
+  }
 
 
   div.home-girl-computer-container-jg {
@@ -955,10 +958,12 @@ div.background-paper {
   border: 2px solid rgb(228, 226, 226);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  /* margin-top: 2rem; */
   border-radius: 2rem;
   padding-bottom: 0;
-  margin-top: 10rem;
+  
 }
 
 /* scaled eureka image hidden */
